@@ -13,7 +13,7 @@
     <% end %>
 
       <li class="sponsor-item">
-        <a class="sponsor-logo sponsor-link sponsor-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
+        <a class="sponsor-logo sponsor-link sponsor-call" href="#"><img src="/img/your-logo.jpg" alt="your logo" class="photo" /></a>
       </li>
 
     </ul>
