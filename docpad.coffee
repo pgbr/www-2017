@@ -138,14 +138,13 @@ module.exports =
       url: "http://braziljs.org"
     ]
 
-    t:(key) ->
-      @getFromDictionary this, key
-
-    getFromDictionary:(base, key) ->
+    t:(key, base = this) ->
       if (key)
+        docBase = base
         keySeparator = key.indexOf('.')
+
         if keySeparator < 0
-          value = base[key]
+          value = docBase[key]
           if value instanceof Object
             value[@document.language]
           else
@@ -153,4 +152,4 @@ module.exports =
         else
           currentKeyPart = key.substring(0, keySeparator)
           nextKeyPart = key.substring(keySeparator + 1)
-          @getFromDictionary(this[currentKeyPart], nextKeyPart)
+          @t(nextKeyPart, docBase[currentKeyPart])

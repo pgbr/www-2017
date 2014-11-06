@@ -6,12 +6,12 @@
     <h2 class="section-title">Location</h2>
 
     <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <span itemprop="streetAddress"><%= @conf.address %>. </span>
-      <span itemprop="addressLocality"><%= @conf.city %></span>,
-      <span itemprop="addressRegion"> <%= @conf.state %></span>
+      <span itemprop="streetAddress"><%= @t('conf.address') %>. </span>
+      <span itemprop="addressLocality"><%= @t('conf.city') %></span>,
+      <span itemprop="addressRegion"> <%= @t('conf.state') %></span>
     </p>
 
-    <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+    <div id="map-canvas" class="location-area" data-address="<%= @t('conf.address') %>"></div>
 
   </section>
   <!-- / LOCATION -->
