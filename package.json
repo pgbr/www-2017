@@ -1,11 +1,11 @@
 {
-  "name": "ConfBoilerplate",
-  "version": "0.2.0",
-  "description": "A kickstart to create websites for conference/events.",
-  "homepage": "http://confboilerplate.com",
+  "name": "pgbr-2015",
+  "version": "0.1.0",
+  "description": "PGBR 2015 website.",
+  "homepage": "http://pgbr.postgresql.org.br",
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/braziljs/conf-boilerplate.git"
+    "url" : "http://github.com/nbluis/pgbr-2015.git"
   },
   "engines" : {
     "node": "0.10.x",
@@ -15,5 +15,12 @@
     "docpad-plugin-eco": "2.x",
     "docpad-plugin-marked": "2.x",
     "docpad-plugin-partials": "2.x"
+  },
+  "scripts": {
+    "docpad": "node_modules/.bin/docpad"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://creativecommons.org/licenses/MIT/"
   }
 }
