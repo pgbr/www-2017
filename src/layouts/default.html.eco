@@ -35,7 +35,7 @@
       .content a:hover, .content a:focus {
         color: #<%= @ThemeColor.LinkHover %>;
       }
-      nav, .speech-time {
+      nav, .speech-time, .header {
         background: #<%= @ThemeColor.Default.background %>;
         color: #<%= @ThemeColor.Default.color %>;
       }

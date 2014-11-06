@@ -36,20 +36,20 @@ module.exports =
         es: "http://pgbr.postgresql.org.br/2015/es/"
       #googleanalytics: "UA-33656081-1"
       images:
-        cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
+        #cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"
 
     # Color Theme
     ThemeColor:
-      state: false
+      state: true
       Link: "FFA500"
       LinkHover: "FF8C00"
       Default:
-        background: "FF0000"
-        color: "FFF"
-        Hover: "333"
-        titles: "FF6347"
-        speechTitle: "333"
+        background: "008abd"
+        color: "fff"
+        Hover: "ddd"
+        titles: "000"
+        speechTitle: "ddd"
 
     # Active sections on the website
     sections:
@@ -59,6 +59,10 @@ module.exports =
           pt: 'Sobre' 
           en: 'About'
           es: 'Sobre'
+        text:
+          pt: 'Fique ligado, em breve mais informações!'
+          en: 'More info coming soon'
+          es: 'Estén atentos, más información en breve'
       location: 
         active: true
         title:
