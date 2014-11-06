@@ -6,14 +6,13 @@
 <header class="header" style="background-image: url(<%= @site.images.cover %>)">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @t('conf.name') %>" itemprop="name"><%= @t('conf.name') %> - 
-      </a>
+      <a class="logo-link" href="#" title="<%= @t('conf.name') %>" itemprop="name"><%= @t('conf.name') %></a>
     </h1>
     <h2 class="tagline"><%= @t('conf.date') %>, <%= @t('conf.venue') %>, <%= @t('conf.city') %></h2>
     <div class="call-action-area">
-      <span class="price">Only <%= @t('conf.price') %></span>
+<!--       <span class="price">Only <%= @t('conf.price') %></span>
       <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a>
-    </div>
+ -->    </div>
   </div>
 </header>
 <!--  / HEADER -->

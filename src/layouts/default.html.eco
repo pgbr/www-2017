@@ -72,13 +72,27 @@
     <!-- CONTENT -->
     <div class="content" id="content">
       <div class="wrapper">
-        <%-@partial('section/about.html.eco', @)%>
-        <%-@partial('section/location.html.eco', @)%>
-        <%-@partial('section/speakers.html.eco', @)%>
-        <%-@partial('section/schedule.html.eco', @)%>
-        <%-@partial('section/sponsors.html.eco', @)%>
-        <%-@partial('section/partners.html.eco', @)%>
-        <%-@partial('section/contact.html.eco', @)%>
+        <% if @sections.about.active: %>
+          <%-@partial('section/about.html.eco', @)%>
+        <% end %>
+        <% if @sections.location.active: %>
+          <%-@partial('section/location.html.eco', @)%>
+        <% end %>
+        <% if @sections.speakers.active: %>
+          <%-@partial('section/speakers.html.eco', @)%>
+        <% end %>
+        <% if @sections.schedule.active: %>
+          <%-@partial('section/schedule.html.eco', @)%>
+        <% end %>
+        <% if @sections.sponsors.active: %>
+          <%-@partial('section/sponsors.html.eco', @)%>
+        <% end %>
+        <% if @sections.partners.active: %>
+          <%-@partial('section/partners.html.eco', @)%>
+        <% end %>
+        <% if @sections.contact.active: %>
+          <%-@partial('section/contact.html.eco', @)%>
+        <% end %>
       </div>
     </div>
     <!-- / CONTENT -->

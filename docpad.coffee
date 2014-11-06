@@ -5,27 +5,36 @@ module.exports =
 
     # Conference info
     conf:
-      name: 
-          pt: "Conference name - PT"
-          en: "Conference name - EN"
-          es: "Conference name - ES"
-      description: "Conference description"
-      date: "November 15"
-      price: "$100"
-      venue: "Coco Bongo"
-      address: "Boulevard Kukulcan, 30"
-      city: "Cancún"
-      state: "Quintana"
+      name: "pgbr 2015"
+      description:
+        pt: "Conferência PostgreSQL"
+        en: "PostgreSQL Conference"
+        es: "Conferencia PostgreSQL"
+      date: 
+        pt: "18, 19 e 20 de Novembro de 2015"
+        en: "18, 19 and November 20, 2015"
+        es: "18, 19 y 20 de noviembre 2015"
+      #price: "$100"
+      venue: "Uniritter"
+      address: "Rua Orfanotrófio, 555"
+      city: "Porto Alegre"
+      state: "RS"
+
+    socialLinks:
+      active: false
       tweetButton:
         text: ""
-        via: "braziljs"
-        related: "braziljs"
-        hashtag: "#hashtag"
+        via: "pgbr"
+        related: "pgbr"
+        hashtag: "#pgbr"
 
     # Site info
     site:
-      url: "http://confboilerplate.com"
-      googleanalytics: "UA-33656081-1"
+      url: 
+        pt: "http://pgbr.postgresql.org.br/2015/"
+        en: "http://pgbr.postgresql.org.br/2015/en/"
+        es: "http://pgbr.postgresql.org.br/2015/es/"
+      #googleanalytics: "UA-33656081-1"
       images:
         cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"
@@ -44,13 +53,48 @@ module.exports =
 
     # Active sections on the website
     sections:
-      about: true
-      location: true
-      speakers: true
-      schedule: true
-      sponsors: true
-      partners: true
-      contact: true
+      about: 
+        active: true
+        title:
+          pt: 'Sobre' 
+          en: 'About'
+          es: 'Sobre'
+      location: 
+        active: true
+        title:
+          pt: 'Local' 
+          en: 'Location'
+          es: 'Localidad'
+      speakers: 
+        active: false
+        title:
+          pt: 'Palestrantes' 
+          en: 'Speakers'
+          es: 'Conferenciante'
+      schedule: 
+        active: false
+        title:
+          pt: 'Agenda' 
+          en: 'Schedule'
+          es: 'Calendario'
+      sponsors: 
+        active: false
+        title:
+          pt: 'Patrocinadores' 
+          en: 'Sponsors'
+          es: 'Patrocinadores'
+      partners: 
+        active: false
+        title:
+          pt: 'Parceiros' 
+          en: 'Partners'
+          es: 'Socios'
+      contact:
+        active: false
+        title:
+          pt: 'Contato' 
+          en: 'Contact'
+          es: 'Contacto'
 
     # The entire schedule
     schedule: [
@@ -138,6 +182,7 @@ module.exports =
       url: "http://braziljs.org"
     ]
 
+    # Helper that supports i18n tags inside this document
     t:(key, base = this) ->
       if (key)
         docBase = base
