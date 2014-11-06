@@ -5,7 +5,10 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Conference name"
+      name: 
+          pt: "Conference name - PT"
+          en: "Conference name - EN"
+          es: "Conference name - ES"
       description: "Conference description"
       date: "November 15"
       price: "$100"
@@ -29,7 +32,7 @@ module.exports =
 
     # Color Theme
     ThemeColor:
-      state: true
+      state: false
       Link: "FFA500"
       LinkHover: "FF8C00"
       Default:
@@ -134,3 +137,20 @@ module.exports =
       logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
       url: "http://braziljs.org"
     ]
+
+    t:(key) ->
+      @getFromDictionary this, key
+
+    getFromDictionary:(base, key) ->
+      if (key)
+        keySeparator = key.indexOf('.')
+        if keySeparator < 0
+          value = base[key]
+          if value instanceof Object
+            value[@document.language]
+          else
+            value
+        else
+          currentKeyPart = key.substring(0, keySeparator)
+          nextKeyPart = key.substring(keySeparator + 1)
+          @getFromDictionary(this[currentKeyPart], nextKeyPart)
