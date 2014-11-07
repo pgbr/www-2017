@@ -56,9 +56,9 @@ There are many more useful commands from docpad you might want to use.
 All of them can be called using the shortcut `npm run-script docpad`
 
 Sample:
-* `npm run-script docpad run` - Starts the http server and watch the any changes to re-generate the website on the fly. Very useful when creating the website.
+* `npm run-script docpad run` - Starts the http server and watch any changes to re-generate the website on the fly. Very useful when creating the website.
 * `npm run-script docpad clean` - Cleanup all output folders.
-* `npm run-script docpad generate` - Generate the website
+* `npm run-script docpad generate` - Generate the website.
 
 Run `npm run-script docpad help` to see more.
 
@@ -67,7 +67,7 @@ Run `npm run-script docpad help` to see more.
 ### Github
 If you use github and would like to see your website running, please use the publish.sh. It will automatically checkout the gh-pages branch and generate and push a new version of the website.
 
-PS: The `gh-pages` branch must exist previsamente to work properly.
+PS: The `gh-pages` branch must exist previously to work properly.
 
 ### Outsite of github
 Just run `npm run-script docpad generate` then just publish the `out` folder to any host of your choice.
