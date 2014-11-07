@@ -12,19 +12,19 @@ module.exports =
         es: "Conferencia PostgreSQL"
       date: 
         pt: "18, 19 e 20 de Novembro de 2015"
-        en: "18, 19 and November 20, 2015"
+        en: "November 18 19 and 20, 2015"
         es: "18, 19 y 20 de noviembre 2015"
       #price: "$100"
-      venue: "Uniritter"
+      venue: "UniRitter"
       address: "Rua Orfanotrófio, 555"
       city: "Porto Alegre"
       state: "RS"
 
     socialLinks:
-      active: false
+      active: true
       tweetButton:
         text: ""
-        via: "pgbr"
+        via: "postgresqlbr"
         related: "pgbr"
         hashtag: "#pgbr"
 
