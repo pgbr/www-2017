@@ -5,7 +5,7 @@ module.exports =
 
     # Conference info
     conf:
-      name: "pgbr 2015"
+      name: "PGBR 2015 - Conferência Brasileira PostgreSQL"
       description:
         pt: "Conferência PostgreSQL"
         en: "PostgreSQL Conference"
@@ -60,7 +60,15 @@ module.exports =
           en: 'About'
           es: 'Sobre'
         text:
-          pt: 'Fique ligado, em breve mais informações!'
+          pt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit sit amet tortor id mollis. In dolor massa, 
+		  efficitur in faucibus maximus, ultricies venenatis erat. Phasellus fermentum arcu at nunc mattis faucibus. 
+		  In viverra turpis leo, ac euismod massa viverra porttitor. Nullam blandit enim et arcu egestas aliquam. 
+		  Aenean luctus turpis euismod nibh elementum congue. Aenean vitae bibendum massa.
+			Curabitur interdum quam non erat scelerisque, eget sodales turpis auctor. Morbi 
+			cursus eleifend leo, a mattis quam fermentum eget. Maecenas vitae quam eu orci varius laoreet et id elit. 
+			Nulla nulla felis, accumsan in sagittis sit amet, rutrum vel ipsum. Praesent congue elit eu 
+			tortor sodales imperdiet. Vestibulum euismod euismod mattis. Vivamus at quam non urna fringilla volutpat. 
+			Integer quis iaculis massa. Mauris eget tempus odio. Aliquam vehicula suscipit facilisis.'
           en: 'More info coming soon'
           es: 'Estén atentos, más información en breve'
       location: 
@@ -70,31 +78,31 @@ module.exports =
           en: 'Location'
           es: 'Localidad'
       speakers: 
-        active: false
+        active: true
         title:
           pt: 'Palestrantes' 
           en: 'Speakers'
           es: 'Conferenciante'
       schedule: 
-        active: false
+        active: true
         title:
           pt: 'Agenda' 
           en: 'Schedule'
           es: 'Calendario'
       sponsors: 
-        active: false
+        active: true
         title:
           pt: 'Patrocinadores' 
           en: 'Sponsors'
           es: 'Patrocinadores'
       partners: 
-        active: false
+        active: true
         title:
           pt: 'Parceiros' 
           en: 'Partners'
           es: 'Socios'
       contact:
-        active: false
+        active: true
         title:
           pt: 'Contato' 
           en: 'Contact'
