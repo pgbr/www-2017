@@ -187,3 +187,33 @@ nav {background: #2b2b2b;}
   }
   .github-link { display: none; }
 }
+
+/* =============================================================================
+   Custom CSS
+   ========================================================================== */
+
+#titulo{
+	
+}
+.logoBanner{
+	font-size: 30em;
+	margin-bottom: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.subTitleBanner {
+font-size: 5em;
+	color: #ffffff;
+	font-weight: bold;
+}
+.verde{
+	color: #7CFC00;
+}
+.amarelo{
+	color: #ffff00;
+}
+.section-title{
+	color:#4682B4;
+	font-size:2.8em;
+	font-style: oblique;
+}
