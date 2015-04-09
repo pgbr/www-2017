@@ -137,6 +137,9 @@ module.exports =
         title:
           pt: 'Patrocinadores' 
           en: 'Sponsors'
+        link:
+          pt: 'Seja um patrocinador'
+          en: 'Be a sponsor'
       partners: 
         active: false
         title:

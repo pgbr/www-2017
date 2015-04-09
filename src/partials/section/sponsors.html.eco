@@ -50,6 +50,8 @@
     </ul>
   <% end %>
 
+  <a href="<%=@document.docRoot%>/docs/plano_capitacao.pdf" class="sponsor-plans-link"><%=@t('sections.sponsors.link')%></a>
+
   </ul>
 </section>
 <!-- / SPONSORS -->
