@@ -133,7 +133,7 @@ module.exports =
           pt: 'Em breve novidades...'
           en: 'News soon...'
       sponsors: 
-        active: false
+        active: true
         title:
           pt: 'Patrocinadores' 
           en: 'Sponsors'
@@ -226,11 +226,31 @@ module.exports =
     ]
 
     # List of Sponsors
-    sponsors: [
-      name: "Eventick"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-      url: "http://eventick.com.br"
-    ]
+    sponsors:
+      platinum:
+        title:
+          pt: "Platina"
+          en: "Platinum"
+        entries: [
+          name: "Uniritter"
+          logo: "uniritter.png"
+          url: "http://www.uniritter.edu.br/"
+        ]
+      gold: 
+        title: 
+          pt: "Ouro"
+          en: "Gold"
+        entries: []
+      silver: 
+        title: 
+          pt: "Prata"
+          en: "Silver"
+        entries: []
+      bronze:
+        title: 
+          pt: "Bronze"
+          en: "Bronze"
+        entries: []
 
     # List of Partners
     partners: [

@@ -23,6 +23,11 @@
           <a href="#schedule" title="<%=@t('sections.schedule.title')%>" class="nav-link"><%=@t('sections.schedule.title')%></a>
         </li>
       <% end %>
+      <% if @sections.pastEvents.active: %>
+        <li class="nav-item">
+          <a href="#pastEvents" title="<%=@t('sections.pastEvents.title')%>" class="nav-link"><%=@t('sections.pastEvents.title')%></a>
+        </li>
+      <% end %>
       <% if @sections.sponsors.active: %>
         <li class="nav-item">
           <a href="#sponsors" title="<%=@t('sections.sponsors.title')%>" class="nav-link"><%=@t('sections.sponsors.title')%></a>
@@ -31,11 +36,6 @@
       <% if @sections.partners.active: %>
         <li class="nav-item">
           <a href="#partners" title="<%=@t('sections.partners.title')%>" class="nav-link"><%=@t('sections.partners.title')%></a>
-        </li>
-      <% end %>
-      <% if @sections.pastEvents.active: %>
-        <li class="nav-item">
-          <a href="#pastEvents" title="<%=@t('sections.pastEvents.title')%>" class="nav-link"><%=@t('sections.pastEvents.title')%></a>
         </li>
       <% end %>
       <% if @sections.contact.active: %>

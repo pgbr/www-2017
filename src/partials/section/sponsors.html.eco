@@ -1,18 +1,54 @@
 <!-- SPONSORS -->
 <section class="sponsors" id="sponsors">
   <h2 class="section-title"><%= @t('sections.sponsors.title')%></h2>
-  <ul class="sponsors-list">
 
-  <% for sponsor in @sponsors: %>
-    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-      <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-        <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" /></a>
-    </li>
+  <%if @sponsors.platinum.entries.length:%>
+	<h3 class="section-subtitle"><%= @t('sponsors.platinum.title')%></h3>
+    <ul class="sponsors-list sponsors-platinum">
+	  <% for sponsor in @sponsors.platinum.entries: %>
+		<li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+		  <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+		    <img src="<%=@document.docRoot%>/img/<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" /></a>
+  		</li>
+  	  <% end %>
+    </ul>
   <% end %>
 
-    <li class="sponsor-item">
-      <a class="sponsor-logo sponsor-link sponsor-call" href="#"><img src="/img/your-logo.jpg" alt="your logo" class="photo" /></a>
-    </li>
+  <%if @sponsors.gold.entries.length:%>
+	<h3 class="section-subtitle"><%= @t('sponsors.gold.title')%></h3>
+    <ul class="sponsors-list sponsors-gold">
+	  <% for sponsor in @sponsors.gold.entries: %>
+		<li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+		  <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+		    <img src="<%=@document.docRoot%>/img/<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" /></a>
+		</li>
+	  <% end %>
+    </ul>
+  <% end %>
+
+  <%if @sponsors.silver.entries.length:%>
+	<h3 class="section-subtitle"><%= @t('sponsors.silver.title')%></h3>
+    <ul class="sponsors-list sponsors-silver">
+	  <% for sponsor in @sponsors.silver.entries: %>
+		<li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+		  <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+		    <img src="<%=@document.docRoot%>/img/<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" /></a>
+		</li>
+	  <% end %>
+    </ul>
+  <% end %>
+
+  <%if @sponsors.bronze.entries.length:%>
+	<h3 class="section-subtitle"><%= @t('sponsors.bronze.title')%></h3>
+    <ul class="sponsors-list sponsors-bronze">
+	  <% for sponsor in @sponsors.bronze.entries: %>
+		<li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+		  <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+		    <img src="<%=@document.docRoot%>/img/<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" /></a>
+		</li>
+	  <% end %>
+    </ul>
+  <% end %>
 
   </ul>
 </section>

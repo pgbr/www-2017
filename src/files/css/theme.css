@@ -216,3 +216,8 @@ font-size: 5em;
 	font-size:2.8em;
 	font-style: oblique;
 }
+.section-subtitle {
+  color:#f0a303;
+  text-align: center;
+  text-decoration: underline;
+}
