@@ -3,6 +3,16 @@ module.exports =
   # These are variables will be accessible via our templates
   templateData:
 
+    languages: [
+        title: "Versão em Português"
+        uri: "/"
+        flag: "/img/flag_pt.png"
+      ,
+        title: "English version"
+        uri: "/en/"
+        flag: "/img/flag_en.png"
+    ]
+
     # Conference info
     conf:
       name: 

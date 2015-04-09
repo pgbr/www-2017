@@ -43,8 +43,23 @@ nav {
 .nav-item {
   display: inline-block;
   margin-right:15px;
+  vertical-align: middle;
 }
-.nav-link {font-size: 1.4em;}
+.nav-link {
+  display: inline-block;
+  font-size: 1.4em;
+  margin-top: 4px
+}
+
+.language-flags {
+  float: right;
+}
+
+.language-flags img{
+  height: 24px;
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+}
 
 /* =============================================================================
    HEADER

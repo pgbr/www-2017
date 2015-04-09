@@ -40,6 +40,14 @@
       <% end %>
     </ul>
 
+    <div class="language-flags">
+    <% for language in @languages: %>
+      <a href="<%=language.uri%>">
+        <img src="<%=@document.docRoot%><%=language.flag%>" title="<%=language.title%>" />
+      </a>
+    <% end %>
+    </div>
+
     <% if @socialLinks.active: %>
       <div class="share-buttons">
 
