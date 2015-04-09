@@ -90,6 +90,9 @@
         <% if @sections.partners.active: %>
           <%-@partial('section/partners.html.eco', @)%>
         <% end %>
+        <% if @sections.pastEvents.active: %>
+          <%-@partial('section/pastEvents.html.eco', @)%>
+        <% end %>
         <% if @sections.contact.active: %>
           <%-@partial('section/contact.html.eco', @)%>
         <% end %>

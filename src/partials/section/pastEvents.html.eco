@@ -1,0 +1,17 @@
+<!-- PAST EVENTS -->
+<section id="pastEvents">
+  <h2 class="section-title"><%= @t('sections.pastEvents.title')%></h2>
+
+  <% for event, i in @pastEvents: %>
+    <a 
+    	class="event-item <%if i % 2 == 0:%>even<%end%>" 
+    	href="<%= event.url %>"
+    	itemprop="url"
+    	>
+      <%=event.name%>
+    </a>
+  <% end %>
+
+  </ul>
+</section>
+<!-- / PAST EVENTS -->

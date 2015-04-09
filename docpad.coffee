@@ -142,6 +142,11 @@ module.exports =
         title:
           pt: 'Parceiros' 
           en: 'Partners'
+      pastEvents: 
+        active: true
+        title:
+          pt: 'Eventos anteriores'
+          en: 'Past events'
       contact:
         active: false
         title:
@@ -232,6 +237,26 @@ module.exports =
       name: "BrazilJS"
       logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
       url: "http://braziljs.org"
+    ]
+
+    pastEvents: [
+      name: 'PGBR 2013'
+      url: 'http://pgbr.postgresql.org.br/2013'
+    ,
+      name: 'PGBR 2011'
+      url: 'http://pgbr.postgresql.org.br/2011'
+    ,
+      name: 'PGBR 2010'
+      url: 'http://pgbr.postgresql.org.br/2010'
+    ,
+      name: 'PGBR 2009'
+      url: 'http://pgbr.postgresql.org.br/2009'
+    ,
+      name: 'PGBR 2008'
+      url: 'http://pgbr.postgresql.org.br/2008'
+    ,
+      name: 'PGBR 2007'
+      url: 'http://pgbr.postgresql.org.br/2007'
     ]
 
     # Helper that supports i18n tags inside this document

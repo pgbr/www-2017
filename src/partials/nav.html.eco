@@ -5,37 +5,42 @@
     <ul class="nav-container">
       <% if @sections.about.active: %>
         <li class="nav-item">
-          <a href="#about" title="About" class="nav-link"><%=@t('sections.about.title')%></a>
+          <a href="#about" title="<%=@t('sections.about.title')%>" class="nav-link"><%=@t('sections.about.title')%></a>
         </li>
       <% end %>
       <% if @sections.location.active: %>
         <li class="nav-item">
-          <a href="#location" title="Location" class="nav-link"><%=@t('sections.location.title')%></a>
+          <a href="#location" title="<%=@t('sections.location.title')%>" class="nav-link"><%=@t('sections.location.title')%></a>
         </li>
       <% end %>
       <% if @sections.speakers.active: %>
         <li class="nav-item">
-          <a href="#speakers" title="Speakers" class="nav-link"><%=@t('sections.speakers.title')%></a>
+          <a href="#speakers" title="<%=@t('sections.speakers.title')%>" class="nav-link"><%=@t('sections.speakers.title')%></a>
         </li>
       <% end %>
       <% if @sections.schedule.active: %>
         <li class="nav-item">
-          <a href="#schedule" title="Schedule" class="nav-link"><%=@t('sections.schedule.title')%></a>
+          <a href="#schedule" title="<%=@t('sections.schedule.title')%>" class="nav-link"><%=@t('sections.schedule.title')%></a>
         </li>
       <% end %>
       <% if @sections.sponsors.active: %>
         <li class="nav-item">
-          <a href="#sponsors" title="Sponsors" class="nav-link"><%=@t('sections.sponsors.title')%></a>
+          <a href="#sponsors" title="<%=@t('sections.sponsors.title')%>" class="nav-link"><%=@t('sections.sponsors.title')%></a>
         </li>
       <% end %>
       <% if @sections.partners.active: %>
         <li class="nav-item">
-          <a href="#partners" title="Partners" class="nav-link"><%=@t('sections.partners.title')%></a>
+          <a href="#partners" title="<%=@t('sections.partners.title')%>" class="nav-link"><%=@t('sections.partners.title')%></a>
+        </li>
+      <% end %>
+      <% if @sections.pastEvents.active: %>
+        <li class="nav-item">
+          <a href="#pastEvents" title="<%=@t('sections.pastEvents.title')%>" class="nav-link"><%=@t('sections.pastEvents.title')%></a>
         </li>
       <% end %>
       <% if @sections.contact.active: %>
         <li class="nav-item">
-          <a href="#contact" title="Contact" class="nav-link"><%=@t('sections.contact.title')%></a>
+          <a href="#contact" title="<%=@t('sections.contact.title')%>" class="nav-link"><%=@t('sections.contact.title')%></a>
         </li>
       <% end %>
     </ul>
