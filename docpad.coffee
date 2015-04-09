@@ -5,15 +5,15 @@ module.exports =
 
     # Conference info
     conf:
-      name: "PGBR 2015 - Conferência Brasileira PostgreSQL"
+      name: 
+        pt: "PGBR 2015 - Conferência Brasileira PostgreSQL"
+        en: "PGBR 2015 - Brazilian PostgreSQL Conference"
       description:
         pt: "Conferência PostgreSQL"
         en: "PostgreSQL Conference"
-        es: "Conferencia PostgreSQL"
       date: 
         pt: "18, 19 e 20 de Novembro de 2015"
         en: "November 18 19 and 20, 2015"
-        es: "18, 19 y 20 de noviembre 2015"
       #price: "$100"
       venue: "UniRitter"
       address: "Rua Orfanotrófio, 555"
@@ -21,7 +21,7 @@ module.exports =
       state: "RS"
 
     socialLinks:
-      active: true
+      active: false
       tweetButton:
         text: ""
         via: "postgresqlbr"
@@ -33,10 +33,8 @@ module.exports =
       url: 
         pt: "http://pgbr.postgresql.org.br/2015/"
         en: "http://pgbr.postgresql.org.br/2015/en/"
-        es: "http://pgbr.postgresql.org.br/2015/es/"
       #googleanalytics: "UA-33656081-1"
       images:
-        #cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"
 
     # Color Theme
@@ -58,55 +56,65 @@ module.exports =
         title:
           pt: 'Sobre' 
           en: 'About'
-          es: 'Sobre'
         text:
-          pt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit sit amet tortor id mollis. In dolor massa, 
-		  efficitur in faucibus maximus, ultricies venenatis erat. Phasellus fermentum arcu at nunc mattis faucibus. 
-		  In viverra turpis leo, ac euismod massa viverra porttitor. Nullam blandit enim et arcu egestas aliquam. 
-		  Aenean luctus turpis euismod nibh elementum congue. Aenean vitae bibendum massa.
-			Curabitur interdum quam non erat scelerisque, eget sodales turpis auctor. Morbi 
-			cursus eleifend leo, a mattis quam fermentum eget. Maecenas vitae quam eu orci varius laoreet et id elit. 
-			Nulla nulla felis, accumsan in sagittis sit amet, rutrum vel ipsum. Praesent congue elit eu 
-			tortor sodales imperdiet. Vestibulum euismod euismod mattis. Vivamus at quam non urna fringilla volutpat. 
-			Integer quis iaculis massa. Mauris eget tempus odio. Aliquam vehicula suscipit facilisis.'
+          pt: 'A Conferência Brasileira de PostgreSQL, denominada PGBR, é o principal
+                evento organizado pela Comunidade Brasileira de PostgreSQL. Trata-se de
+                um acontecimento que reúne desenvolvedores, usuários e pesquisadores da
+                tecnologia de banco de dados livre e de código aberto PostgreSQL.\n\n
+
+                A conferência PGBR caracteriza-se por oferecer aos participantes uma
+                vasta programação, que inclui palestras de alto nível técnico,
+                ministradas por palestrantes reconhecidos nacional e internacionalmente.
+                Atividades especiais como tutoriais, Hacker Talks (discussões técnicas
+                destinadas a fomentar o desenvolvimento do PostgreSQL), Ligthning Talks
+                (seção de apresentações curtas, de no máximo cinco minutos), e painéis
+                acadêmicos.\n\n
+
+                Já foram realizadas cinco edições do PGBR, nos anos de 2007, 2008, 2009,
+                2011 e 2013. As primeiras edições do evento foram realizadas nas cidades
+                de São Paulo (2007 e 2011), Campinas (2008 e 2009) e São Paulo (2011).
+                Mais de 200 profissionais da área de Tecnologia da Informação
+                participaram do último PGBR, realizado em 2013 em Porto Velho.\n\n
+
+                Em 2015 temas de relevância serão abordados no PGBR, dentre eles casos
+                de sucesso em empresas públicas e privadas, as novidades da versão 9.5,
+                técnicas avançadas de monitoramento, performance e tunning, alta
+                disponibilidade, e outros. A comunidade de PostgreSQL está de braços
+                abertos para recebê-los.'
           en: 'More info coming soon'
-          es: 'Estén atentos, más información en breve'
       location: 
         active: true
         title:
           pt: 'Local' 
           en: 'Location'
-          es: 'Localidad'
       speakers: 
-        active: true
+        active: false
         title:
           pt: 'Palestrantes' 
           en: 'Speakers'
-          es: 'Conferenciante'
       schedule: 
         active: true
         title:
           pt: 'Agenda' 
           en: 'Schedule'
-          es: 'Calendario'
+        description:
+          pt: 'Em breve novidades...'
+          en: 'News soon...'
       sponsors: 
-        active: true
+        active: false
         title:
           pt: 'Patrocinadores' 
           en: 'Sponsors'
-          es: 'Patrocinadores'
       partners: 
-        active: true
+        active: false
         title:
           pt: 'Parceiros' 
           en: 'Partners'
-          es: 'Socios'
       contact:
-        active: true
+        active: false
         title:
           pt: 'Contato' 
           en: 'Contact'
-          es: 'Contacto'
 
     # The entire schedule
     schedule: [
@@ -203,10 +211,13 @@ module.exports =
         if keySeparator < 0
           value = docBase[key]
           if value instanceof Object
-            value[@document.language]
+            @decode(value[@document.language])
           else
-            value
+            @decode(value)
         else
           currentKeyPart = key.substring(0, keySeparator)
           nextKeyPart = key.substring(keySeparator + 1)
           @t(nextKeyPart, docBase[currentKeyPart])
+
+    decode:(value) ->
+      value.replace(/\n/g, '<br>')

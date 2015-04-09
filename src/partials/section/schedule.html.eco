@@ -1,8 +1,9 @@
 <!-- SCHEDULE -->
 <section class="schedule" id="schedule">
   <h2 class="section-title"><%= @t('sections.schedule.title')%></h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p><%= @t('sections.schedule.description')%></p>
+
+  <!--
   <div class="schedule-tbl">
     <table>
       <thead>
@@ -37,5 +38,8 @@
       </tbody>
     </table>
   </div>
+    -->
+
 </section>
+
 <!-- / SCHEDULE -->
