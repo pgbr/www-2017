@@ -42,7 +42,7 @@
 
     <div class="language-flags">
     <% for language in @languages: %>
-      <a href="<%=language.uri%>">
+      <a href="<%=@document.docRoot%><%=language.uri%>">
         <img src="<%=@document.docRoot%><%=language.flag%>" title="<%=language.title%>" />
       </a>
     <% end %>
