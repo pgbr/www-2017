@@ -81,7 +81,29 @@ module.exports =
                 técnicas avançadas de monitoramento, performance e tunning, alta
                 disponibilidade, e outros. A comunidade de PostgreSQL está de braços
                 abertos para recebê-los.'
-          en: 'More info coming soon'
+          en: 'The Brazilian Conference of PostgreSQL called PGBR, is the main
+                event organized by the Brazilian Community of PostgreSQL. Its about
+                an event that brings together developers, users and researchers
+                of free and open source database PostgreSQL. \n \n
+
+                The PGBR conference is characterized by offering participants a
+                wide programming, including high-level technical talks,
+                taught by nationally and internationally recognized speakers.
+                Special activities such as tutorials, Hacker Talks (technical discussions
+                to encourage the development of PostgreSQL), Ligthning Talks
+                (Section of short presentations, a maximum of five minutes), and academic panels. \n \n
+
+                Already five editions of the PGBR were held in 2007, 2008, 2009,
+                2011 and 2013. The first editions of the event were held in the cities
+                São Paulo (2007 and 2011), Campinas (2008 and 2009) and São Paulo (2011).
+                More than 200 professionals in the Information Technology area
+                participated in the last PGBR, held in 2013 in Porto Velho. \n \n
+
+                In 2015 relevant topics will be covered in PGBR, including cases
+                of success in public and private companies, the new features of version 9.5,
+                Advanced monitoring techniques, and performance tuning, high
+                availability, and others. The PostgreSQL community is of arms
+                open to receive them.'
       location: 
         active: true
         title:
