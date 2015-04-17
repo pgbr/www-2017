@@ -269,9 +269,6 @@ module.exports =
       name: 'PGBR 2011'
       url: 'http://pgbr.postgresql.org.br/2011'
     ,
-      name: 'PGBR 2010'
-      url: 'http://pgbr.postgresql.org.br/2010'
-    ,
       name: 'PGBR 2009'
       url: 'http://pgbr.postgresql.org.br/2009'
     ,

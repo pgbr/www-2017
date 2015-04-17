@@ -226,18 +226,23 @@ nav {
    ========================================================================== */
 
 .event-item {
-  float: right;
+  float: left;
   font-size: 2em;
   background: #ddd;
   color: #fff;
   display: inline-block;
   text-align: center;
-  width: 45%;
-  padding: 1em 0;
-  margin: 0.5em;
+  width: 50%;
+  padding: 1em;
+  margin: 0;
+  box-sizing: border-box;
+  border: 4px solid #F6F6F6;
 }
 .event-item.even {
-  float: left;
+  float: right;
+}
+.event-item.wide {
+  width: 100%;
 }
 
 /* =============================================================================
@@ -374,7 +379,7 @@ nav {
     padding: 0;
   }
   .speakers-bio {display: none;}
-  .event-item {
+  .event-item, .event-item.even, .event-item.wide {
     float: none;
     width: 100%;
   }
