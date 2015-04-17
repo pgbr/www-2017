@@ -191,7 +191,7 @@ nav {
   margin: 4px;
 }
 .sponsor-link, .partner-link {
-  display: inline-block;
+  display: block;
   padding: 2em;
   text-align:center;
   vertical-align: middle;
