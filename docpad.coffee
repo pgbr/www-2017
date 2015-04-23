@@ -25,8 +25,8 @@ module.exports =
         pt: "18, 19 e 20 de Novembro de 2015"
         en: "November 18 19 and 20, 2015"
       #price: "$100"
-      venue: "UniRitter"
-      address: "Rua Orfanotrófio, 555"
+      venue: "FAPA - Faculdade Porto-Alegrense"
+      address: "Manoel Elias, 2001"
       city: "Porto Alegre"
       state: "RS"
 
