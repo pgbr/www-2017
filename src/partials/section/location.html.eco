@@ -7,7 +7,7 @@
     <span itemprop="streetAddress"><%= @t('conf.address') %>, </span>
     <span itemprop="addressLocality"><%= @t('conf.city') %></span>,
     <span itemprop="addressRegion"> <%= @t('conf.state') %></span>
-    (<span> <%= @t('conf.complement') %></span>)
+    (<span><%= @t('conf.complement') %></span>)
   </p>
 
   <div id="map-canvas" class="location-area" data-address="<%= @t('conf.address') %>"></div>
