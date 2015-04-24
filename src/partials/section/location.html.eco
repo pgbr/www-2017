@@ -4,9 +4,10 @@
   <h2 class="section-title"><%= @t('sections.location.title')%></h2>
 
   <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="streetAddress"><%= @t('conf.address') %>. </span>
+    <span itemprop="streetAddress"><%= @t('conf.address') %>, </span>
     <span itemprop="addressLocality"><%= @t('conf.city') %></span>,
     <span itemprop="addressRegion"> <%= @t('conf.state') %></span>
+    (<span> <%= @t('conf.complement') %></span>)
   </p>
 
   <div id="map-canvas" class="location-area" data-address="<%= @t('conf.address') %>"></div>

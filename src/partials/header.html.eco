@@ -6,7 +6,7 @@
     </h1>
 	<h2 class="subTitleBanner"><%=@t('conf.description')%></h2>
     <h2 class="tagline">
-    	<%= @t('conf.date') %>, <%= @t('conf.venue') %>, <%= @t('conf.city') %>
+    	<%= @t('conf.date') %>, <%= @t('conf.venue') %>, <%= @t('conf.city') %>, <%= @t('conf.state')%>, <%= @t('conf.country')%>
     </h2>
 	</div>
 </header>
