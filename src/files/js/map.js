@@ -1,6 +1,5 @@
 var geocoder,
     map;
-    icon = '/img/marker-default.png';
 
 function initialize() {
 
@@ -29,6 +28,7 @@ $(document).ready ( function() {
     geocoder = new google.maps.Geocoder();
 
     address = $(this).attr('data-address');
+    icon = $(this).attr('data-icon');
 
     initialize();
 

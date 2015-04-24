@@ -10,7 +10,7 @@
     (<span><%= @t('conf.complement') %></span>)
   </p>
 
-  <div id="map-canvas" class="location-area" data-address="<%= @t('conf.address') %>"></div>
+  <div id="map-canvas" class="location-area" data-address="<%= @t('conf.address') %>" data-icon="<%=@document.docRoot%>/img/marker-default.png"></div>
 
 </section>
 <!-- / LOCATION -->
