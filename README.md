@@ -14,7 +14,7 @@ Learn more about [conf-boilerplate](http://github.com/braziljs/conf-boilerplate)
 
 2. Clone it:
 
-  `git clone git@github.com:nbluis/pgbr-2015.git`
+  `git clone git@github.com:pgbr/www-2015.git`
 
 3. Install project dependencies
 
