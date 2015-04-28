@@ -49,9 +49,9 @@
 	  <% end %>
     </ul>
   <% end %>
+  </ul>
 
   <a href="<%=@document.docRoot%>/docs/plano_captacao.pdf" class="sponsor-plans-link"><%=@t('sections.sponsors.link')%></a>
 
-  </ul>
 </section>
 <!-- / SPONSORS -->
