@@ -49,7 +49,7 @@ module.exports =
         en: "http://pgbr.postgresql.org.br/2015/en/"
       #googleanalytics: "UA-33656081-1"
       images:
-        facebook: "http://braziljs.org/img/fb-share.jpg"
+        facebook: "http://pgbr.postgresql.org.br/2015/img/apple-touch-icon.png"
 
     # Color Theme
     ThemeColor:
