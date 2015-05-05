@@ -26,9 +26,7 @@ p {
   margin-bottom: 1.4em;
 }
 .photo {
-  max-width:100%;
-  position:relative;
-  top:-1px;
+  height: 350px;
 }
 
 /* =============================================================================
