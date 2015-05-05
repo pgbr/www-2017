@@ -2,7 +2,6 @@
 <header class="header" style="background-image: url('<%=@document.docRoot%>/img/bgBody.jpg')">
   <div class="wrapper">
     <h1 class="logo-name logoBanner">
-		<!--pg<span class="verde">b</span><span class="amarelo">r</span-->
 		<img src="<%=@document.docRoot%>/img/logo.png" alt="<%=@t('conf.description')%>" class="logo" />
     </h1>
 	<h2 class="subTitleBanner"><%=@t('conf.description')%></h2>
