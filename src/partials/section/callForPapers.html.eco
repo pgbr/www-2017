@@ -1,0 +1,12 @@
+<!-- CALL FOR PAPERS -->
+<section id="call-for-papers">
+	<h2 class="section-title"><%= @t('sections.callForPapers.title')%></h2>
+	<p><%= @t('sections.callForPapers.description')%></p>
+	<ul>
+		<% for category in @sections.callForPapers.categories: %>
+			<li><strong><%= @t('title', category) %></strong> - <%= @t('description', category)%></li>
+		<% end %>
+	</ul>
+	<a href="<%= @sections.callForPapers.href %>" target="_blank" class="link-button"><%= @t('sections.callForPapers.link')%> </a>
+</section>
+<!-- / CALL FOR PAPERS -->

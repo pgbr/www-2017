@@ -139,6 +139,24 @@ nav {
 .speakers-item p {font-size:1.4em;}
 
 /* =============================================================================
+   CALL FOR PAPERS
+   ========================================================================== */
+
+#call-for-papers ul {
+  padding: 0 2em;
+}
+#call-for-papers li {
+  line-height: normal;
+  font-size: 1.5em;
+  margin: 1em 0;
+  list-style: circle;
+}
+
+#call-for-papers .link-button {
+  width: 100%;
+}
+
+/* =============================================================================
    SCHEDULED DATES
    ========================================================================== */
 #scheduled-dates li {
@@ -236,18 +254,21 @@ nav {
    Eventos anteriores
    ========================================================================== */
 
-.event-item {
-  float: left;
+.link-button {
   font-size: 2em;
   background: #ddd;
   color: #fff;
   display: inline-block;
   text-align: center;
-  width: 50%;
   padding: 1em;
   margin: 0;
   box-sizing: border-box;
   border: 4px solid #F6F6F6;
+}
+
+.event-item {
+  float: left;
+  width: 50%;
 }
 .event-item.even {
   float: right;

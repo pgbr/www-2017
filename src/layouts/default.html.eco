@@ -78,11 +78,14 @@
         <% if @sections.location.active: %>
           <%-@partial('section/location.html.eco', @)%>
         <% end %>
-        <% if @sections.speakers.active: %>
-          <%-@partial('section/speakers.html.eco', @)%>
-        <% end %>
         <% if @sections.scheduledDates.active: %>
           <%-@partial('section/scheduledDates.html.eco', @)%>
+        <% end %>
+        <% if @sections.callForPapers.active: %>
+          <%-@partial('section/callForPapers.html.eco', @)%>
+        <% end %>
+        <% if @sections.speakers.active: %>
+          <%-@partial('section/speakers.html.eco', @)%>
         <% end %>
         <% if @sections.schedule.active: %>
           <%-@partial('section/schedule.html.eco', @)%>

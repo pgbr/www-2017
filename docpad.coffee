@@ -80,7 +80,7 @@ module.exports =
                 vasta programação, que inclui palestras de alto nível técnico,
                 ministradas por palestrantes reconhecidos nacional e internacionalmente.
                 Atividades especiais como tutoriais, Hacker Talks (discussões técnicas
-                destinadas a fomentar o desenvolvimento do PostgreSQL), Ligthning Talks
+                destinadas a fomentar o desenvolvimento do PostgreSQL), Lightning Talks
                 (seção de apresentações curtas, de no máximo cinco minutos), e painéis
                 acadêmicos.\n\n
 
@@ -104,7 +104,7 @@ module.exports =
                 wide programming, including high-level technical talks,
                 taught by nationally and internationally recognized speakers.
                 Special activities such as tutorials, Hacker Talks (technical discussions
-                to encourage the development of PostgreSQL), Ligthning Talks
+                to encourage the development of PostgreSQL), Lightning Talks
                 (Section of short presentations, a maximum of five minutes), and academic panels. \n \n
 
                 Already five editions of the PGBR were held in 2007, 2008, 2009,
@@ -197,7 +197,67 @@ module.exports =
             pt: 'Publicação da agenda oficial'
             en: 'Publication of official schedule'
         ]
+      callForPapers:
+        active: true
+        link:
+          pt: 'Submeter / Votar'
+          en: 'Submit / Vote'
+        href: 'http://call4paperz.com/events/pgbr2015-conferencia-brasileira-de-postgresql'
+        title:
+          pt: 'Chamada para os trabalhos'
+          en: 'Call for papers'
+        description:
+          pt: 'Os trabalhos que serão apresentados deverão seguir os formatos:'
+          en: 'The papers to be presented must follow the given formats:'
+        categories: [
+          title:
+            pt: 'Palestra curta (5m)'
+            en: 'Lightning talk (5m)'
+          description: 
+            pt: 'Comunicações breves, abordando temas do evento, sem questionamentos por parte do público.'
+            en: 'Brief communications, covering topics of the event, without question by the public.'
+        ,
+          title:
+            pt: 'Palestra regular (60m)'
+            en: 'Regular talk (60m)'
+          description: 
+            pt: 'Destinadas ao público com conhecimento básico e/ou intermediário em relação aos temas que serão apresentados.'
+            en: 'For the public with basic knowledge and / or intermediary regarding the issues to be presented.'
+        ,
+          title:
+            pt: 'Palestra (60m)'
+            en: 'Talk (60m)'
+          description: 
+            pt: 'Visando melhor atender ao público alvo do evento serão classificadas em: Iniciante, Intermediário e Avançado. 
+                 Os autores poderão sugerir a classificação de sua palestra de acordo com o conteúdo e abordagem adotada.'
+            en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
+                 Authors may suggest the classification of his address in accordance with the content and approach adopted.'
+        ,
+          title:
+            pt: 'Palestra avançada - hacker talk (30m - 60m)'
+            en: 'Advanced talk - hacker talk (30m - 60m)'
+          description: 
+            pt: 'São destinadas ao público que já utiliza o PostgreSQL e deseja abordar tópicos mais complexos. 
+                 Temas que envolvam a comunidade nacional ou internacional também podem entrar nessa categoria. 
+                 Espera-se maior interação com o público nesse tipo de palestra e é permitido que palestrantes internacionais palestrem em inglês ou espanhol sem o uso de tradutores.'
+            en: 'They are for the public already uses the PostgreSQL and want to address more complex topics.
+                 Issues involving the national or international community can also attend this category.
+                 It is expected more interaction with the public in this type of lecture and international speakers are allowed to speak in English or Spanish without the use of translators.'
+          title:
+            pt: 'Tutorial (90m)'
+            en: 'Tutorial (90m)'
+          description: 
+            pt: 'Espera-se que no formato de tutorial, o palestrante faça demonstrações práticas e não apenas uma palestra mais longa.'
+            en: 'It is expected that in the tutorial format, the speaker make practical demonstrations and not just a longer lecture.'
+        ,
+          title:
+            pt: 'Painél acadêmico'
+            en: 'Academic panel'
+          description: 
+            pt: 'São destinados aos estudantes de graduação e pós-graduação que desenvolvam pesquisas e trabalhos com PostgreSQL. Os painéis serão exibidos no salão de exposições. As regras de submissão estarão disponíveis em breve.'
+            en: 'They are intended for undergraduate students and graduate to develop research and work with PostgreSQL. The panels are displayed in the exhibit hall. The submission rules will be available soon.'
 
+        ]
 
     # The entire schedule
     schedule: [
