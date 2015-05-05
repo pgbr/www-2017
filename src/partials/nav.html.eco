@@ -23,6 +23,11 @@
           <a href="#schedule" title="<%=@t('sections.schedule.title')%>" class="nav-link"><%=@t('sections.schedule.title')%></a>
         </li>
       <% end %>
+      <% if @sections.scheduledDates.active: %>
+        <li class="nav-item">
+          <a href="#scheduled-dates" title="<%=@t('sections.scheduledDates.title')%>" class="nav-link"><%=@t('sections.scheduledDates.title')%></a>
+        </li>
+      <% end %>
       <% if @sections.pastEvents.active: %>
         <li class="nav-item">
           <a href="#pastEvents" title="<%=@t('sections.pastEvents.title')%>" class="nav-link"><%=@t('sections.pastEvents.title')%></a>

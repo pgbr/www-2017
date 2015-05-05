@@ -129,7 +129,7 @@ module.exports =
           pt: 'Palestrantes' 
           en: 'Speakers'
       schedule: 
-        active: true
+        active: false
         title:
           pt: 'Agenda' 
           en: 'Schedule'
@@ -159,6 +159,45 @@ module.exports =
         title:
           pt: 'Contato' 
           en: 'Contact'
+      scheduledDates:
+        active: true
+        title:
+          pt: 'Datas programadas' 
+          en: 'Scheduled dates'
+        dates: [
+          done: true
+          date:
+            pt: '05/05/2015'
+            en: '2015-05-05'
+          description:
+            pt: 'Abertura da chamada para os trabalhos'
+            en: 'Open call for papers'
+        ,
+          done: false
+          date:
+            pt: '31/06/2015'
+            en: '2015-06-31'
+          description:
+            pt: 'Encerramento da chamada para os trabalhos'
+            en: 'Close call for papers'
+        ,
+          done: false
+          date:
+            pt: '15/07/2015'
+            en: '2015-07-15'
+          description:
+            pt: 'Notificação dos autores sobre trabalhos aceitos'
+            en: 'Notification of the authors of accepted papers'
+        ,
+          done: false
+          date:
+            pt: '15/08/2015'
+            en: '2015-08-15'
+          description:
+            pt: 'Publicação da agenda oficial'
+            en: 'Publication of official schedule'
+        ]
+
 
     # The entire schedule
     schedule: [

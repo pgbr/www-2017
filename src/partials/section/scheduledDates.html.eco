@@ -1,0 +1,14 @@
+<!-- SCHEDULED DATES -->
+<section id="scheduled-dates">
+  <h2 class="section-title"><%= @t('sections.scheduledDates.title')%></h2>
+
+  <ul>
+    <% for date in @sections.scheduledDates.dates: %>
+      <li <%if date.done:%>class="done"<%end%>>
+          <%= @t('date', date)%> - <%= @t('description', date)%>
+      </li>
+    <% end %>
+  </ul>
+
+</section>
+<!-- END SCHEDULED DATES -->

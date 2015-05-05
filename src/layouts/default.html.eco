@@ -81,6 +81,9 @@
         <% if @sections.speakers.active: %>
           <%-@partial('section/speakers.html.eco', @)%>
         <% end %>
+        <% if @sections.scheduledDates.active: %>
+          <%-@partial('section/scheduledDates.html.eco', @)%>
+        <% end %>
         <% if @sections.schedule.active: %>
           <%-@partial('section/schedule.html.eco', @)%>
         <% end %>

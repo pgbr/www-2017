@@ -141,6 +141,19 @@ nav {
 .speakers-item p {font-size:1.4em;}
 
 /* =============================================================================
+   SCHEDULED DATES
+   ========================================================================== */
+#scheduled-dates li {
+  line-height: normal;
+  font-size: 2em;
+  margin: .5em;
+}
+#scheduled-dates li.done {
+  text-decoration: line-through;
+  opacity: .5;
+}
+
+/* =============================================================================
    SCHEDULE
    ========================================================================== */
 .schedule-tbl {padding:20px;}
