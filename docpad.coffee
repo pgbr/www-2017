@@ -200,8 +200,8 @@ module.exports =
       callForPapers:
         active: true
         link:
-          pt: 'Submeter / Votar'
-          en: 'Submit / Vote'
+          pt: 'Submeter'
+          en: 'Submit'
         href: 'https://docs.google.com/forms/d/1zBR-g3AqpX2FJIFlT4jvbMqAivBL2jV4Ei6o3RnIfgw/viewform'
         title:
           pt: 'Chamada para os trabalhos'
