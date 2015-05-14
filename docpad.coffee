@@ -246,7 +246,7 @@ module.exports =
 
                  O logotipo oficial do evento;\n
                  Título idêntico ao da proposta submetida;\n
-                 Nomes, instituições dos autores, email para contato, cidade e estado;\n
+                 Nomes, instituições dos autores, email para contato, cidade, estado e país;\n
                  No corpo do pôster o autor ficará livre para organizar as informações pertinentes. Se preferir, os autores poderão optar pela seguinte estrutura: Introdução, Metodologia, Resultados e Conclusões.
                  Data e horário das apresentações;\n
                  Cada trabalho será programado para apresentação em um único dia. Os autores deverão consultar a programação no site.\n\n
@@ -261,7 +261,47 @@ module.exports =
                  No final da sessão será entregue no local de cada pôster o atestado de apresentação;\n
                  Os painéis terão um gancho para pendurar os pôsteres com cordão. Se os autores precisarem fixar o pôster com fita adesiva deverão levar este material;\n
                  Cada painél poderá ter até 5 (cinco) autores.'
-            en: ''
+            en: '1 - Dimensions\n\n
+
+                 Width: 90cm;\n
+                 Height: 90cm to a maximum of 120cm.\n\n
+
+                 2 - Clarity and presentation\n\n
+
+                 The poster text must be readable on 2 meters at least.\n
+
+                 Use many graphic avaliable resources to arouse public\'s attention;\n
+
+                 No plotter printing is mandatory but it must include poster features;\n
+
+                 Organize information so that the central ideas to work are easily understood;\n
+
+                 Use a minimun of text and maximun of pictures, photos, tables and graphic charts as possible.\n\n
+
+                 3 - The poster must contain:\n\n
+
+                 The oficial event logo;\n
+                 
+                 Identical submited proposal title;\n
+                 
+                 Names, author\'s institutions, contact email, city, state and country;\n
+
+                 On poster body the author can freely organize the pertinent information. If they like, the authors can use the model: Introduction, Metodology, Results and Conclusions.\n
+
+                 Presentations schedules;\n
+
+                 Each work will be scheduled to be presented on a single day. The authors must view the schedule on the event website.\n\n
+
+                 4 - The poster cannot be:\n\n
+
+                 By non-authors (third party);\n
+                 Oral or performance relatated;\n
+                 With any kind of projector, computer, microphone or eletrical device;\n
+                 With appliances and sound instruments that interfere with the communication of session;\n
+                 At least one of the authors should remain with the poster to answer from interested;\n
+                 At the session\'s will be delivered on site of each poster the presentation certificate;\n
+                 The panels have a hook to hang the posters with drawstring. If the authors need to fix the poster with tape should bring this material;\n
+                 Each panel can have up to five (5) authors.'
         ]
 
     # The entire schedule
