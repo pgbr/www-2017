@@ -165,10 +165,10 @@ module.exports =
           pt: 'Datas programadas' 
           en: 'Scheduled dates'
         dates: [
-          done: true
+          done: false
           date:
-            pt: '05/05/2015'
-            en: '2015-05-05'
+            pt: '14/05/2015'
+            en: '2015-05-14'
           description:
             pt: 'Abertura da chamada para os trabalhos'
             en: 'Open call for papers'
