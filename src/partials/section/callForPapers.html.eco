@@ -4,7 +4,15 @@
 	<p><%= @t('sections.callForPapers.description')%></p>
 	<ul>
 		<% for category in @sections.callForPapers.categories: %>
-			<li><strong><%= @t('title', category) %></strong> - <%= @t('description', category)%></li>
+			<li>
+				<strong><%= @t('title', category) %></strong> - <%= @t('description', category)%>
+				<% if category.additionalInfo:%>
+					<a href="#" class="additional-info-link">
+						<%=@t('sections.callForPapers.additionalInfoLink')%>
+					</a>
+					<div class="additional-info"><%-@t('additionalInfo', category)%></div>
+				<% end %>
+			</li>
 		<% end %>
 	</ul>
 	<a href="<%= @sections.callForPapers.href %>" target="_blank" class="link-button"><%= @t('sections.callForPapers.link')%> </a>

@@ -209,6 +209,9 @@ module.exports =
         description:
           pt: 'Os trabalhos que serão apresentados deverão seguir os formatos:'
           en: 'The papers to be presented must follow the given formats:'
+        additionalInfoLink:
+          pt: 'Ver regras para submissão'
+          en: 'See rules for submission'
         categories: [
           title:
             pt: 'Palestra (60m)'
@@ -223,8 +226,42 @@ module.exports =
             pt: 'Painel acadêmico'
             en: 'Academic panel'
           description: 
-            pt: 'São destinados aos estudantes de graduação e pós-graduação que desenvolvam pesquisas e trabalhos com PostgreSQL. Os painéis serão exibidos no salão de exposições. As regras de submissão estarão disponíveis em breve.'
-            en: 'They are intended for undergraduate students and graduate to develop research and work with PostgreSQL. The panels are displayed in the exhibit hall. The submission rules will be available soon.'
+            pt: 'São destinados aos estudantes de graduação e pós-graduação que desenvolvam pesquisas e trabalhos com PostgreSQL. Os painéis serão exibidos no salão de exposições.'
+            en: 'They are intended for undergraduate students and graduate to develop research and work with PostgreSQL. The panels are displayed in the exhibit hall.'
+          additionalInfo:
+            pt: '1 - Dimensões\n\n
+
+                 Largura: 90cm;\n
+                 Altura: 90cm até o máximo de 120cm.\n\n
+
+                 2 - Clareza e apresentação\n\n
+
+                 O texto do pôster deverá ser legível a uma distância de pelo menos 2 metros;\n
+                 Utilizar os vários recursos gráficos disponíveis para despertar o interesse do público;\n
+                 Não é obrigatória a impressão em plotter, mas o pôster deve possuir características de um cartaz;\n
+                 Organizar as informações de modo que as idéias centrais do trabalho sejam facilmente compreendidas;\n
+                 Utilizar o mínimo de texto e o máximo de figuras, fotos, tabelas e gráficos possíveis.\n\n
+
+                 3 - No pôster deverá constar:\n\n
+
+                 O logotipo oficial do evento;\n
+                 Título idêntico ao da proposta submetida;\n
+                 Nomes, instituições dos autores, email para contato, cidade e estado;\n
+                 No corpo do pôster o autor ficará livre para organizar as informações pertinentes. Se preferir, os autores poderão optar pela seguinte estrutura: Introdução, Metodologia, Resultados e Conclusões.
+                 Data e horário das apresentações;\n
+                 Cada trabalho será programado para apresentação em um único dia. Os autores deverão consultar a programação no site.\n\n
+
+                 4 - É proibida a apresentação:\n\n
+
+                 Por não-autores (terceiros);\n
+                 Oral ou performática;\n
+                 Com retroprojetor, computador, microfone e/ou outros equipamentos elétricos;\n
+                 Com aparelhos e instrumentos sonoros que interfiram na comunicação dos autores da sessão;\n
+                 Pelo menos um dos autores do trabalho deverá permanecer junto ao pôster, para responder às perguntas dos interessados;\n
+                 No final da sessão será entregue no local de cada pôster o atestado de apresentação;\n
+                 Os painéis terão um gancho para pendurar os pôsteres com cordão. Se os autores precisarem fixar o pôster com fita adesiva deverão levar este material;\n
+                 Cada painél poderá ter até 5 (cinco) autores.'
+            en: ''
         ]
 
     # The entire schedule

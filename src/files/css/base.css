@@ -151,9 +151,12 @@ nav {
   margin: 1em 0;
   list-style: circle;
 }
-
 #call-for-papers .link-button {
   width: 100%;
+}
+.additional-info {
+  display: none;
+  padding: 1em;
 }
 
 /* =============================================================================

@@ -33,4 +33,13 @@
     }
   }).init();
 
-}(jQuery, window, document))
+}(jQuery, window, document));
+
+$(function() {  
+
+  $('.additional-info-link').on('click', function(e) {
+    e.preventDefault();
+    $(this).parent().find('.additional-info').slideToggle();
+  });
+
+});
