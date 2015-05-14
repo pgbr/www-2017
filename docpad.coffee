@@ -165,7 +165,7 @@ module.exports =
           pt: 'Datas programadas' 
           en: 'Scheduled dates'
         dates: [
-          done: false
+          done: true
           date:
             pt: '14/05/2015'
             en: '2015-05-14'
