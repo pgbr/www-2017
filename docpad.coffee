@@ -391,7 +391,11 @@ module.exports =
         title: 
           pt: "Ouro"
           en: "Gold"
-        entries: []
+        entries: [
+          name: "DBSeller.jpg"
+          logo: "dbseller.jpg"
+          url: "http://www.dbseller.com.br/"
+        ]
       silver: 
         title: 
           pt: "Prata"
