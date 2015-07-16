@@ -175,24 +175,24 @@ module.exports =
         ,
           done: false
           date:
-            pt: '15/07/2015'
-            en: '2015-07-15'
+            pt: '31/08/2015'
+            en: '2015-08-31'
           description:
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
         ,
           done: false
           date:
-            pt: '31/07/2015'
-            en: '2015-07-31'
+            pt: '10/09/2015'
+            en: '2015-09-10'
           description:
             pt: 'Notificação dos autores sobre trabalhos aceitos'
             en: 'Notification of the authors of accepted papers'
         ,
           done: false
           date:
-            pt: '30/08/2015'
-            en: '2015-08-30'
+            pt: '31/09/2015'
+            en: '2015-09-31'
           description:
             pt: 'Publicação da agenda oficial'
             en: 'Publication of official schedule'
