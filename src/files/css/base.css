@@ -224,6 +224,10 @@ nav {
   margin: 4px;
 }
 
+.partner-item {
+  width: 33%;
+}
+
 .sponsor-item .photo, .partner-item .photo{
   max-width: 100%;
 }
