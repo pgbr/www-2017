@@ -392,9 +392,13 @@ module.exports =
           pt: "Ouro"
           en: "Gold"
         entries: [
-          name: "DBSeller.jpg"
+          name: "DBSeller"
           logo: "dbseller.jpg"
           url: "http://www.dbseller.com.br/"
+        ,
+          name: "PostgreSQL Professional"
+          logo: "postgrespro.png"
+          url: "http://postgrespro.ru/"
         ]
       silver: 
         title: 

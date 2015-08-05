@@ -222,6 +222,7 @@ nav {
 .sponsor-item, .partner-item {
   display: inline-block;
   margin: 4px;
+  vertical-align: middle;
 }
 
 .partner-item {
@@ -240,20 +241,36 @@ nav {
   width: auto;
 }
 
-.sponsors-platinum .sponsor-item{
+.sponsors-platinum .sponsor-item {
   width: 80%;
+}
+
+.sponsors-platinum .photo {
+  max-height: 150px;
 }
 
 .sponsors-gold .sponsor-item {
   width: 49%;
 }
 
+.sponsors-gold .photo {
+  max-height: 100px;
+}
+
 .sponsors-silver .sponsor-item {
   width: 27%;
 }
 
+.sponsors-silver .photo {
+  max-height: 50px;
+}
+
 .sponsors-bronze .sponsor-item {
   width: 10%;
+}
+
+.sponsors-bronze .photo {
+  max-height: 25px;
 }
 
 .sponsor-plans-link {
