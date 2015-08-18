@@ -112,9 +112,9 @@ nav {
    ========================================================================== */
 .speakers-item {
   position:relative;
-  min-height:180px;
-  padding-left: 180px;
-  margin-bottom:30px;
+  margin: 40px 0;
+  min-height:140px;
+  padding-left: 130px;
   border-bottom:1px dashed #e7e7e7;
 }
 .speaker-photo {
@@ -122,9 +122,12 @@ nav {
   top:0;
   left:0;
   display: block;
-  width: 120px;
-  height: 120px;
 }
+.speaker-photo .photo {
+  max-width: 120px;
+  max-height: 120px;
+}
+
 .speech-title {
   padding-top:10px;
   font-size:2em;
