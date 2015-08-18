@@ -20,7 +20,7 @@
         <% end %>
 
         <h3 class="speakers-name"><%= speaker.name %> - <%= speaker.company %> - <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>">@<%= speaker.twitter %></a></h3>
-        <p class="speakers-bio"><%= @t('bio', speaker) %></p>
+        <p class="speakers-bio"><%- @t('bio', speaker) %></p>
       </li>
   <% end %>
   </ul>
