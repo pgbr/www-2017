@@ -114,14 +114,26 @@ nav {
   position:relative;
   margin: 40px 0;
   min-height:140px;
-  padding-left: 130px;
+  padding: 0;
   border-bottom:1px dashed #e7e7e7;
 }
+.speakers-card {
+  font-size: 24px;
+}
+.speakers-card > * {
+  display: inline-block;
+}  
+.speakers-card > *:after {
+  content:" ::: ";
+  color: #ccc;
+}
+.speakers-card > *:last-child:after {
+  content:"";
+}
 .speaker-photo {
-  position:absolute;
-  top:0;
-  left:0;
+  float: left;
   display: block;
+  margin-right: 2.5em;
 }
 .speaker-photo .photo {
   max-width: 120px;
@@ -138,7 +150,6 @@ nav {
   padding: 10px 15px;
   letter-spacing:-.03em;
 }
-.speakers-name{font-size:1.6em;}
 .speakers-item p {font-size:1.4em;}
 
 /* =============================================================================
@@ -208,10 +219,11 @@ nav {
   width: 250px;
   font-size:16px;
 }
+/*
 .speakers-company {
   display: block;
   font-size:12px;
-}
+}*/
 
 /* =============================================================================
    SPONSORS  and  PARTNERS
@@ -429,13 +441,17 @@ nav {
 
   /* speakers */
   .speakers-item {
-    min-height:70px;
-    padding-left: 70px;
   }
-  .speaker-photo {
-    width: 50px;
-    height: 50px;
+
+  .speakers-card > * {
+    display: block;
+    padding: 5px 0;
   }
+
+  .speakers-card > *:after {
+    content: "";
+  }
+
   .speech-title {
     padding-top:0;
     font-size:16px;
