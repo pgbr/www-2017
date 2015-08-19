@@ -191,8 +191,8 @@ module.exports =
         ,
           done: false
           date:
-            pt: '31/09/2015'
-            en: '2015-09-31'
+            pt: '30/09/2015'
+            en: '2015-09-30'
           description:
             pt: 'Publicação da agenda oficial'
             en: 'Publication of official schedule'
