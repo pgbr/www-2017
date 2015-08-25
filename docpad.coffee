@@ -327,6 +327,18 @@ module.exports =
         pt: "Instituto Astronômico Sternberg"
         en: "Sternberg Astronomical"
       website: "http://www.sigaev.ru/"
+    ,
+      name: "Oleg Bartunov"
+      photo: "oleg_bartunov.png"
+      bio: 
+        pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. \n
+             Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes."
+        en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. \n
+             Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes."
+      company:
+        pt: "Instituto Astronômico Sternberg"
+        en: "Sternberg Astronomical"
+      website: "http://www.sai.msu.su/~megera/"
     ]
 
     # List of Sponsors
