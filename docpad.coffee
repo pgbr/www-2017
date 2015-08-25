@@ -321,13 +321,11 @@ module.exports =
       name: "Teodor Sigaev"
       photo: "teodor_sigaev.png"
       bio: 
-        pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Trabalha atualmente no Instituto Astronômico Sternberg. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
+        pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
              Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
-        en: "Teodor graduated from the physics department of Moscow State University. He is working at Sternberg Astronomical of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+        en: "Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
              His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
-      company:
-        pt: "Instituto Astronômico Sternberg"
-        en: "Sternberg Astronomical"
+      company: "Postgres Professional"
       github: "feodor"
       website: "http://www.sigaev.ru/"
     ,
@@ -338,9 +336,7 @@ module.exports =
              Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes."
         en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. \n
              Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes."
-      company:
-        pt: "Instituto Astronômico Sternberg"
-        en: "Sternberg Astronomical"
+      company: "Postgres Professional"
       twitter: "obartunov"
       github: "obartunov"
       website: "http://www.sai.msu.su/~megera/"
