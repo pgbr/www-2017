@@ -315,6 +315,8 @@ module.exports =
              He's currently a PostgreSQL Committer and Major Developer working for 2ndQuadrant, a world-wide PostgreSQL services organization."
       company: "2ndQuadrant"
       twitter: "alvherre"
+      github: "alvherre"
+      linkedin: "https://www.linkedin.com/in/alvherre"
     ,
       name: "Teodor Sigaev"
       photo: "teodor_sigaev.png"
@@ -326,6 +328,7 @@ module.exports =
       company:
         pt: "Instituto Astronômico Sternberg"
         en: "Sternberg Astronomical"
+      github: "feodor"
       website: "http://www.sigaev.ru/"
     ,
       name: "Oleg Bartunov"
@@ -338,7 +341,10 @@ module.exports =
       company:
         pt: "Instituto Astronômico Sternberg"
         en: "Sternberg Astronomical"
+      twitter: "obartunov"
+      github: "obartunov"
       website: "http://www.sai.msu.su/~megera/"
+      linkedin: "https://www.linkedin.com/in/olegbartunov"
     ]
 
     # List of Sponsors

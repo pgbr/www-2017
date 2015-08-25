@@ -31,6 +31,12 @@
             <% if speaker.twitter: %>
               <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="fa fa-twitter-square"></a>
             <% end %>
+            <% if speaker.github: %>
+              <a href="http://www.github.com/<%= speaker.github %>" title="Github @<%= speaker.github %>" class="fa fa-github-square"></a>
+            <% end %>
+            <% if speaker.linkedin: %>
+              <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
+            <% end %>
           </span>
         </h3>
 
