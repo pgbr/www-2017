@@ -26,6 +26,8 @@
   <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/reset.css">
   <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/base.css">
   <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/font-awesome.css">
+
   <% if @ThemeColor.state == true: %>
     <!-- COLOR THEMES -->
     <style type="text/css">

@@ -315,6 +315,18 @@ module.exports =
              He's currently a PostgreSQL Committer and Major Developer working for 2ndQuadrant, a world-wide PostgreSQL services organization."
       company: "2ndQuadrant"
       twitter: "alvherre"
+    ,
+      name: "Teodor Sigaev"
+      photo: "teodor_sigaev.png"
+      bio: 
+        pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Trabalha atualmente no Instituto Astronômico Sternberg. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
+             Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
+        en: "Teodor graduated from the physics department of Moscow State University. He is working at Sternberg Astronomical of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+             His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
+      company:
+        pt: "Instituto Astronômico Sternberg"
+        en: "Sternberg Astronomical"
+      website: "http://www.sigaev.ru/"
     ]
 
     # List of Sponsors

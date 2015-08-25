@@ -134,6 +134,8 @@ nav {
   float: left;
   display: block;
   margin-right: 2.5em;
+  width: 120px;
+  height: 140px;
 }
 .speaker-photo .photo {
   max-width: 120px;
