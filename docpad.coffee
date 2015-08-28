@@ -155,7 +155,7 @@ module.exports =
           pt: 'Eventos anteriores'
           en: 'Past events'
       contact:
-        active: false
+        active: true
         title:
           pt: 'Contato' 
           en: 'Contact'

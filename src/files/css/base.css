@@ -328,11 +328,6 @@ nav {
 /* =============================================================================
    CONTATO
    ========================================================================== */
-.form-contato label{
-  font-size:16px;
-  display: block;
-  margin-bottom:.5em;
-}
 .control-group {
   height:auto;
   clear:both;
@@ -356,9 +351,13 @@ nav {
   padding:10px;
   font-size:14px;
 }
-.form-contato textarea {height:300px;}
-.form-contato .btn {float:right;}
+.contact p {
+  text-align: center;
+}
 
+.contact .fa {
+  font-size: 80px;
+}
 
 
 /* =============================================================================
@@ -412,7 +411,7 @@ nav {
     float:none;
     margin-right:0;
   }
-  .form-contato .btn {margin-bottom:50px;}
+
 }
 
 @media only screen and (max-width : 480px) {
@@ -468,6 +467,11 @@ nav {
     float: none;
     width: 100%;
   }
+
+  .contact .fa {
+    font-size: 40px;
+  }
+
 } 
 
 @media only screen and (max-width : 321px) {
