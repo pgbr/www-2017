@@ -3,12 +3,12 @@
 <section class="contact" id="contact">
   <h2 class="section-title"><%= @t('sections.contact.title')%></h2>
   <p>
-    <%- @t('sections.contact.message').replace(/\{mail\}/g, 'pgbr@postgresql.org.br')%>
+    <%- @t('sections.contact.message')%>
   </p>
   <p>
-    <a href="https://twitter.com/postgresqlbr" class="fa fa-twitter-square"></a>
-    <a href="https://www.facebook.com/pgbr2015" class="fa fa-facebook-square"></a>
-    <a href="http://www.linkedin.com/groups?mostPopular=&gid=2748187" class="fa fa-linkedin-square"></a>
+    <% for social in @sections.contact.social: %>
+      <a href="<%= social.url %>" title="<%= social.name %>" class="fa <%= social.icon %>"></a>
+    <% end %>
   </p>
 </section>
 <!-- / CONTACT -->

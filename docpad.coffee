@@ -160,8 +160,21 @@ module.exports =
           pt: 'Contato' 
           en: 'Contact'
         message:
-          pt: 'Dúvidas e sugestões podem ser recebidas pelo e-mail <a href="mailto:{mail}" title="{mail}">{mail}</a> por nossas redes sociais'
-          en: 'Questions and suggestions can be received by e-mail <a href="mailto:{mail}" title="{mail}">{mail}</a> by our social networks'
+          pt: 'Dúvidas e sugestões podem ser recebidas pelo e-mail <a href="mailto:pgbr@postgresql.org.br" title="pgbr@postgresql.org.br">pgbr@postgresql.org.br</a> por nossas redes sociais'
+          en: 'Questions and suggestions can be received by e-mail <a href="mailto:pgbr@postgresql.org.br" title="pgbr@postgresql.org.br">pgbr@postgresql.org.br</a> by our social networks'
+        social: [
+          name: 'Twitter'
+          url: 'https://twitter.com/postgresqlbr'
+          icon: 'fa-twitter-square'
+        ,
+          name: 'Facebook'
+          url: 'https://www.facebook.com/pgbr2015'
+          icon: 'fa-facebook-square'
+        ,
+          name: 'Linkedin'
+          url: 'http://www.linkedin.com/groups?mostPopular=&gid=2748187'
+          icon: 'fa-linkedin-square'
+        ]
       scheduledDates:
         active: true
         title:
