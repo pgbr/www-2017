@@ -47,7 +47,7 @@ module.exports =
       url: 
         pt: "http://pgbr.postgresql.org.br/2015/"
         en: "http://pgbr.postgresql.org.br/2015/en/"
-      #googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-66872252-1"
       images:
         facebook: "http://pgbr.postgresql.org.br/2015/img/apple-touch-icon.png"
 
