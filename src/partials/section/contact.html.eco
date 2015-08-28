@@ -3,7 +3,7 @@
 <section class="contact" id="contact">
   <h2 class="section-title"><%= @t('sections.contact.title')%></h2>
   <p>
-    Dúvidas e sugestãos podem sem recebidas pelo e-mail <a href="mailto:pgbr@postgresql.org.br" title="pgbr@postgresql.org.br">pgbr@postgresql.org.br</a> por nossas redes sociais:
+    <%- @t('sections.contact.message').replace(/\{mail\}/g, 'pgbr@postgresql.org.br')%>
   </p>
   <p>
     <a href="https://twitter.com/postgresqlbr" class="fa fa-twitter-square"></a>

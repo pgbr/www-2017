@@ -159,6 +159,9 @@ module.exports =
         title:
           pt: 'Contato' 
           en: 'Contact'
+        message:
+          pt: 'Dúvidas e sugestões podem ser recebidas pelo e-mail <a href="mailto:{mail}" title="{mail}">{mail}</a> por nossas redes sociais'
+          en: 'Questions and suggestions can be received by e-mail <a href="mailto:{mail}" title="{mail}">{mail}</a> by our social networks'
       scheduledDates:
         active: true
         title:
