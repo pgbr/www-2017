@@ -189,7 +189,7 @@ module.exports =
             pt: 'Abertura da chamada para os trabalhos'
             en: 'Open call for papers'
         ,
-          done: false
+          done: true
           date:
             pt: '31/08/2015'
             en: '2015-08-31'
@@ -214,7 +214,7 @@ module.exports =
             en: 'Publication of official schedule'
         ]
       callForPapers:
-        active: true
+        active: false
         link:
           pt: 'Submeter'
           en: 'Submit'
