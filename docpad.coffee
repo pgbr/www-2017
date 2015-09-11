@@ -175,6 +175,16 @@ module.exports =
           url: 'http://www.linkedin.com/groups?mostPopular=&gid=2748187'
           icon: 'fa-linkedin-square'
         ]
+      registration:
+        active: true
+        title:
+          pt: 'Inscrições'
+          en: 'Registration'
+        link: 
+          url: 'http://pgbr2015.eventize.com.br/'
+          text:
+            pt: 'Inscrever-se'
+            en: 'Signup'
       scheduledDates:
         active: true
         title:

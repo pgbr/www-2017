@@ -8,6 +8,11 @@
           <a href="#about" title="<%=@t('sections.about.title')%>" class="nav-link"><%=@t('sections.about.title')%></a>
         </li>
       <% end %>
+      <% if @sections.registration.active: %>
+        <li class="nav-item">
+          <a href="#registration" title="<%=@t('sections.registration.title')%>" class="nav-link"><%=@t('sections.registration.title')%></a>
+        </li>
+      <% end %>
       <% if @sections.location.active: %>
         <li class="nav-item">
           <a href="#location" title="<%=@t('sections.location.title')%>" class="nav-link"><%=@t('sections.location.title')%></a>

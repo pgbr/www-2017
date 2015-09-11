@@ -77,6 +77,9 @@
         <% if @sections.about.active: %>
           <%-@partial('section/about.html.eco', @)%>
         <% end %>
+        <% if @sections.registration.active: %>
+          <%-@partial('section/registration.html.eco', @)%>
+        <% end %>
         <% if @sections.location.active: %>
           <%-@partial('section/location.html.eco', @)%>
         <% end %>
