@@ -49,7 +49,7 @@ module.exports =
         en: "http://pgbr.postgresql.org.br/2015/en/"
       googleanalytics: "UA-66872252-1"
       images:
-        facebook: "http://pgbr.postgresql.org.br/2015/img/apple-touch-icon.png"
+        facebook: "http://pgbr.postgresql.org.br/2015/img/pgbr.png"
 
     # Color Theme
     ThemeColor:
@@ -413,6 +413,10 @@ module.exports =
       name: "PostgreSQL Global Development Group"
       logo: "pgdg.jpg"
       url: "http://www.postgresql.org/"
+    ,
+      name: "Comunidade Brasileira de PostgreSQL"
+      logo: "pgbr.png"
+      url: "http://www.postgresql.org.br/"
     ,
       name: "Associação Software Livre"
       logo: "asl.png"

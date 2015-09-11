@@ -245,7 +245,7 @@ nav {
    SPONSORS  and  PARTNERS
    ========================================================================== */
 
-.sponsors-list {
+.sponsors-list, .partners-list {
   text-align: center;
   margin-bottom: 40px;
 }
