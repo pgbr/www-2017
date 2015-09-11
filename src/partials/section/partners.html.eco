@@ -1,6 +1,7 @@
 <!-- PARTNERS -->
 <section class="partners" id="partners">
   <h2 class="section-title"><%= @t('sections.partners.title')%></h2>
+
   <ul class="partners-list">
     <% for partner in @partners: %>
       <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
