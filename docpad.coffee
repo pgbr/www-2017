@@ -176,7 +176,7 @@ module.exports =
           icon: 'fa-linkedin-square'
         ]
       registration:
-        active: false
+        active: true
         title:
           pt: 'Inscrições'
           en: 'Registration'
