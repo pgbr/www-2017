@@ -527,6 +527,12 @@ module.exports =
       url: 'http://pgbr.postgresql.org.br/2007'
     ]
 
+    resolveUrl:(docRoot, uri) ->
+      if uri.indexOf('http') > -1
+        uri
+      else
+        docRoot + uri
+
     # Helper that supports i18n tags inside this document
     t:(key, base = this) ->
       if (key)
