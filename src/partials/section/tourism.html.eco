@@ -1,0 +1,14 @@
+
+<!-- CONDUCT CODE -->
+<section class="tourism" id="tourism">
+  <h2 class="section-title"><%= @t('sections.tourism.title')%></h2>
+  <p>
+    <%- @t('sections.tourism.text') %>
+  </p>
+  <p>
+  	<% for link in @sections.tourism.links:%>
+		<a href="<%= link.link %>" title="<%= @t('title', link)%>" class="fa <%=link.icon%>"></a>
+	<% end %>
+  </p>
+</section>
+<!-- / CONDUCT CODE -->

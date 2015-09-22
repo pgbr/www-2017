@@ -383,6 +383,39 @@ module.exports =
                 Como participante do evento, seja você palestrante, voluntário,
                 organizador, patrocinador deverá aceitar e respeitar nosso código de
                 conduta.'
+      tourism:
+        active: true
+        title:
+          pt: 'Turismo'
+          en: 'Tourism'
+        text:
+          pt: 'Se você tem interesse em conhecer mais sobre a cidade de Porto Alegre ou sobre o 
+                estado do Rio Grande do Sul, local sede do PGBR 2015, temos uma cartilha que conta 
+                um pouco da história destes lugares e aplicativos móveis para as plataformas iOS e Android 
+                para ajuda-lo a conhecer ótimos lugares durante sua estadia. '
+          en: 'If you are interested in learning more about the city of Porto Alegre or 
+                the state of Rio Grande do Sul, local headquarters of PGBR 2015 have a booklet that tells 
+                some of the history of these places and mobile applications for the iOS and Android platforms 
+                help you get to know great places during your stay.'
+        links: [
+          title:
+            pt: 'Cartilha'
+            en: 'Booklet'
+          link: '/docs/cartilha.pdf'
+          icon: 'fa-book'
+        ,
+          title:
+            pt: 'Aplicativo Android'
+            en: 'Android App'
+          link: 'https://play.google.com/store/apps/details?id=br.com.queenmob.android.poatravel'
+          icon: 'fa-android'
+        ,
+          title:
+            pt: 'Aplicativo iOS'
+            en: 'iOS App'
+          link: 'https://itunes.apple.com/br/app/porto-alegre-oficial/id871936284?mt=8'
+          icon: 'fa-apple'
+        ]
 
     # The entire schedule
     schedule: [

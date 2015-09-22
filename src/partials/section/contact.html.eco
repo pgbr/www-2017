@@ -5,7 +5,7 @@
   <p>
     <%- @t('sections.contact.message')%>
   </p>
-  <p>
+  <p class="icon-links">
     <% for social in @sections.contact.social: %>
       <a href="<%= social.url %>" title="<%= social.name %>" class="fa <%= social.icon %>"></a>
     <% end %>

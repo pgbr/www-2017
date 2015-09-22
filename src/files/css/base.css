@@ -365,12 +365,14 @@ nav {
   padding:10px;
   font-size:14px;
 }
-.contact p {
+
+.contact p, .tourism p {
   text-align: center;
 }
 
-.contact .fa {
+.contact .fa, .tourism .fa {
   font-size: 80px;
+  margin: 0 .2em;
 }
 
 
