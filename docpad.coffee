@@ -508,6 +508,10 @@ module.exports =
       name: "Associação Software Livre"
       logo: "asl.png"
       url: "http://softwarelivre.org/"
+    ,
+      name: "Visite Porto Alegre"
+      logo: "visitepoa.png"
+      url: "http://visiteportoalegre.com/"
     ]
 
     pastEvents: [

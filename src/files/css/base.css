@@ -264,6 +264,10 @@ nav {
   max-width: 100%;
 }
 
+.partner-item .photo{
+  height: 60px;
+}
+
 .sponsor-link, .partner-link {
   display: block;
   padding: 2em;
@@ -489,6 +493,9 @@ nav {
     font-size: 40px;
   }
 
+  .partner-item .photo{
+    height: 30px;
+  }
 } 
 
 @media only screen and (max-width : 321px) {
