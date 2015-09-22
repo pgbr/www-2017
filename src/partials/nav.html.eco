@@ -58,6 +58,11 @@
           <a href="#contact" title="<%=@t('sections.contact.title')%>" class="nav-link"><%=@t('sections.contact.title')%></a>
         </li>
       <% end %>
+      <% if @sections.conductCode.active: %>
+        <li class="nav-item">
+          <a href="#conductCode" title="<%=@t('sections.conductCode.title')%>" class="nav-link"><%=@t('sections.conductCode.title')%></a>
+        </li>
+      <% end %>
     </ul>
 
     <div class="language-flags">

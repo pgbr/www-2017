@@ -107,6 +107,9 @@
         <% if @sections.contact.active: %>
           <%-@partial('section/contact.html.eco', @)%>
         <% end %>
+        <% if @sections.conductCode.active: %>
+          <%-@partial('section/conductCode.html.eco', @)%>
+        <% end %>
       </div>
     </div>
     <!-- / CONTENT -->

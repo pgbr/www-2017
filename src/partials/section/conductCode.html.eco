@@ -1,0 +1,9 @@
+
+<!-- CONDUCT CODE -->
+<section class="conductCode" id="conductCode">
+  <h2 class="section-title"><%= @t('sections.conductCode.title')%></h2>
+  <p>
+    <%- @t('sections.conductCode.text') %>
+  </p>
+</section>
+<!-- / CONDUCT CODE -->
