@@ -12,6 +12,7 @@
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
+
 h2, h3, h4 {
   font-size: 5em;
   font-weight: normal;
@@ -40,6 +41,7 @@ nav {
 }
 .nav-item {
   display: inline-block;
+  padding: .5em;
   margin-right:15px;
   vertical-align: middle;
 }
@@ -111,9 +113,10 @@ nav {
    REGISTRATION
    ========================================================================== */
 .registration a {
-  font-size: 48px;
+  display: inline-block;
+  font-size: 3em;
   background-color: #ddd;
-  padding: .2em .5em;
+  padding: .5em;
   border-radius: 8px;
 }
 
@@ -489,13 +492,14 @@ nav {
     width: 100%;
   }
 
-  .contact .fa {
+  .contact .fa, .tourism .fa {
     font-size: 40px;
   }
 
   .partner-item .photo{
     height: 30px;
   }
+
 } 
 
 @media only screen and (max-width : 321px) {

@@ -15,7 +15,7 @@
         event.preventDefault();
 
       // Get distance of top
-        offSetTop = $(linkTarget).offset().top;
+        offSetTop = $(linkTarget).offset().top - $('#nav').height();
 
       // Animate the scroll
         $htmlBody.stop().animate({scrollTop : offSetTop}, function () {

@@ -330,59 +330,15 @@ module.exports =
                  Each panel can have up to five (5) authors.'
         ]
       conductCode:
-        active: false
+        active: true
         title:
           pt: 'Código de conduta'
           en: 'Conduct code'
         text:
-          pt: 'O PGBR é um evento que ocorre desde 2007. Em todos estes anos
-                procuramos manter uma conduta de respeito a todos os participantes,
-                palestrantes, organizadores, prestadores de serviços e patrocinadores
-                e nesta edição de 2015 não será diferente. \n\n
-
-                Nos dedicaremos para que todos tenham uma experiência livre de
-                assédios e discriminação. Não serão tolerados assédios ou
-                descriminação de qualquer tipo a qualquer um dos participantes.
-                Podemos incluir como assédio comentários ofensivos relacionado a
-                gênero, deficiências, orientação sexual, aparência física, raça,
-                religião, bem como, contato físico inapropriado, perseguições,
-                fotografia ou filmagem assediante, linguagem ou imagens de conotação
-                sexual. Consideramos isso inapropriado para uma conferência.
-                Participantes que sejam solicitados a pararem como assédio deverão
-                fazê-lo imediatamente, caso contrário estarão sujeitos a expulsão do
-                evento ou encaminhamento as autoridades cabíveis.\n\n
-
-                Qualquer voluntário da organização estará disponível a auxiliar
-                participantes que se sintam assediados a contactar as autoridades
-                cabíveis.\n\n
-
-                Como participante do evento, seja você palestrante, voluntário,
-                organizador, patrocinador deverá aceitar e respeitar nosso código de
-                conduta.'
-          en: 'O PGBR é um evento que ocorre desde 2007. Em todos estes anos
-                procuramos manter uma conduta de respeito a todos os participantes,
-                palestrantes, organizadores, prestadores de serviços e patrocinadores
-                e nesta edição de 2015 não será diferente. \n\n
-
-                Nos dedicaremos para que todos tenham uma experiência livre de
-                assédios e discriminação. Não serão tolerados assédios ou
-                descriminação de qualquer tipo a qualquer um dos participantes.
-                Podemos incluir como assédio comentários ofensivos relacionado a
-                gênero, deficiências, orientação sexual, aparência física, raça,
-                religião, bem como, contato físico inapropriado, perseguições,
-                fotografia ou filmagem assediante, linguagem ou imagens de conotação
-                sexual. Consideramos isso inapropriado para uma conferência.
-                Participantes que sejam solicitados a pararem como assédio deverão
-                fazê-lo imediatamente, caso contrário estarão sujeitos a expulsão do
-                evento ou encaminhamento as autoridades cabíveis.\n\n
-
-                Qualquer voluntário da organização estará disponível a auxiliar
-                participantes que se sintam assediados a contactar as autoridades
-                cabíveis.\n\n
-
-                Como participante do evento, seja você palestrante, voluntário,
-                organizador, patrocinador deverá aceitar e respeitar nosso código de
-                conduta.'
+          pt: 'Como participante do evento, seja você palestrante, voluntário, organizador, patrocinador deverá aceitar e respeitar nosso 
+                <a href="http://pt-br.confcodeofconduct.com/" title="Código de conduta">código de conduta</a>.'
+          en: 'As a conference participant, whether you are a speaker, volunteer, organizer, sponsor, etc., must accept and respect our 
+                <a href="http://confcodeofconduct.com/" title="Code of conduct">code of conduct</a>.'
       tourism:
         active: true
         title:
