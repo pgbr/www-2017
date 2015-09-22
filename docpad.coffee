@@ -207,7 +207,7 @@ module.exports =
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
         ,
-          done: false
+          done: true
           date:
             pt: '10/09/2015'
             en: '2015-09-10'
