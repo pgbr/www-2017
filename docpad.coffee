@@ -61,7 +61,7 @@ module.exports =
         color: "fff"
         Hover: "ddd"
         titles: "000"
-        speechTitle: "ddd"
+        speechTitle: "257C99"
 
     # Active sections on the website
     sections:
@@ -389,6 +389,8 @@ module.exports =
     ,
       name: "Teodor Sigaev"
       photo: "teodor_sigaev.jpg"
+      presentation:
+        title: "Author's view on Non-structured Data in PostgreSQL"
       bio: 
         pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
              Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
@@ -400,6 +402,8 @@ module.exports =
     ,
       name: "Oleg Bartunov"
       photo: "oleg_bartunov.jpg"
+      presentation:
+        title: "Author's view on Non-structured Data in PostgreSQL"
       bio: 
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. \n
              Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes."

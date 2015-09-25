@@ -12,15 +12,6 @@
           </span>
         <% end %>
 
-        <% if speaker.presentation: %>
-        <h3 class="speech-title">
-          <% if speaker.presentation.time: %>
-            <span class="speech-time"><%= speaker.presentation.time %></span>
-          <% end %>
-            <span> <%= speaker.presentation.title %></span>
-        </h3>
-        <% end %>
-
         <h3 class="speakers-card">
           <span class="speakers-name"><%= speaker.name %></span>
           <span class="speakers-company"><%= @t('company', speaker) %></span>
@@ -38,6 +29,15 @@
               <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
             <% end %>
           </span>
+  
+          <% if speaker.presentation: %>
+          <h3 class="speech-title">
+            <% if speaker.presentation.time: %>
+              <span class="speech-time"><%= speaker.presentation.time %></span>
+            <% end %>
+            <span> <%= speaker.presentation.title %></span>
+          </h3>
+          <% end %>
         </h3>
 
         <p class="speakers-bio"><%- @t('bio', speaker) %></p>
