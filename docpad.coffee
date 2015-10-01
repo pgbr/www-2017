@@ -482,6 +482,20 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       website: "http://fabriziomello.github.io"
       linkedin: "https://www.linkedin.com/in/fabriziomello"
       github: "fabriziomello"
+
+    ,
+      name: "Guilherme Elias"
+      photo: "guilherme_elias.jpg"
+      presentation:
+        title: "Como o PostgreSQL ajuda a uMov.me a crescer"
+      bio:
+        pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
+        en: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
+      company: "uMov.me"
+      twitter: "guilhermelias"
+      website: "https://guilhermelias.wordpress.com"
+      linkedin: "https://www.linkedin.com/in/guilhermeeilas"
+      github: "gelias"
     ]
 
     # List of Sponsors
