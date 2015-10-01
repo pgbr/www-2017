@@ -377,6 +377,8 @@ module.exports =
     schedule: [
       name: "Álvaro Herrera"
       photo: "alvaro_herrera.png"
+      presentation:
+        title: "A JSON representation of DDL"
       bio: 
         pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais.\n
              Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para a 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo."
@@ -414,6 +416,207 @@ module.exports =
       github: "obartunov"
       website: "http://www.sai.msu.su/~megera/"
       linkedin: "https://www.linkedin.com/in/olegbartunov"
+    ,
+      name: "Martín Marqués"
+      photo: "martin_marques.jpg"
+      presentation:
+        title: "BDR for DBAs"
+      bio: 
+        pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
+I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
+We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
+And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
+        en: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
+I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
+We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
+And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
+      company: "2ndQuadrant"
+      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      twitter: "martinarmarques"
+    ,
+      name: "Fábio Telles Rodriguez"
+      photo: "fabio_telles.jpg"
+      presentation:
+        title: "PostgreSQL Rock Star"
+      bio: 
+        pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
+        en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
+      company: "Timbira"
+      twitter: "telles"
+      website: "http://savepoint.blog.br"
+      linkedin: "https://br.linkedin.com/in/telles"
+    ,
+      name: "Dickson S. Guedes"
+      photo: "dickson_guedes.jpg"
+      presentation:
+        title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
+      bio: 
+        pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
+        en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
+      company: "Timbira"
+      twitter: "guediz"
+      website: "http://guedesoft.net"
+      linkedin: "https://br.linkedin.com/in/dicksonguedes"
+    ,
+      name: "Euler Taveira"
+      photo: "euler_taveira.jpg"
+      presentation:
+        title: "Big Data e PostgreSQL"
+      bio: 
+        pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
+        en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
+      company: "Timbira"
+      twitter: "eulerto"
+      website: "http://eulerto.blogspot.com.br"
+      linkedin: "http://br.linkedin.com/in/eulerto"
+    ,
+      name: "Fabrízio de Royes Mello"
+      photo: "fabrizio_mello.jpg"
+      presentation:
+        title: "Como posso colaborar com o PostgreSQL?"
+      bio: 
+        pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
+
+        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
+        en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
+
+        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
+      company: "Timbira"
+      twitter: "fabriziomello"
+      website: "http://fabriziomello.github.io"
+      linkedin: "https://www.linkedin.com/in/fabriziomello"
+      github: "fabriziomello"
+
+    ,
+      name: "Guilherme Elias"
+      photo: "guilherme_elias.jpg"
+      presentation:
+        title: "Como o PostgreSQL ajuda a uMov.me a crescer"
+      bio:
+        pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
+        en: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
+      company: "uMov.me"
+      twitter: "guilhermelias"
+      website: "https://guilhermelias.wordpress.com"
+      linkedin: "https://www.linkedin.com/in/guilhermeeilas"
+      github: "gelias"
+
+    ,
+      name: "Jaime Casanova"
+      photo: "jaime_casanova.jpg"
+      presentation:
+        title: "HA PostgreSQL cluster with repmgr and pgbouncer"
+      bio:
+        pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
+        en: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
+      company: "2ndQuadrant"
+      twitter: "systemguards"
+    ,
+      name: "Fabiano Machado Dias"
+      photo: "fabiano_dias.jpg"
+      presentation:
+        title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
+      bio:
+        pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
+        en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
+      company: "Wolak Tecnologia"
+      linkedin: "https://www.linkedin.com/in/fabianomachadodias"
+    ,
+      name: "Fernando Ike"
+      photo: "fernando_ike.jpg"
+      presentation:
+        title: "Caiu a lista do PostgreSQL Brasil! E agora?"
+      bio:
+        pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
+        en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
+      company: "Timbira"
+      linkedin: "https://www.linkedin.com/in/fernandoike"
+      twitter: "fernandoike"
+      website: "http://www.fernandoike.com"
+    ,
+      name: "Luis Fernando Bueno"
+      photo: "luis_bueno.jpg"
+      presentation:
+        title: "PostGIS Raster"
+      bio:
+        pt: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
+        en: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
+      company: "CENSIPAM"
+    ,
+      name: "Sebastian Webber"
+      photo: "sebastian_webber.jpg"
+      presentation:
+        title: "Fique ninja na codificação de caracteres"
+      bio:
+        pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
+        en: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
+      company: "LM2 Consulting"
+      twitter: "sebastian_swc"
+      website: "http://swebber.me"
+    ,
+      name: "Matheus Ricardo Espanhol"
+      photo: "matheus_espanhol.jpg"
+      presentation:
+        title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
+      bio:
+        pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
+        en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
+      company: "Dextra"
+      linkedin: "https://br.linkedin.com/in/matheusespanhol"
+      twitter: "matheusespanhol"
+    ,
+      name: "Anderson Abreu"
+      photo: "anderson_abreu.jpg"
+      presentation:
+        title: "Vamos baratear o custo com banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MS SQL Server"
+      bio:
+        pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
+        en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
+      company: "Sysmanager"
+    ,
+      name: "Diogo Luis Von Grafen Rubert"
+      photo: "diogo_rubert.jpg"
+      presentation:
+        title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
+      bio:
+        pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
+        en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
+      company: "Logica Informática Ltda"
+      linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
+    ,
+      name: "Juliano Atanazio"
+      photo: "juliano_atanazio.jpg"
+      presentation:
+        title: "PostgreSQL + Python = Power!"
+      bio:
+        pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
+        en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
+      company: "SERPRO"
+      website: "http://juliano777.worpress.com"
+    ,
+      name: "Miguel Di Ciurcio Filho"
+      photo: "miguel_filho.jpg"
+      presentation:
+        title: "Administrando servidores PostgreSQL com Puppet"
+      bio:
+        pt: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
+        en: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
+      company: "Instruct"
+      twitter: "mciurcio"
+      linkedin: "https://br.linkedin.com/in/mciurcio"
+      website: "http://instruct.com.br"
+    ,
+      name: "Martín Marqués"
+      photo: "martin_marques.jpg"
+      presentation:
+        title: "PostgreSQL backups strategies for real environments"
+      bio:
+        pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
+        en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
+      company: "2ndQuadrant"
+      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      twitter: "martinarmarques"
+
     ]
 
     # List of Sponsors
