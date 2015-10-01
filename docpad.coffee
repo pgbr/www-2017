@@ -507,6 +507,16 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         en: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
       company: "2ndQuadrant"
       twitter: "systemguards"
+    ,
+      name: "Fabiano Machado Dias"
+      photo: "fabiano_dias.jpg"
+      presentation:
+        title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
+      bio:
+        pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
+        en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
+      company: "Postgres Professional"
+      linkedin: "https://www.linkedin.com/in/fabianomachadodias"
     ]
 
     # List of Sponsors
