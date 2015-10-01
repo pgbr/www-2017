@@ -428,7 +428,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
 I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
 We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
 And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
-      company: "Postgres Professional"
+      company: "2ndQuadrant"
     ,
       name: "Fábio Telles Rodriguez"
       photo: "fabio_telles.jpg"
@@ -437,7 +437,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio: 
         pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
         en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
-      company: "Postgres Professional"
+      company: "Timbira"
       twitter: "telles"
       website: "http://savepoint.blog.br"
       linkedin: "https://br.linkedin.com/in/telles"
@@ -449,7 +449,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio: 
         pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
         en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
-      company: "Postgres Professional"
+      company: "Timbira"
       twitter: "guediz"
       website: "http://guedesoft.net"
       linkedin: "https://br.linkedin.com/in/dicksonguedes"
@@ -461,7 +461,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio: 
         pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
         en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
-      company: "Postgres Professional"
+      company: "Timbira"
       twitter: "eulerto"
       website: "http://eulerto.blogspot.com.br"
       linkedin: "http://br.linkedin.com/in/eulerto"
@@ -477,7 +477,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
 
         Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
-      company: "Postgres Professional"
+      company: "Timbira"
       twitter: "fabriziomello"
       website: "http://fabriziomello.github.io"
       linkedin: "https://www.linkedin.com/in/fabriziomello"
@@ -515,7 +515,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
         en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
-      company: "Postgres Professional"
+      company: "Wolak Tecnologia"
       linkedin: "https://www.linkedin.com/in/fabianomachadodias"
     ,
       name: "Fernando Ike"
@@ -525,7 +525,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
         en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
-      company: "Postgres Professional"
+      company: "Timbira"
       linkedin: "https://www.linkedin.com/in/fernandoike"
       twitter: "fernandoike"
       website: "http://www.fernandoike.com"
@@ -535,9 +535,9 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       presentation:
         title: "PostGIS Raster"
       bio:
-        pt: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
-        en: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
-      company: "Postgres Professional"
+        pt: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
+        en: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
+      company: "CENSIPAM"
     ,
       name: "Sebastian Webber"
       photo: "sebastian_webber.jpg"
@@ -546,7 +546,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
         en: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
-      company: "Postgres Professional"
+      company: "LM2 Consulting"
       twitter: "sebastian_swc"
       website: "http://swebber.me"
     ,
@@ -557,7 +557,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
         en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
-      company: "Postgres Professional"
+      company: "Dextra"
       linkedin: "https://br.linkedin.com/in/matheusespanhol"
       twitter: "matheusespanhol"
     ,
@@ -568,7 +568,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
         en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
-      company: "Postgres Professional"
+      company: "Sysmanager"
     ,
       name: "Diogo Luis Von Grafen Rubert"
       photo: "diogo_rubert.jpg"
@@ -577,7 +577,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
         en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
-      company: "Postgres Professional"
+      company: "Logica Informática Ltda"
       linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
     ,
       name: "Juliano Atanazio"
@@ -587,7 +587,7 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
         en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
-      company: "Postgres Professional"
+      company: "SERPRO"
       website: "http://juliano777.worpress.com"
     ,
       name: "Miguel Di Ciurcio Filho"
@@ -597,10 +597,19 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       bio:
         pt: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
         en: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
-      company: "Postgres Professional"
+      company: "Instruct"
       twitter: "mciurcio"
       linkedin: "https://br.linkedin.com/in/mciurcio"
       website: "http://instruct.com.br"
+    ,
+      name: "Martín Marqués"
+      photo: "martin_marques.jpg"
+      presentation:
+        title: "PostgreSQL backups strategies for real environments"
+      bio:
+        pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
+        en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
+      company: "2ndQuadrant"
 
     ]
 
