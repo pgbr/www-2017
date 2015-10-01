@@ -215,10 +215,18 @@ module.exports =
             pt: 'Notificação dos autores sobre trabalhos aceitos'
             en: 'Notification of the authors of accepted papers'
         ,
-          done: false
+          done: true
           date:
             pt: '30/09/2015'
             en: '2015-09-30'
+          description:
+            pt: 'Publicação das palestras aprovadas'
+            en: 'Publication of the approved lectures'
+        ,
+          done: false
+          date:
+            pt: '10/10/2015'
+            en: '2015-10-10'
           description:
             pt: 'Publicação da agenda oficial'
             en: 'Publication of official schedule'
