@@ -465,6 +465,23 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       twitter: "eulerto"
       website: "http://eulerto.blogspot.com.br"
       linkedin: "http://br.linkedin.com/in/eulerto"
+    ,
+      name: "Fabrízio de Royes Mello"
+      photo: "fabrizio_mello.jpg"
+      presentation:
+        title: "Como posso colaborar com o PostgreSQL?"
+      bio: 
+        pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
+
+        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
+        en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
+
+        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
+      company: "Postgres Professional"
+      twitter: "fabriziomello"
+      website: "http://fabriziomello.github.io"
+      linkedin: "https://www.linkedin.com/in/fabriziomello"
+      github: "fabriziomello"
     ]
 
     # List of Sponsors
