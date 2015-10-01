@@ -549,6 +549,17 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       company: "Postgres Professional"
       twitter: "sebastian_swc"
       website: "http://swebber.me"
+    ,
+      name: "Matheus Ricardo Espanhol"
+      photo: "matheus_espanhol.jpg"
+      presentation:
+        title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
+      bio:
+        pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
+        en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
+      company: "Postgres Professional"
+      linkedin: "https://br.linkedin.com/in/matheusespanhol"
+      twitter: "matheusespanhol"
 
     ]
 
