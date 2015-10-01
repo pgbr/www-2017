@@ -569,6 +569,17 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
         en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
       company: "Postgres Professional"
+    ,
+      name: "Diogo Luis Von Grafen Rubert"
+      photo: "diogo_rubert.jpg"
+      presentation:
+        title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
+      bio:
+        pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
+        en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
+      company: "Postgres Professional"
+      linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
+    
 
     ]
 
