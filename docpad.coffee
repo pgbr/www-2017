@@ -377,6 +377,8 @@ module.exports =
     schedule: [
       name: "Álvaro Herrera"
       photo: "alvaro_herrera.png"
+      presentation:
+        title: "A JSON representation of DDL"
       bio: 
         pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais.\n
              Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para a 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo."
@@ -429,6 +431,8 @@ I’m going to go through the way bdr replicates, what you can do and what you c
 We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
 And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
       company: "2ndQuadrant"
+      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      twitter: "martinarmarques"
     ,
       name: "Fábio Telles Rodriguez"
       photo: "fabio_telles.jpg"
@@ -610,6 +614,8 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
         en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
       company: "2ndQuadrant"
+      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      twitter: "martinarmarques"
 
     ]
 
