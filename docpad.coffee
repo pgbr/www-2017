@@ -579,7 +579,16 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
       company: "Postgres Professional"
       linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
-    
+    ,
+      name: "Juliano Atanazio"
+      photo: "juliano_atanazio.jpg"
+      presentation:
+        title: "PostgreSQL + Python = Power!"
+      bio:
+        pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
+        en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
+      company: "Postgres Professional"
+      website: "http://juliano777.worpress.com"
 
     ]
 
