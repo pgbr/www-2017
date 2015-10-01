@@ -496,6 +496,17 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       website: "https://guilhermelias.wordpress.com"
       linkedin: "https://www.linkedin.com/in/guilhermeeilas"
       github: "gelias"
+
+    ,
+      name: "Jaime Casanova"
+      photo: "jaime_casanova.jpg"
+      presentation:
+        title: "HA PostgreSQL cluster with repmgr and pgbouncer"
+      bio:
+        pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
+        en: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
+      company: "2ndQuadrant"
+      twitter: "systemguards"
     ]
 
     # List of Sponsors
