@@ -419,17 +419,40 @@ module.exports =
       photo: "martin_marques.jpg"
       presentation:
         title: "BDR for DBAs"
+      bio: 
+        pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
+I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
+We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
+And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
+        en: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
+I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
+We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
+And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
       company: "Postgres Professional"
     ,
       name: "Fábio Telles Rodriguez"
       photo: "fabio_telles.jpg"
       presentation:
         title: "PostgreSQL Rock Star"
+      bio: 
+        pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
+        en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
       company: "Postgres Professional"
       twitter: "telles"
       website: "http://savepoint.blog.br"
       linkedin: "https://br.linkedin.com/in/telles"
-
+    ,
+      name: "Dickson S. Guedes"
+      photo: "dickson_guedes.jpg"
+      presentation:
+        title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
+      bio: 
+        pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
+        en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
+      company: "Postgres Professional"
+      twitter: "guediz"
+      website: "http://guedesoft.net"
+      linkedin: "https://br.linkedin.com/in/dicksonguedes"
     ]
 
     # List of Sponsors
