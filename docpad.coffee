@@ -529,6 +529,16 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       linkedin: "https://www.linkedin.com/in/fernandoike"
       twitter: "fernandoike"
       website: "http://www.fernandoike.com"
+
+    ,
+      name: "Luis Fernando Bueno"
+      photo: "luis_bueno.jpg"
+      presentation:
+        title: "PostGIS Raster"
+      bio:
+        pt: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
+        en: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
+      company: "Postgres Professional"
     ]
 
     # List of Sponsors
