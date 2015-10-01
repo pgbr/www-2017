@@ -453,6 +453,18 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       twitter: "guediz"
       website: "http://guedesoft.net"
       linkedin: "https://br.linkedin.com/in/dicksonguedes"
+    ,
+      name: "Euler Taveira"
+      photo: "euler_taveira.jpg"
+      presentation:
+        title: "Big Data e PostgreSQL"
+      bio: 
+        pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
+        en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
+      company: "Postgres Professional"
+      twitter: "eulerto"
+      website: "http://eulerto.blogspot.com.br"
+      linkedin: "http://br.linkedin.com/in/eulerto"
     ]
 
     # List of Sponsors
