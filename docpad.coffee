@@ -414,6 +414,12 @@ module.exports =
       github: "obartunov"
       website: "http://www.sai.msu.su/~megera/"
       linkedin: "https://www.linkedin.com/in/olegbartunov"
+    ,
+      name: "Martín Marqués"
+      photo: "martin_marques.jpg"
+      presentation:
+        title: "BDR for DBAs"
+      company: "Postgres Professional"
     ]
 
     # List of Sponsors
