@@ -611,8 +611,8 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       presentation:
         title: "PostgreSQL backups strategies for real environments"
       bio:
-        pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
-        en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
+        pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect."
+        en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect."
       company: "2ndQuadrant"
       linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
       twitter: "martinarmarques"
