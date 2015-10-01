@@ -517,6 +517,18 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
       company: "Postgres Professional"
       linkedin: "https://www.linkedin.com/in/fabianomachadodias"
+    ,
+      name: "Fernando Ike"
+      photo: "fernando_ike.jpg"
+      presentation:
+        title: "Caiu a lista do PostgreSQL Brasil! E agora?"
+      bio:
+        pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
+        en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
+      company: "Postgres Professional"
+      linkedin: "https://www.linkedin.com/in/fernandoike"
+      twitter: "fernandoike"
+      website: "http://www.fernandoike.com"
     ]
 
     # List of Sponsors
