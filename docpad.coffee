@@ -420,6 +420,16 @@ module.exports =
       presentation:
         title: "BDR for DBAs"
       company: "Postgres Professional"
+    ,
+      name: "Fábio Telles Rodriguez"
+      photo: "fabio_telles.jpg"
+      presentation:
+        title: "PostgreSQL Rock Star"
+      company: "Postgres Professional"
+      twitter: "telles"
+      website: "http://savepoint.blog.br"
+      linkedin: "https://br.linkedin.com/in/telles"
+
     ]
 
     # List of Sponsors
