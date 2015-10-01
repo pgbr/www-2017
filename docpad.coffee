@@ -529,7 +529,6 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       linkedin: "https://www.linkedin.com/in/fernandoike"
       twitter: "fernandoike"
       website: "http://www.fernandoike.com"
-
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
@@ -539,6 +538,18 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         pt: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
         en: "Trabalhando com dados espaciais matriciais (imagens) no PostGIS"
       company: "Postgres Professional"
+    ,
+      name: "Sebastian Webber"
+      photo: "sebastian_webber.jpg"
+      presentation:
+        title: "Fique ninja na codificação de caracteres"
+      bio:
+        pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
+        en: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
+      company: "Postgres Professional"
+      twitter: "sebastian_swc"
+      website: "http://swebber.me"
+
     ]
 
     # List of Sponsors
