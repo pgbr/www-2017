@@ -589,6 +589,18 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
         en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
       company: "Postgres Professional"
       website: "http://juliano777.worpress.com"
+    ,
+      name: "Miguel Di Ciurcio Filho"
+      photo: "miguel_filho.jpg"
+      presentation:
+        title: "Administrando servidores PostgreSQL com Puppet"
+      bio:
+        pt: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
+        en: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
+      company: "Postgres Professional"
+      twitter: "mciurcio"
+      linkedin: "https://br.linkedin.com/in/mciurcio"
+      website: "http://instruct.com.br"
 
     ]
 
