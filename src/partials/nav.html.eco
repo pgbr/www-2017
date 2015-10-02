@@ -39,9 +39,9 @@
         </li>
       <% end %>
       <% if @sections.pastEvents.active: %>
-        <li class="nav-item">
+        <!--li class="nav-item">
           <a href="#pastEvents" title="<%=@t('sections.pastEvents.title')%>" class="nav-link"><%=@t('sections.pastEvents.title')%></a>
-        </li>
+        </li-->
       <% end %>
       <% if @sections.sponsors.active: %>
         <li class="nav-item">
@@ -64,9 +64,9 @@
         </li>
       <% end %>
       <% if @sections.conductCode.active: %>
-        <li class="nav-item">
+        <!--li class="nav-item">
           <a href="#conductCode" title="<%=@t('sections.conductCode.title')%>" class="nav-link"><%=@t('sections.conductCode.title')%></a>
-        </li>
+        </li-->
       <% end %>
     </ul>
 

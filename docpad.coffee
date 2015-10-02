@@ -188,8 +188,8 @@ module.exports =
       scheduledDates:
         active: true
         title:
-          pt: 'Datas programadas' 
-          en: 'Scheduled dates'
+          pt: 'Datas' 
+          en: 'Dates'
         dates: [
           done: true
           date:
