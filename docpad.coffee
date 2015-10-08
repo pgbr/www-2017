@@ -650,6 +650,10 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
           name: "PostgreSQL Professional"
           logo: "postgrespro.png"
           url: "http://postgrespro.ru/"
+        ,
+          name: "EnterpriseDB / Tecnisys"
+          logo: "enterprisedb.png"
+          url: "http://www.enterprisedb.com/"
         ]
       silver: 
         title: 
