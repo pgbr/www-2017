@@ -5,7 +5,7 @@
   <ul class="partners-list">
     <% for partner in @partners: %>
       <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-        <a href="<%= partner.url %>" class="partner-logo partner-link" itemprop="url">
+        <a href="<%= partner.url %>" class="partner-logo partner-link" itemprop="url" target="_blank">
           <img src="<%=@document.docRoot%>/img/<%= partner.logo %>" title="<%= partner.name %>" class="photo" itemprop="image" />
         </a>
       </li>
