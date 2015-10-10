@@ -732,3 +732,26 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
     decode:(value) ->
       if value
         value.replace(/\n/g, '<br>') 
+
+    schedules: () ->
+      schedules ={}
+      date_list = (schedule.presentation.date for schedule in this.schedule when schedule.presentation)
+      
+      for key, date of date_list
+        if schedules[date] == undefined
+          schedules[date] = this.schedules_by_date(date)
+    
+    schedules_by_date:(date) ->
+      schedules_list = (schedule for schedule in this.schedule when schedule.presentation.date == date)
+      hour_list = (schedule.presentation.hour for schedule in schedules_list when schedule.presentation)
+      schedules_hour = {}
+
+      for key_hour, hour of hour_list
+        if schedules_hour[hour] == undefined
+          schedules_hour[hour] = this.schedules_by_hour(schedules_list, hour)
+
+      schedules_hour
+
+    schedules_by_hour:(schedules_list, hour) ->
+      schedules_by_hour = (schedule for schedule in schedules_list when schedule.presentation.hour == hour)
+    
