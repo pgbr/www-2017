@@ -124,18 +124,18 @@ module.exports =
           pt: 'Local' 
           en: 'Location'
       speakers: 
-        active: true
+        active: false
         title:
           pt: 'Palestrantes' 
           en: 'Speakers'
       schedule: 
-        active: false
+        active: true
         title:
           pt: 'Agenda' 
           en: 'Schedule'
         description:
-          pt: 'Em breve novidades...'
-          en: 'News soon...'
+          pt: ''
+          en: ''
       sponsors: 
         active: true
         title:
@@ -381,250 +381,515 @@ module.exports =
           icon: 'fa-apple'
         ]
 
-    # The entire schedule
     schedule: [
-      name: "Álvaro Herrera"
-      photo: "alvaro_herrera.png"
+      name: ""
+      photo: ""
       presentation:
-        title: "A JSON representation of DDL"
+        date: "18/11"
+        hour: "08:00"
+        slot: ""
+        title: "Credenciamento"
       bio: 
-        pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais.\n
-             Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para a 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo."
-        en: "Álvaro started writing code for PostgreSQL in 2002 and hasn't stopped since, having contributed features and bug fixes for every release since 7.2: shared row locking, the autovacuum daemon, background workers, BRIN indexes, and many more.\n
-             He's currently a PostgreSQL Committer and Major Developer working for 2ndQuadrant, a world-wide PostgreSQL services organization."
-      company: "2ndQuadrant"
-      twitter: "alvherre"
-      github: "alvherre"
-      linkedin: "https://www.linkedin.com/in/alvherre"
-    ,
-      name: "Teodor Sigaev"
-      photo: "teodor_sigaev.jpg"
-      presentation:
-        title: "Author's view on Non-structured Data in PostgreSQL"
-      bio: 
-        pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
-             Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
-        en: "Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
-             His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
-      company: "Postgres Professional"
-      github: "feodor"
-      website: "http://www.sigaev.ru/"
-    ,
-      name: "Oleg Bartunov"
-      photo: "oleg_bartunov.jpg"
-      presentation:
-        title: "Author's view on Non-structured Data in PostgreSQL"
-      bio: 
-        pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. \n
-             Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes."
-        en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. \n
-             Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes."
-      company: "Postgres Professional"
-      twitter: "obartunov"
-      github: "obartunov"
-      website: "http://www.sai.msu.su/~megera/"
-      linkedin: "https://www.linkedin.com/in/olegbartunov"
-    ,
-      name: "Martín Marqués"
-      photo: "martin_marques.jpg"
-      presentation:
-        title: "BDR for DBAs"
-      bio: 
-        pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
-I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
-We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
-And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
-        en: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic.
-I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). 
-We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system.
-And in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements."
-      company: "2ndQuadrant"
-      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
-      twitter: "martinarmarques"
-    ,
-      name: "Fábio Telles Rodriguez"
-      photo: "fabio_telles.jpg"
-      presentation:
-        title: "PostgreSQL Rock Star"
-      bio: 
-        pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
-        en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
-      company: "Timbira"
-      twitter: "telles"
-      website: "http://savepoint.blog.br"
-      linkedin: "https://br.linkedin.com/in/telles"
-    ,
-      name: "Dickson S. Guedes"
-      photo: "dickson_guedes.jpg"
-      presentation:
-        title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
-      bio: 
-        pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
-        en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto."
-      company: "Timbira"
-      twitter: "guediz"
-      website: "http://guedesoft.net"
-      linkedin: "https://br.linkedin.com/in/dicksonguedes"
-    ,
-      name: "Euler Taveira"
-      photo: "euler_taveira.jpg"
-      presentation:
-        title: "Big Data e PostgreSQL"
-      bio: 
-        pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
-        en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)."
-      company: "Timbira"
-      twitter: "eulerto"
-      website: "http://eulerto.blogspot.com.br"
-      linkedin: "http://br.linkedin.com/in/eulerto"
-    ,
-      name: "Fabrízio de Royes Mello"
-      photo: "fabrizio_mello.jpg"
-      presentation:
-        title: "Como posso colaborar com o PostgreSQL?"
-      bio: 
-        pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
-
-        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
-        en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe.
-
-        Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
-      company: "Timbira"
-      twitter: "fabriziomello"
-      website: "http://fabriziomello.github.io"
-      linkedin: "https://www.linkedin.com/in/fabriziomello"
-      github: "fabriziomello"
-
-    ,
-      name: "Guilherme Elias"
-      photo: "guilherme_elias.jpg"
-      presentation:
-        title: "Como o PostgreSQL ajuda a uMov.me a crescer"
-      bio:
-        pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
-        en: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo."
-      company: "uMov.me"
-      twitter: "guilhermelias"
-      website: "https://guilhermelias.wordpress.com"
-      linkedin: "https://www.linkedin.com/in/guilhermeeilas"
-      github: "gelias"
-
-    ,
-      name: "Jaime Casanova"
-      photo: "jaime_casanova.jpg"
-      presentation:
-        title: "HA PostgreSQL cluster with repmgr and pgbouncer"
-      bio:
-        pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
-        en: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
-      company: "2ndQuadrant"
-      twitter: "systemguards"
-    ,
-      name: "Fabiano Machado Dias"
-      photo: "fabiano_dias.jpg"
-      presentation:
-        title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
-      bio:
-        pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
-        en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização."
-      company: "Wolak Tecnologia"
-      linkedin: "https://www.linkedin.com/in/fabianomachadodias"
-    ,
-      name: "Fernando Ike"
-      photo: "fernando_ike.jpg"
-      presentation:
-        title: "Caiu a lista do PostgreSQL Brasil! E agora?"
-      bio:
-        pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
-        en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
-      company: "Timbira"
-      linkedin: "https://www.linkedin.com/in/fernandoike"
-      twitter: "fernandoike"
-      website: "http://www.fernandoike.com"
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
       presentation:
+        date: "18/11"
+        hour: "09:00"
+        slot: "Sala 202"
+        title: "Tutorial 1: Construção de banco de dados espaciais com PostGIS (Português)"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "18/11"
+        hour: "12:00"
+        slot: ""
+        title: "Almoço"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: "Oleg Bartunov e Teodor Sigaev"
+      photo: ""
+      presentation:
+        date: "18/11"
+        hour: "14:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      github: ""
+      website: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "08:00"
+        slot: ""
+        title: "Credenciamento"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "09:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Abertura Oficial"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: "Fabrizio"
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "09:30"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Como posso colaborar com o PostgreSQL?"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "09:30"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "Palestra Patrocinador Ouro"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "10:30"
+        slot: "Auditório Principal(Prédio 4)"
+        title: "Author's view on Non-structured Data in PostgreSQL (Oleg Bartunov e Teodor Sigaev)"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "12:00"
+        slot: ""
+        title: "Almoço"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "14:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "PostgreSQL Rock Star"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "14:00"
+        slot: "Auditória Secundário(Prédio 6)"
         title: "PostGIS Raster"
-      bio:
-        pt: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
-        en: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia."
-      company: "CENSIPAM"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
-      name: "Sebastian Webber"
-      photo: "sebastian_webber.jpg"
+      name: ""
+      photo: ""
       presentation:
+        date: "19/11"
+        hour: "15:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Big Data e PostgreSQL"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "15:00"
+        slot: "Auditória Secundário(Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
-      bio:
-        pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
-        en: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
-      company: "LM2 Consulting"
-      twitter: "sebastian_swc"
-      website: "http://swebber.me"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
-      name: "Matheus Ricardo Espanhol"
-      photo: "matheus_espanhol.jpg"
+      name: ""
+      photo: ""
       presentation:
+        date: "19/11"
+        hour: "16:00"
+        slot: ""
+        title: "Intervalo"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "16:30"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "16:30"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "BDR for DBAs"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: "Álvaro Herrera"
+      photo: ""
+      presentation:
+        date: "19/11"
+        hour: "17:30"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "A JSON representation of DDL"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "09:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "PostgreSQL backups strategies for real environments"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "09:00"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "Como o PostgreSQL ajuda a uMov.me a crescer"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: "Mateus Ricardo Espanhol"
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "10:00"
+        slot: "Auditória Principal(Prédio 4)"
         title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
-      bio:
-        pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
-        en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional."
-      company: "Dextra"
-      linkedin: "https://br.linkedin.com/in/matheusespanhol"
-      twitter: "matheusespanhol"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
-      name: "Anderson Abreu"
-      photo: "anderson_abreu.jpg"
+      name: ""
+      photo: ""
       presentation:
-        title: "Vamos baratear o custo com banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MS SQL Server"
-      bio:
-        pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
-        en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso."
-      company: "Sysmanager"
-    ,
-      name: "Diogo Luis Von Grafen Rubert"
-      photo: "diogo_rubert.jpg"
-      presentation:
-        title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
-      bio:
-        pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
-        en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone."
-      company: "Logica Informática Ltda"
-      linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
-    ,
-      name: "Juliano Atanazio"
-      photo: "juliano_atanazio.jpg"
-      presentation:
-        title: "PostgreSQL + Python = Power!"
-      bio:
-        pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
-        en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas."
-      company: "SERPRO"
-      website: "http://juliano777.worpress.com"
+        date: "20/11"
+        hour: "10:00"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "HA PostgreSQL cluster with repmgr and pgbouncer"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
       name: "Miguel Di Ciurcio Filho"
-      photo: "miguel_filho.jpg"
+      photo: ""
       presentation:
+        date: "20/11"
+        hour: "10:00"
+        slot: "Sala 202(Prédio 6)"
         title: "Administrando servidores PostgreSQL com Puppet"
-      bio:
-        pt: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
-        en: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL."
-      company: "Instruct"
-      twitter: "mciurcio"
-      linkedin: "https://br.linkedin.com/in/mciurcio"
-      website: "http://instruct.com.br"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ,
-      name: "Martín Marqués"
-      photo: "martin_marques.jpg"
+      name: ""
+      photo: ""
       presentation:
-        title: "PostgreSQL backups strategies for real environments"
-      bio:
-        pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect."
-        en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect."
-      company: "2ndQuadrant"
-      linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
-      twitter: "martinarmarques"
-
+        date: "20/11"
+        hour: "11:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "11:00"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "PostgreSQL + Python = Power!"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "11:00"
+        slot: "Sala 202(Prédio 6)"
+        title: "Vamos baratear o custo com banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MS SQL Server"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "12:00"
+        slot: ""
+        title: "Almoço"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "14:00"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Caiu a lista do PostgreSQL Brasil! E agora?"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "14:00"
+        slot: "Auditória Secundário(Prédio 6)"
+        title: "Future Indexing Mechanisms in PostgreSQL"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "14:00"
+        slot: "Sala 202(Prédio 6)"
+        title: "O USO DE FUNÇÕES DE SIMILARIDADE E DIST NCIA ENTRE STRINGS ADAPTADAS AO PORTUGUÊS BRASILEIRO"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "15:00"
+        slot: ""
+        title: "Intervalo"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "15:30"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Fishbowl"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "16:30"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Lightning Talks"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        hour: "17:20"
+        slot: "Auditória Principal(Prédio 4)"
+        title: "Encerramento"
+      bio: 
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
     ]
 
     # List of Sponsors
@@ -733,13 +998,15 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
       if value
         value.replace(/\n/g, '<br>') 
 
-    schedules: () ->
+    view_schedules: () ->
       schedules ={}
       date_list = (schedule.presentation.date for schedule in this.schedule when schedule.presentation)
       
       for key, date of date_list
         if schedules[date] == undefined
           schedules[date] = this.schedules_by_date(date)
+
+      schedules
     
     schedules_by_date:(date) ->
       schedules_list = (schedule for schedule in this.schedule when schedule.presentation.date == date)
@@ -754,4 +1021,3 @@ And in the end, we’ll show how to start up a bdr cluster, and run some DDL and
 
     schedules_by_hour:(schedules_list, hour) ->
       schedules_by_hour = (schedule for schedule in schedules_list when schedule.presentation.hour == hour)
-    
