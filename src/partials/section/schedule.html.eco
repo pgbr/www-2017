@@ -4,26 +4,28 @@
   <p><%= @t('sections.schedule.description')%></p>
 
   <% for date, schedule_date of @view_schedules(): %>
-      <p><%= date%></p>
+      <p><%= date %></p>
       <div class="schedule-tbl">
         <table>
           <thead>
             <tr>
               <th class="schedule-time">Time</th>
               <th class="schedule-slot">Author</th>
-              <th class="schedule-description">Description</th>
+              <th class="schedule-title">Title</th>
             </tr>
           </thead>
           <tbody>
 
             <% for time, schedule_slots of schedule_date: %>
                 <% for slot_index, slot of schedule_slots: %>
-                  <% if slot.presentation: %>
-                  <tr>
-                      <td class="schedule-time"><%= slot.presentation.time %></td>
-                      <td class="schedule-slot"><%= slot.name %></td>
-                      <td class="schedule-description"><%= slot.presentation.title %></td>
-                  </tr>
+                  <% if slot.view_schedule: %>
+                    <% if slot.presentation: %>
+                    <tr>
+                        <td class="schedule-time"><%= slot.presentation.time %></td>
+                        <td class="schedule-slot"><%= slot.name %></td>
+                        <td class="schedule-description"><%= slot.presentation.title %></td>
+                    </tr>
+                    <% end %>
                   <% end %>
               <% end %>
             <% end %>
@@ -32,6 +34,7 @@
       </div>
       </br>
   <% end %>
+
 
 </section>
 

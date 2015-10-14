@@ -124,7 +124,7 @@ module.exports =
           pt: 'Local' 
           en: 'Location'
       speakers: 
-        active: false
+        active: true
         title:
           pt: 'Palestrantes' 
           en: 'Speakers'
@@ -396,6 +396,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
+        
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
@@ -411,6 +413,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -426,6 +429,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Oleg Bartunov e Teodor Sigaev"
       photo: ""
@@ -440,6 +444,35 @@ module.exports =
       company: ""
       github: ""
       website: ""
+      view_schedule: "true"
+    ,
+      name: "Teodor Sigaev"
+      photo: "teodor_sigaev.jpg"
+      presentation:
+        title: "Author's view on Non-structured Data in PostgreSQL"
+      bio: 
+        pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
+             Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
+        en: "Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+             His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
+      company: "Postgres Professional"
+      github: "feodor"
+      website: "http://www.sigaev.ru/"
+      view_speaker: "true"
+    ,
+      name: "Oleg Bartunov"
+      photo: "oleg_bartunov.jpg"
+      presentation:
+        title: "Author's view on Non-structured Data in PostgreSQL"
+      bio: 
+        pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes"
+        en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes"
+      company: "Postgres Professional"
+      twitter: "obartunov"
+      github: "obartunov"
+      website: "http://www.sai.msu.su/~megera/"
+      linkedin: "https://www.linkedin.com/in/olegbartunov"
+      view_speaker: "true"
     ,
       name: ""
       photo: ""
@@ -455,6 +488,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -470,6 +504,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Fabrízio de Royes Mello"
       photo: "fabrizio_mello.jpg"
@@ -486,6 +521,8 @@ module.exports =
       website: "http://fabriziomello.github.io"
       github: "fabriziomello"
       linkedin: "https://www.linkedin.com/in/fabriziomello"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Palestra Patrocinador Ouro"
       photo: ""
@@ -501,9 +538,11 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Teodor Sigaev / Oleg Bartunov"
       photo: ""
+      speaker_preview: "true"
       presentation:
         date: "19/11"
         time: "10:30"
@@ -516,6 +555,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -531,6 +571,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Fábio Telles Rodriguez"
       photo: "fabio_telles.jpg"
@@ -546,6 +587,8 @@ module.exports =
       twitter: "telles"
       website: "http://savepoint.blog.br"
       linkedin: "https://br.linkedin.com/in/telles"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
@@ -561,6 +604,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Euler Taveira"
       photo: "euler_taveira.jpg"
@@ -577,6 +622,8 @@ module.exports =
       website: "http://eulerto.blogspot.com.br"
       github: ""
       linkedin: "http://br.linkedin.com/in/eulerto"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Sebastian Webber"
       photo: "sebastian_webber.jpg"
@@ -593,6 +640,8 @@ module.exports =
       website: "http://swebber.me"
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -608,6 +657,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Fabiano Machado Dias"
       photo: "fabiano_dias.jpg"
@@ -623,6 +673,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: "https://www.linkedin.com/in/fabianomachadodias"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Martín Marqués"
       photo: "martin_marques.jpg"
@@ -638,6 +690,8 @@ module.exports =
       twitter: "martinarmarques"
       github: ""
       linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Álvaro Herrera"
       photo: "alvaro_herrera.png"
@@ -653,6 +707,8 @@ module.exports =
       twitter: "alvherre"
       github: "alvherre"
       linkedin: "https://www.linkedin.com/in/alvherre"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Martín Marqués"
       photo: "martin_marques.jpg"
@@ -668,6 +724,8 @@ module.exports =
       twitter: "martinarmarques"
       github: ""
       linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Guilherme Elias"
       photo: "guilherme_elias.jpg"
@@ -684,6 +742,8 @@ module.exports =
       website: "https://guilhermelias.wordpress.com"
       linkedin: "https://www.linkedin.com/in/guilhermeeilas"
       github: "gelias"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Matheus Ricardo Espanhol"
       photo: "matheus_espanhol.jpg"
@@ -699,6 +759,8 @@ module.exports =
       twitter: "matheusespanhol"
       github: ""
       linkedin: "https://br.linkedin.com/in/matheusespanhol"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Jaime Casanova"
       photo: "jaime_casanova.jpg"
@@ -714,6 +776,8 @@ module.exports =
       twitter: "systemguards"
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Miguel Di Ciurcio Filho"
       photo: "miguel_filho.jpg"
@@ -730,6 +794,8 @@ module.exports =
       website: "http://instruct.com.br"
       github: ""
       linkedin: "https://br.linkedin.com/in/mciurcio"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Dickson S. Guedes"
       photo: "dickson_guedes.jpg"
@@ -746,6 +812,8 @@ module.exports =
       website: "http://guedesoft.net"
       github: ""
       linkedin: "https://br.linkedin.com/in/dicksonguedes"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Juliano Atanazio"
       photo: "juliano_atanazio.jpg"
@@ -762,6 +830,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: "Anderson Abreu"
       photo: "anderson_abreu.jpg"
@@ -777,6 +847,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -788,10 +860,7 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      view_schedule: "true"
     ,
       name: "Fernando Ike"
       photo: "fernando_ike.jpg"
@@ -808,6 +877,8 @@ module.exports =
       twitter: "fernandoike"
       github: ""
       linkedin: "https://www.linkedin.com/in/fernandoike"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -823,6 +894,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
+      view_schedule: "true"
     ,
       name: "Diogo Luis Von Grafen Rubert"
       photo: "diogo_rubert.jpg"
@@ -838,6 +910,8 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
+      view_speaker: "true"
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -849,10 +923,7 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -864,10 +935,7 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -879,10 +947,7 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      view_schedule: "true"
     ,
       name: ""
       photo: ""
@@ -894,10 +959,7 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      view_schedule: "true"
     ]
 
     # List of Sponsors
@@ -1011,6 +1073,10 @@ module.exports =
       date_list = (schedule.presentation.date for schedule in this.schedule when schedule.presentation)
       
       for key, date of date_list
+        
+        if date == undefined
+          continue
+
         if schedules[date] == undefined
           schedules[date] = this.schedules_by_date(date)
 

@@ -428,6 +428,11 @@ nav {
   }
   .schedule-tbl td.schedule-description {font-size:12px;}
 
+  .schedule-tbl td.schedule-title {
+    font-size:12px;
+    white-space:nowrap;
+  }
+
   /* contact */
   .control-group-name, .control-group-email {
     clear:both;
