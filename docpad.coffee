@@ -223,7 +223,7 @@ module.exports =
             pt: 'Publicação das palestras aprovadas'
             en: 'Publication of the approved lectures'
         ,
-          done: false
+          done: true
           date:
             pt: '10/10/2015'
             en: '2015-10-10'
