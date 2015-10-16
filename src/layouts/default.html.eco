@@ -110,6 +110,9 @@
         <% if @sections.tourism.active: %>
           <%-@partial('section/tourism.html.eco', @)%>
         <% end %>
+        <% if @sections.accommodation.active: %>
+          <%-@partial('section/accommodation.html.eco', @)%>
+        <% end %>
         <% if @sections.conductCode.active: %>
           <%-@partial('section/conductCode.html.eco', @)%>
         <% end %>

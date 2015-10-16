@@ -63,6 +63,11 @@
           <a href="#tourism" title="<%=@t('sections.tourism.title')%>" class="nav-link"><%=@t('sections.tourism.title')%></a>
         </li>
       <% end %>
+      <% if @sections.accommodation.active: %>
+        <li class="nav-item">
+          <a href="#accommodation" title="<%=@t('sections.accommodation.title')%>" class="nav-link"><%=@t('sections.accommodation.title')%></a>
+        </li>
+      <% end %>
       <% if @sections.conductCode.active: %>
         <!--li class="nav-item">
           <a href="#conductCode" title="<%=@t('sections.conductCode.title')%>" class="nav-link"><%=@t('sections.conductCode.title')%></a>

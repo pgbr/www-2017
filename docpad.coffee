@@ -380,7 +380,79 @@ module.exports =
           link: 'https://itunes.apple.com/br/app/porto-alegre-oficial/id871936284?mt=8'
           icon: 'fa-apple'
         ]
-
+      accommodation:
+        active: true
+        title:
+          pt: 'Hospedagem'
+          en: 'Accommodation'
+        full_title:
+          pt: 'Hospedagem oficial'
+          en: 'Oficial accommodation'
+        adress:
+          pt: 'Endereço: Rua Desembargador André da Rocha, 131 – Centro'
+          en: 'Address: 131, Desembargador André da Rocha Street'
+        adress_complement:
+          pt: 'Porto Alegre / RS – CEP: 90050-161'
+          en: 'Porto Alegre / RS / Brazil – Zip Code: 90050-161'
+        phone:
+          pt: 'Telefone: +55 51 3215-7600'
+          en: 'Phone Number: +55 51 3215-7600'
+        reservation:
+          code:
+            pt: 'LIGUE: +55 51 32157600 e identifique-se, PARA UTILIZAR A TARIFA PROMOCIONAL, como participante da PGBR2015 - Conferência Brasileira de PostgreSQL'
+            en: 'CALL: +55 51 32157600 and identify yourself, TO USE THE PROMOTIONAL RATE, as participant of the PGBR2015 - Brazilian Conference of PostgreSQL'
+          text:
+            pt: 'Faça sua reserva com as seguintes tarifas promocionais, validas até 21/11/2015:'
+            en: 'Make your reservation at the following promotional rates, valid until Nov 21, 2015:'
+        price:
+          title:
+            pt: 'Tarifa Acordo – Preços por apartamento'
+            en: 'Agreement Rate – Price per Room'
+          single:
+            title:
+              pt: 'Single'
+              en: 'Single'
+            value: 
+              pt: 'R$ 165,00'
+              en: 'BRL 165.00'
+          double:
+            title:
+              pt: 'Duplo'
+              en: 'Double'
+            value: 
+              pt: 'R$ 165,00'
+              en: 'BRL 165.00'
+          triple:
+            title:
+              pt: 'Triplo'
+              en: 'Triple'
+            value: 
+              pt: 'R$ 230,00'
+              en: 'BRL 230.00'
+        condition:
+          title:
+            pt: 'Condições'
+            en: 'Conditions'
+          text:
+            pt: 'Serviço de cama-extra a R$ 94,00;Acrescentar 5% de ISSQN, sobre diárias de hospedagem, lavanderia, garagem e locação de salas;Taxa de turismo (room tax) R$ 2,50 / por apartamento – opcional;Garagem ao valor de R$ 25,00 C/ ISSQN incluso ao dia;Tarifas incluem café da manhã servido no restaurante do hotel;Check-in a partir das 14 horas e check-out até às 12 horas;Pedimos garantia de no-show nas solicitações recebidas;Forma de pagamento depósito antecipado e ou direto no check-in informando número de cartão de crédito.'
+            en: 'Extra bed service at BRL 94.00; Add 5% for ISSQN, on room fees, laundry room, parking and rental of rooms; Room tax BRL 2.50 / per room – optional; Parking fee BRL 25.00 per day ISSQN included; Rates include breakfast served in the hotel restaurant; Check-in from 2pm and check-out until 12am; We kindly for no-show warranty for requests received; Payment: deposit in advance or at check-in informing credit card number.'
+        cancellation_policy:
+          title:
+            pt: 'Política de no show e cancelamento'
+            en: 'No show and cancellation policy'
+          text:
+            pt: 'Reservas sem garantia de no show ficam confirmadas até 18h. Após este horário as reservas serão canceladas;Reservas com garantia de no show ficam confirmadas até as 12h do dia posterior ao dia da entrada. O prazo para cancelamento das reservas garantidas é até 24h antes do dia da entrada do hóspede;Caso a reserva não seja cancelada/alterada por escrito (e-mail) dentro deste prazo, a primeira diária será cobrada (no show)'
+            en: 'Bookings without no show warranty are confirmed until 6pm. After this time the reservation will be canceled; Bookings with no show warranty are confirmed until 12pm the day after the arrival date. The deadline for cancellation of guaranteed bookings is up to 24 hours before the guest\'s arrival date; If reservation is not canceled/modified in writing (email) within this period, the first night will be charged (no show)'
+        minors_policy:
+          title:
+            pt: 'Política de hospedagem de menores'
+            en: 'Minor’s accommodation policy'
+          text:
+            pt: 'Para reservas com crianças ou menores de até 18 (dezoito) anos incompletos, os pais ou responsáveis devem apresentar no ato do check-in, documentação dos menores (certidão de nascimento, registro geral ou autorização do juizado para viagem). A Lei Federal n. 8.069 de 13/07/1990, proíbe a hospedagem de menores desacompanhados dos pais, sem o documento que autorize a sua estada.'
+            en: 'For reservations with children or minors under 18 (eighteen) years of age, parents or guardians must present, at the time of check in, minors documentation (birth certificate, general registration or authorization from the court to travel). The Federal Law No. 8.069 of Jul 13, 1990 prohibits the accommodation of minors unaccompanied of parents without authorization for their stay.'
+        more:
+          pt: 'Conheça a Estrutura de Serviços do Eko Residence Hotel no site:'
+          en: 'You can learn more about the Service Structure of Eko Residence Hotel on:'
     schedule: [
       name: ""
       photo: ""
@@ -1068,6 +1140,9 @@ module.exports =
       if value
         value.replace(/\n/g, '<br>') 
 
+    s:(value) ->
+      String(this.t(value)).split(';')
+      
     view_schedules: () ->
       schedules ={}
       date_list = (schedule.presentation.date for schedule in this.schedule when schedule.presentation)

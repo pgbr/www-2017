@@ -1,0 +1,55 @@
+<section class="accommodation" id="accommodation">
+  <h2 class="section-title"><%= @t('sections.accommodation.full_title')%></h2>
+  <p>
+  <b>EKO RESIDENCE HOTEL</b><br>
+  <%= @t('sections.accommodation.adress')%><br>
+  <%= @t('sections.accommodation.adress_complement')%><br>
+  <%= @t('sections.accommodation.phone')%><br>
+  <a href="http://www.ekoresidence.com.br" target="_blank">www.ekoresidence.com.br</a> <br>
+  e-mail: reservas@ekoresidence.com.br <br><br>
+  <%= @t('sections.accommodation.reservation.code')%><br> <br>
+  <%= @t('sections.accommodation.reservation.text')%>
+</p>
+<table class="accommodation-tbl">
+  <thead>
+    <tr>
+      <th colspan="3" class="accommodation-header"><%= @t('sections.accommodation.price.title')%></th>
+    </tr>
+    <tr>
+      <th class="accommodation-subheader"><%= @t('sections.accommodation.price.single.title')%></th>
+      <th class="accommodation-subheader"><%= @t('sections.accommodation.price.double.title')%></th>
+      <th class="accommodation-subheader"><%= @t('sections.accommodation.price.triple.title')%></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @t('sections.accommodation.price.single.value')%></td>
+      <td><%= @t('sections.accommodation.price.double.value')%></td>
+      <td><%= @t('sections.accommodation.price.triple.value')%></td>
+    </tr>
+  </tbody>
+</table> 
+<br>
+<h5><%= @t('sections.accommodation.condition.title')%></h5>
+<ul class="condition-list">
+  <% for condition in @s('sections.accommodation.condition.text'): %>
+    <li class="condition-item" itemscope itemtype="http://schema.org/Organization"><%= condition %></li>
+  <% end %>
+</ul><br>
+
+<h5><%= @t('sections.accommodation.cancellation_policy.title')%></h5>
+<ul class="condition-list">
+  <% for condition in @s('sections.accommodation.cancellation_policy.text'): %>
+    <li class="condition-item" itemscope itemtype="http://schema.org/Organization"><%= condition %></li>
+  <% end %>
+</ul><br>
+
+<h5><%= @t('sections.accommodation.minors_policy.title')%></h5>
+<ul class="condition-list">
+  <% for condition in @s('sections.accommodation.minors_policy.text'): %>
+    <li class="condition-item" itemscope itemtype="http://schema.org/Organization"><%= condition %></li>
+  <% end %>
+</ul><br>
+
+<p><%= @t('sections.accommodation.more')%> <a href="http://www.ekoresidence.com.br" target="_blank">www.ekoresidence.com.br</a></p>
+</section>

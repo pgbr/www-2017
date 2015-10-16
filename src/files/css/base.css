@@ -383,6 +383,36 @@ nav {
   margin: 0 .2em;
 }
 
+/* =============================================================================
+   ACCOMMODATION
+   ========================================================================== */
+.condition-item {
+  display: list-item;
+  list-style: initial;
+  margin-left: 20px;
+}
+
+.accommodation-tbl {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: -20px;
+}
+
+.accommodation-header {
+  background-color: #ccc;
+}
+
+.accommodation-subheader {
+  background-color: #f4f4f4;
+}
+
+.accommodation-tbl td, .accommodation-tbl th {
+  padding: 10px;
+}
 
 /* =============================================================================
    Media Queries
