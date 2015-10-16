@@ -186,7 +186,7 @@ module.exports =
             pt: 'Inscrever-se'
             en: 'Signup'
       scheduledDates:
-        active: true
+        active: false
         title:
           pt: 'Datas' 
           en: 'Dates'
