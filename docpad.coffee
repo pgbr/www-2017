@@ -468,8 +468,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
-        
+      viewSchedule: true
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
@@ -485,7 +484,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
@@ -501,14 +500,14 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Oleg Bartunov e Teodor Sigaev"
       photo: ""
       presentation:
         date: "18/11"
         time: "14:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
       bio: 
         pt: ""
@@ -516,7 +515,7 @@ module.exports =
       company: ""
       github: ""
       website: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Teodor Sigaev"
       photo: "teodor_sigaev.jpg"
@@ -560,14 +559,14 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
       presentation:
         date: "19/11"
         time: "09:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Abertura Oficial"
       bio: 
         pt: ""
@@ -576,14 +575,14 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Fabrízio de Royes Mello"
       photo: "fabrizio_mello.jpg"
       presentation:
         date: "19/11"
         time: "09:30"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Como posso colaborar com o PostgreSQL?"
       bio: 
         pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
@@ -594,14 +593,14 @@ module.exports =
       github: "fabriziomello"
       linkedin: "https://www.linkedin.com/in/fabriziomello"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Palestra Patrocinador Ouro"
       photo: ""
       presentation:
         date: "19/11"
         time: "09:30"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "Palestra Patrocinador Ouro"
       bio: 
         pt: ""
@@ -610,7 +609,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Teodor Sigaev / Oleg Bartunov"
       photo: ""
@@ -618,7 +617,7 @@ module.exports =
       presentation:
         date: "19/11"
         time: "10:30"
-        slot: "Auditório Principal(Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Author's view on Non-structured Data in PostgreSQL"
       bio: 
         pt: ""
@@ -627,7 +626,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
@@ -643,14 +642,14 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Fábio Telles Rodriguez"
       photo: "fabio_telles.jpg"
       presentation:
         date: "19/11"
         time: "14:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "PostgreSQL Rock Star"
       bio: 
         pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
@@ -660,14 +659,14 @@ module.exports =
       website: "http://savepoint.blog.br"
       linkedin: "https://br.linkedin.com/in/telles"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Luis Fernando Bueno"
       photo: "luis_bueno.jpg"
       presentation:
         date: "19/11"
         time: "14:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "PostGIS Raster"
       bio: 
         pt: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia"
@@ -677,14 +676,14 @@ module.exports =
       github: ""
       linkedin: ""
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Euler Taveira"
       photo: "euler_taveira.jpg"
       presentation:
         date: "19/11"
         time: "15:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Big Data e PostgreSQL"
       bio: 
         pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
@@ -695,14 +694,14 @@ module.exports =
       github: ""
       linkedin: "http://br.linkedin.com/in/eulerto"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Sebastian Webber"
       photo: "sebastian_webber.jpg"
       presentation:
         date: "19/11"
         time: "15:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
       bio: 
         pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
@@ -713,7 +712,7 @@ module.exports =
       github: ""
       linkedin: ""
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
@@ -729,14 +728,14 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Fabiano Machado Dias"
       photo: "fabiano_dias.jpg"
       presentation:
         date: "19/11"
         time: "16:30"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
       bio: 
         pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
@@ -746,14 +745,14 @@ module.exports =
       github: ""
       linkedin: "https://www.linkedin.com/in/fabianomachadodias"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Martín Marqués"
       photo: "martin_marques.jpg"
       presentation:
         date: "19/11"
         time: "16:30"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "BDR for DBAs"
       bio: 
         pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic. I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system and in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements"
@@ -763,14 +762,14 @@ module.exports =
       github: ""
       linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Álvaro Herrera"
       photo: "alvaro_herrera.png"
       presentation:
         date: "19/11"
         time: "17:30"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "A JSON representation of DDL"
       bio: 
         pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais. Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo"
@@ -780,14 +779,14 @@ module.exports =
       github: "alvherre"
       linkedin: "https://www.linkedin.com/in/alvherre"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Martín Marqués"
       photo: "martin_marques.jpg"
       presentation:
         date: "20/11"
         time: "09:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "PostgreSQL backups strategies for real environments"
       bio: 
         pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
@@ -797,14 +796,14 @@ module.exports =
       github: ""
       linkedin: "https://ar.linkedin.com/pub/martín-marqués/31/721/b6b/en"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Guilherme Elias"
       photo: "guilherme_elias.jpg"
       presentation:
         date: "20/11"
         time: "09:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "Como o PostgreSQL ajuda a uMov.me a crescer"
       bio: 
         pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
@@ -815,14 +814,14 @@ module.exports =
       linkedin: "https://www.linkedin.com/in/guilhermeeilas"
       github: "gelias"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Matheus Ricardo Espanhol"
       photo: "matheus_espanhol.jpg"
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
       bio: 
         pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
@@ -832,14 +831,14 @@ module.exports =
       github: ""
       linkedin: "https://br.linkedin.com/in/matheusespanhol"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Jaime Casanova"
       photo: "jaime_casanova.jpg"
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "HA PostgreSQL cluster with repmgr and pgbouncer"
       bio: 
         pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
@@ -849,7 +848,7 @@ module.exports =
       github: ""
       linkedin: ""
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Miguel Di Ciurcio Filho"
       photo: "miguel_filho.jpg"
@@ -867,14 +866,14 @@ module.exports =
       github: ""
       linkedin: "https://br.linkedin.com/in/mciurcio"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Dickson S. Guedes"
       photo: "dickson_guedes.jpg"
       presentation:
         date: "20/11"
         time: "11:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
       bio: 
         pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
@@ -885,14 +884,14 @@ module.exports =
       github: ""
       linkedin: "https://br.linkedin.com/in/dicksonguedes"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Juliano Atanazio"
       photo: "juliano_atanazio.jpg"
       presentation:
         date: "20/11"
         time: "11:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "PostgreSQL + Python = Power!"
       bio: 
         pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
@@ -903,7 +902,7 @@ module.exports =
       github: ""
       linkedin: ""
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Anderson Abreu"
       photo: "anderson_abreu.jpg"
@@ -920,7 +919,7 @@ module.exports =
       github: ""
       linkedin: ""
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
@@ -932,14 +931,14 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Fernando Ike"
       photo: "fernando_ike.jpg"
       presentation:
         date: "20/11"
         time: "14:00"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Caiu a lista do PostgreSQL Brasil! E agora?"
       bio: 
         pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
@@ -950,14 +949,14 @@ module.exports =
       github: ""
       linkedin: "https://www.linkedin.com/in/fernandoike"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
       presentation:
         date: "20/11"
         time: "14:00"
-        slot: "Auditória Secundário(Prédio 6)"
+        slot: "Auditória Secundário (Prédio 6)"
         title: "Future Indexing Mechanisms in PostgreSQL"
       bio: 
         pt: ""
@@ -966,7 +965,7 @@ module.exports =
       twitter: ""
       github: ""
       linkedin: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: "Diogo Luis Von Grafen Rubert"
       photo: "diogo_rubert.jpg"
@@ -974,7 +973,7 @@ module.exports =
         date: "20/11"
         time: "14:00"
         slot: "Sala 202(Prédio 6)"
-        title: "O USO DE FUNÇÕES DE SIMILARIDADE E DIST NCIA ENTRE STRINGS ADAPTADAS AO PORTUGUÊS BRASILEIRO"
+        title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
       bio: 
         pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
         en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
@@ -983,7 +982,7 @@ module.exports =
       github: ""
       linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
       view_speaker: "true"
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
@@ -995,43 +994,43 @@ module.exports =
       bio: 
         pt: ""
         en: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
       presentation:
         date: "20/11"
         time: "15:30"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Fishbowl"
       bio: 
         pt: ""
         en: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
       presentation:
         date: "20/11"
         time: "16:30"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Lightning Talks"
       bio: 
         pt: ""
         en: ""
-      view_schedule: "true"
+      viewSchedule: true
     ,
       name: ""
       photo: ""
       presentation:
         date: "20/11"
         time: "17:20"
-        slot: "Auditória Principal(Prédio 4)"
+        slot: "Auditória Principal (Prédio 4)"
         title: "Encerramento"
       bio: 
         pt: ""
         en: ""
-      view_schedule: "true"
+      viewSchedule: true
     ]
 
     # List of Sponsors
@@ -1143,30 +1142,30 @@ module.exports =
     s:(value) ->
       String(this.t(value)).split(';')
       
-    view_schedules: () ->
-      schedules ={}
-      date_list = (schedule.presentation.date for schedule in this.schedule when schedule.presentation)
+    viewSchedules: () ->
+      schedules = {}
+      dateList = (schedule.presentation.date for schedule in this.schedule when schedule.presentation && schedule.viewSchedule)
       
-      for key, date of date_list
+      for key, date of dateList
         
         if date == undefined
           continue
 
         if schedules[date] == undefined
-          schedules[date] = this.schedules_by_date(date)
+          schedules[date] = this.schedulesByDate(date)
 
       schedules
     
-    schedules_by_date:(date) ->
-      schedules_list = (schedule for schedule in this.schedule when schedule.presentation.date == date)
-      time_list = (schedule.presentation.time for schedule in schedules_list when schedule.presentation)
-      schedules_time = {}
+    schedulesByDate:(date) ->
+      schedulesList = (schedule for schedule in this.schedule when schedule.presentation.date == date)
+      timeList = (schedule.presentation.time for schedule in schedulesList when schedule.presentation && schedule.viewSchedule)
+      schedulesTime = {}
 
-      for key_time, time of time_list
-        if schedules_time[time] == undefined
-          schedules_time[time] = this.schedules_by_time(schedules_list, time)
+      for keyTime, time of timeList
+        if schedulesTime[time] == undefined
+          schedulesTime[time] = this.schedulesByTime(schedulesList, time)
 
-      schedules_time
+      schedulesTime
 
-    schedules_by_time:(schedules_list, time) ->
-      schedules_by_time = (schedule for schedule in schedules_list when schedule.presentation.time == time)
+    schedulesByTime:(schedulesList, time) ->
+      schedulesByTime = (schedule for schedule in schedulesList when schedule.presentation.time == time)

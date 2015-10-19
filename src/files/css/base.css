@@ -7,12 +7,39 @@
   position:relative;
 }
 .content {padding: 50px 0;}
-.content section {padding-top: 50px;}
 
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
-
+* {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: .8em 0;
+}
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: .6em 0;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .4em 0;
+}
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: .2em 0;
+}
+/*
 h2, h3, h4 {
   font-size: 5em;
   font-weight: normal;
@@ -20,7 +47,7 @@ h2, h3, h4 {
   letter-spacing: -.02em;
 }
 h3 {font-size: 4em;}
-h4 {font-size:3em;}
+h4 {font-size:3em;}*/
 p {
   font-size:1.6em;
   line-height:1.6em;
@@ -158,11 +185,9 @@ nav {
   max-width: 120px;
   max-height: 120px;
 }
-
 .speech-title {
-  padding-top:10px;
-  font-size:2em;
-  margin-bottom:1em;
+  line-height: 1.2;
+  margin: .5em;
 }
 .speech-time {
   font-size:18px;
@@ -208,6 +233,54 @@ nav {
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
+.schedule-list {
+  font-size: 12px;
+  padding: 1.5em;
+  border-collapse: collapse;
+}
+
+.schedule-list ul {
+  margin-left: 1em;
+}
+
+.schedule-item {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: .5em;
+  margin: .5em 0;
+}
+
+.schedule-item:hover {
+  background-color: #e4e4e4;
+}
+
+.schedule-slot, .schedule-name, .schedule-title {
+  float: left;
+  clear: both;
+  text-shadow: 1px 1px #fff;
+  margin: 4px 0;
+}
+
+.schedule-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+}
+
+.schedule-title {
+  font-size: 1.5em;
+  color: #257C99;
+}
+
+.schedule-slot {
+  font-size: 1.2em;
+  color: #FFA500;
+} 
+
+.schedule-date, .schedule-time {
+  text-shadow: 1px 1px #ccc;
+}
+
 .schedule-tbl {padding:20px;}
 .schedule-tbl table {
   border-collapse: collapse;
@@ -234,10 +307,6 @@ nav {
   margin-right:20px;
 }
 .schedule-tbl .schedule-time {text-align:center;}
-.schedule-slot {
-  width: 250px;
-  font-size:16px;
-}
 /*
 .speakers-company {
   display: block;
@@ -497,7 +566,7 @@ nav {
 
   /* content */
   .content {padding: 0;}
-  .content section {padding-top: 50px;}
+  /*.content section {padding-top: 50px;}*/
 
   /* speakers */
   .speakers-item {

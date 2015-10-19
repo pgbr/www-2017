@@ -127,7 +127,7 @@ nav {background: #2b2b2b;}
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
-.schedule-tbl {
+.schedule-tbl, .schedule-list {
   background:#fff;
   border:1px solid #ccc;
   border-radius: 4px;
@@ -139,7 +139,7 @@ nav {background: #2b2b2b;}
 .schedule-tbl th {color:#2b2b2b;}
 .schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
 .speakers-company {color:#999;}
-.schedule-slot {color:#2b2b2b;}
+
 .schedule-tbl tbody tr:hover {background:#fffde1;}
 .schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
 
@@ -215,6 +215,7 @@ font-size: 5em;
 	color:#4682B4;
 	font-size:2.8em;
 	font-style: oblique;
+  padding: 1em 0;
 }
 .section-subtitle {
   color:#f0a303;
