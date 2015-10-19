@@ -669,8 +669,8 @@ module.exports =
         slot: "Auditória Secundário (Prédio 6)"
         title: "PostGIS Raster"
       bio: 
-        pt: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia"
-        en: "Possui mestrado em Engenharia de Computação (UERJ). É Analista em Ciência & Tecnologia do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, atuando na Divisão de Banco de Dados do Centro Regional de Porto Velho e desenvolvendo trabalhos nas áreas de Banco de Dados Espaciais, Infraestrutura para Dados Espaciais e Geoprocessamento. É aluno do Programa de Pós-Graduação em Geografia (UFPR), matriculada no curso de Doutorado em Geografia"
+        pt: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
+        en: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
       company: "CENSIPAM"
       twitter: ""
       github: ""
@@ -706,11 +706,11 @@ module.exports =
       bio: 
         pt: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
 
-Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessáriamente como que o PostgreSQL interage com tudo isso.
+Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessariamente como que o PostgreSQL interage com tudo isso.
 "
         en: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
 
-Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessáriamente como que o PostgreSQL interage com tudo isso.
+Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessariamente como que o PostgreSQL interage com tudo isso.
 "
       company: "Picareta Solutions"
       twitter: "sebastian_swc"
