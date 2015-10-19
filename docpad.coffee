@@ -704,9 +704,15 @@ module.exports =
         slot: "Auditória Secundário (Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
       bio: 
-        pt: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
-        en: "Domine as artes ocultas da codificação e termine com o sofrimento de sua aplicação"
-      company: "LM2 Consulting"
+        pt: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
+
+Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessáriamente como que o PostgreSQL interage com tudo isso.
+"
+        en: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
+
+Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessáriamente como que o PostgreSQL interage com tudo isso.
+"
+      company: "Picareta Solutions"
       twitter: "sebastian_swc"
       website: "http://swebber.me"
       github: ""
