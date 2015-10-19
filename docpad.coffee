@@ -715,8 +715,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       company: "Picareta Solutions"
       twitter: "sebastian_swc"
       website: "http://swebber.me"
-      github: ""
-      linkedin: ""
+      github: "sebastianwebber"
+      linkedin: "https://www.linkedin.com/in/sebastianswc"
       view_speaker: "true"
       viewSchedule: true
     ,
