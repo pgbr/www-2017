@@ -160,8 +160,8 @@ module.exports =
           pt: 'Contato' 
           en: 'Contact'
         message:
-          pt: 'Dúvidas e sugestões podem ser recebidas pelo e-mail <a href="mailto:pgbr@postgresql.org.br" title="pgbr@postgresql.org.br">pgbr@postgresql.org.br</a> por nossas redes sociais'
-          en: 'Questions and suggestions can be received by e-mail <a href="mailto:pgbr@postgresql.org.br" title="pgbr@postgresql.org.br">pgbr@postgresql.org.br</a> by our social networks'
+          pt: 'Espaço de Projetos\nTelefone: (51) 3028.9398 / 3907.9398\nCelular: (51) 9388-2236\nHorário: 9:30 às 12:00 e das 14:00 às 17:00\nE-mail: <a href="mailto:eventos@espacodeprojetos.com.br" title="eventos@espacodeprojetos.com.br">eventos@espacodeprojetos.com.br</a>'
+          en: 'Espaço de Projetos\nPhone: (51) 3028.9398 / 3907.9398\Mobile: (51) 9388-2236\nHour: 9:30 - 12:00 and 14:00 - 17:00\nE-mail: <a href="mailto:eventos@espacodeprojetos.com.br" title="eventos@espacodeprojetos.com.br">eventos@espacodeprojetos.com.br</a>'
         social: [
           name: 'Twitter'
           url: 'https://twitter.com/postgresqlbr'
