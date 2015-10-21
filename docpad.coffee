@@ -1076,7 +1076,11 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         title: 
           pt: "Bronze"
           en: "Bronze"
-        entries: []
+        entries: [
+          name: "Dextra"
+          logo: "dextra.jpg"
+          url: "http://www.dextra.com.br"
+          ]
 
     # List of Partners
     partners: [
