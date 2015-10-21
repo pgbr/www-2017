@@ -712,7 +712,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
 
 Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessariamente como que o PostgreSQL interage com tudo isso.
 "
-      company: "Picareta Solutions"
+      company: "SWebber IT Services"
       twitter: "sebastian_swc"
       website: "http://swebber.me"
       github: "sebastianwebber"
