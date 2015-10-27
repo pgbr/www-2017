@@ -1106,6 +1106,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       name: "Visite Porto Alegre"
       logo: "visitepoa.png"
       url: "http://visiteportoalegre.com/"
+    ,
+      name: "La Mafia Barbearia"
+      logo: "lamafia.png"
+      url: "http://www.lamafiabarbearia.com.br/"
     ]
 
     pastEvents: [
