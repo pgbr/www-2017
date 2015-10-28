@@ -1110,6 +1110,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       name: "La Mafia Barbearia"
       logo: "lamafia.png"
       url: "http://www.lamafiabarbearia.com.br/"
+    ,
+      name: "uMov.me"
+      logo: "umovme.png"
+      url: "http://umov.me/"
     ]
 
     pastEvents: [
