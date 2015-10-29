@@ -595,20 +595,21 @@ module.exports =
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: "Palestra Patrocinador Ouro"
-      photo: ""
+      name: "Marcos William Valentini"
+      photo: "marcos_valentini.jpg"
       presentation:
         date: "19/11"
         time: "09:30"
         slot: "Auditória Secundário (Prédio 6)"
-        title: "Palestra Patrocinador Ouro"
+        title: "Troque o seu DBMS e impulsione o investimento em Inovação!"
       bio: 
-        pt: ""
-        en: ""
-      company: ""
+        pt: "A maioria das organizações de TI têm feito grandes investimentos em infraestrutura e aplicativos que suportam o negócio, nós iremos mostrar como podemos mudar os sistemas de gerenciamento de banco de dados para impulsionar o investimento em novas aplicações de engajamento do Cliente, o que é um tema importante no mercado atual."
+        en: "A maioria das organizações de TI têm feito grandes investimentos em infraestrutura e aplicativos que suportam o negócio, nós iremos mostrar como podemos mudar os sistemas de gerenciamento de banco de dados para impulsionar o investimento em novas aplicações de engajamento do Cliente, o que é um tema importante no mercado atual."
+      company: "Tecnisys"
       twitter: ""
       github: ""
       linkedin: ""
+      view_speaker: "true"
       viewSchedule: true
     ,
       name: "Teodor Sigaev / Oleg Bartunov"
