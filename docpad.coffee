@@ -1115,6 +1115,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       name: "uMov.me"
       logo: "umovme.png"
       url: "http://umov.me/"
+    ,
+      name: "2Neo Soluções Tecnológicas"
+      logo: "2neo.png"
+      url: "http://www.2neo.com.br"
     ]
 
     pastEvents: [
