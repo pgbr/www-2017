@@ -1067,6 +1067,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           name: "EnterpriseDB / Tecnisys"
           logo: "enterprisedb.png"
           url: "http://www.enterprisedb.com/"
+        ,
+          name: "Tecnisys"
+          logo: "tecnisys.jpg"
+          url: "http://www.tecnisys.com.br"
         ]
       silver: 
         title: 
