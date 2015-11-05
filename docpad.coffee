@@ -1064,7 +1064,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           logo: "postgrespro.png"
           url: "http://postgrespro.ru/"
         ,
-          name: "EnterpriseDB / Tecnisys"
+          name: "EnterpriseDB"
           logo: "enterprisedb.png"
           url: "http://www.enterprisedb.com/"
         ,
