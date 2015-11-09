@@ -958,8 +958,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: ""
-      photo: ""
+      name: "Álvaro Herrera"
+      photo: "alvaro_herrera.png"
       presentation:
         date: "20/11"
         time: "14:00"
@@ -968,10 +968,11 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       bio: 
         pt: ""
         en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      company: "2ndQuadrant"
+      twitter: "alvherre"
+      github: "alvherre"
+      linkedin: "https://www.linkedin.com/in/alvherre"
+      view_speaker: "true"
       viewSchedule: true
     ,
       name: "Diogo Luis Von Grafen Rubert"
