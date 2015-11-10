@@ -507,7 +507,7 @@ module.exports =
       presentation:
         date: "18/11"
         time: "14:00"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
       bio: 
         pt: ""
@@ -566,7 +566,7 @@ module.exports =
       presentation:
         date: "19/11"
         time: "09:00"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Abertura Oficial"
       bio: 
         pt: ""
@@ -582,7 +582,7 @@ module.exports =
       presentation:
         date: "19/11"
         time: "09:30"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Como posso colaborar com o PostgreSQL?"
       bio: 
         pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
@@ -600,7 +600,7 @@ module.exports =
       presentation:
         date: "19/11"
         time: "09:30"
-        slot: "Auditória Secundário (Prédio 6)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Troque o seu DBMS e impulsione o investimento em Inovação!"
       bio: 
         pt: "A maioria das organizações de TI têm feito grandes investimentos em infraestrutura e aplicativos que suportam o negócio, nós iremos mostrar como podemos mudar os sistemas de gerenciamento de banco de dados para impulsionar o investimento em novas aplicações de engajamento do Cliente, o que é um tema importante no mercado atual."
@@ -649,8 +649,8 @@ module.exports =
       photo: "fabio_telles.jpg"
       presentation:
         date: "19/11"
-        time: "14:00"
-        slot: "Auditória Principal (Prédio 4)"
+        time: "13:00"
+        slot: "Auditório Principal (Prédio 4)"
         title: "PostgreSQL Rock Star"
       bio: 
         pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
@@ -666,8 +666,8 @@ module.exports =
       photo: "luis_bueno.jpg"
       presentation:
         date: "19/11"
-        time: "14:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        time: "13:00"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "PostGIS Raster"
       bio: 
         pt: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
@@ -683,8 +683,8 @@ module.exports =
       photo: "euler_taveira.jpg"
       presentation:
         date: "19/11"
-        time: "15:00"
-        slot: "Auditória Principal (Prédio 4)"
+        time: "14:00"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Big Data e PostgreSQL"
       bio: 
         pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
@@ -701,8 +701,8 @@ module.exports =
       photo: "sebastian_webber.jpg"
       presentation:
         date: "19/11"
-        time: "15:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        time: "14:00"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
       bio: 
         pt: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
@@ -725,7 +725,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: ""
       presentation:
         date: "19/11"
-        time: "16:00"
+        time: "15:00"
         slot: ""
         title: "Intervalo"
       bio: 
@@ -741,8 +741,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "fabiano_dias.jpg"
       presentation:
         date: "19/11"
-        time: "16:30"
-        slot: "Auditória Principal (Prédio 4)"
+        time: "15:30"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
       bio: 
         pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
@@ -758,8 +758,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "martin_marques.jpg"
       presentation:
         date: "19/11"
-        time: "16:30"
-        slot: "Auditória Secundário (Prédio 6)"
+        time: "15:30"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "BDR for DBAs"
       bio: 
         pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic. I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system and in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements"
@@ -775,8 +775,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "alvaro_herrera.png"
       presentation:
         date: "19/11"
-        time: "17:30"
-        slot: "Auditória Principal (Prédio 4)"
+        time: "16:30"
+        slot: "Auditório Principal (Prédio 4)"
         title: "A JSON representation of DDL"
       bio: 
         pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais. Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo"
@@ -793,7 +793,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "09:00"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "PostgreSQL backups strategies for real environments"
       bio: 
         pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
@@ -810,7 +810,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "09:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Como o PostgreSQL ajuda a uMov.me a crescer"
       bio: 
         pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
@@ -828,7 +828,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
       bio: 
         pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
@@ -845,7 +845,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "HA PostgreSQL cluster with repmgr and pgbouncer"
       bio: 
         pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
@@ -880,7 +880,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "11:00"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
       bio: 
         pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
@@ -898,7 +898,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "11:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "PostgreSQL + Python = Power!"
       bio: 
         pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
@@ -944,8 +944,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "fernando_ike.jpg"
       presentation:
         date: "20/11"
-        time: "14:00"
-        slot: "Auditória Principal (Prédio 4)"
+        time: "13:00"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Caiu a lista do PostgreSQL Brasil! E agora?"
       bio: 
         pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
@@ -962,8 +962,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "alvaro_herrera.png"
       presentation:
         date: "20/11"
-        time: "14:00"
-        slot: "Auditória Secundário (Prédio 6)"
+        time: "13:00"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Future Indexing Mechanisms in PostgreSQL"
       bio: 
         pt: ""
@@ -979,7 +979,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "diogo_rubert.jpg"
       presentation:
         date: "20/11"
-        time: "14:00"
+        time: "13:00"
         slot: "Sala 202(Prédio 6)"
         title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
       bio: 
@@ -990,6 +990,18 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       github: ""
       linkedin: "https://br.linkedin.com/pub/diogo-l-v-g-rubert/a5/288/7"
       view_speaker: "true"
+      viewSchedule: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "20/11"
+        time: "14:00"
+        slot: "Auditório Principal (Prédio 4)"
+        title: "Lightning Talks"
+      bio: 
+        pt: ""
+        en: ""
       viewSchedule: true
     ,
       name: ""
@@ -1009,7 +1021,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "15:30"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Fishbowl"
       bio: 
         pt: ""
@@ -1021,19 +1033,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "16:30"
-        slot: "Auditória Principal (Prédio 4)"
-        title: "Lightning Talks"
-      bio: 
-        pt: ""
-        en: ""
-      viewSchedule: true
-    ,
-      name: ""
-      photo: ""
-      presentation:
-        date: "20/11"
-        time: "17:20"
-        slot: "Auditória Principal (Prédio 4)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "Encerramento"
       bio: 
         pt: ""
