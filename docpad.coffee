@@ -857,21 +857,20 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: "Miguel Di Ciurcio Filho"
-      photo: "miguel_filho.jpg"
+      name: "Fábio Telles Rodrigues"
+      photo: "fabio_telles.jpg"
       presentation:
         date: "20/11"
         time: "10:00"
         slot: "Sala 202(Prédio 6)"
-        title: "Administrando servidores PostgreSQL com Puppet"
+        title: " Oracle X PostgreSQL"
       bio: 
-        pt: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL"
-        en: "Graças à extensibilidade do Puppet, via módulos e plugins, é possível também facilitar imensamente o gerenciamento de bancos PostgreSQL"
-      company: "Instruct"
-      twitter: "mciurcio"
-      website: "http://instruct.com.br"
-      github: ""
-      linkedin: "https://br.linkedin.com/in/mciurcio"
+        pt: "Uma comparação franca e bem humorada sobre as diferenças e semelhanças entre o PostgreSQL e o Oracle."
+        en: "Uma comparação franca e bem humorada sobre as diferenças e semelhanças entre o PostgreSQL e o Oracle."
+      company: "Timbira"
+      twitter: "telles"
+      website: "http://savepoint.blog.br"
+      linkedin: "https://br.linkedin.com/in/telles"
       view_speaker: "true"
       viewSchedule: true
     ,
