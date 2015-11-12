@@ -3,8 +3,8 @@ docRoot: .
 ---
 C
 comando;palestra;atividade
-<% for speaker in @schedule: %><% if speaker.viewSchedule && speaker.name: %>
-I;<%= speaker.presentation.date %>_<%= speaker.presentation.time %>;avaliepalestra
-I;<%= speaker.presentation.date %>_<%= speaker.presentation.time %>;sobrepalestra
-I;<%= speaker.presentation.date %>_<%= speaker.presentation.time %>;sobrepalestrante
+<% for schedule in @schedule: %><% if schedule.viewSchedule && schedule.name: %>
+I;<%= @getScheduleId(schedule) %>;avaliepalestra
+I;<%= @getScheduleId(schedule) %>;sobrepalestra
+I;<%= @getScheduleId(schedule) %>;sobrepalestrante
 <% end %><% end %>

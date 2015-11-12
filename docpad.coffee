@@ -916,7 +916,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         date: "20/11"
         time: "11:00"
         slot: "Sala 202(Prédio 6)"
-        title: "Vamos baratear o custo com banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MS SQL Server"
+        title: "Vamos baratear o custo do banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MSSQL"
       bio: 
         pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso"
         en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso"
@@ -1199,3 +1199,14 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
 
     schedulesByTime:(schedulesList, time) ->
       schedulesByTime = (schedule for schedule in schedulesList when schedule.presentation.time == time)
+
+    normalize:(value) ->
+      value.replace(/[^a-zA-Z0-9_]/g, '').toLowerCase()
+
+    getScheduleId: (schedule) ->
+      this.normalize(schedule.presentation.title).substr(0, 50);
+
+    getUrl: (baseUrl, complement) ->
+      if complement
+        baseUrl + complement
+
