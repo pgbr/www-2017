@@ -1,0 +1,23 @@
+---
+language: pt
+docRoot: .
+---
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+
+  <title itemprop="name"><%= @t('conf.name') %></title>
+  <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/base.css">
+  <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="<%=@document.docRoot%>/css/font-awesome.css">
+</head>
+<body>
+	<% if @sections.sponsors.active: %>
+	  <%-@partial('section/sponsors.html.eco', @)%>
+	<% end %>
+	<% if @sections.partners.active: %>
+	  <%-@partial('section/partners.html.eco', @)%>
+	<% end %>
+</body>
+</html>
