@@ -963,10 +963,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         date: "20/11"
         time: "13:00"
         slot: "Auditório Secundário (Prédio 6)"
-        title: "Future Indexing Mechanisms in PostgreSQL"
+        title: "BRIN indexes in PostgreSQL"
       bio: 
-        pt: ""
-        en: ""
+        pt: "Índices do tipo BRIN ou Block Range Indexes são um novo mecanismo introduzido no PostgreSQL 9.5 para permitir indexação de quantidades massivas de dados com o mínimo de overhead. Esta palestra descreve o que eles são e como eles funcionam."
+        en: "BRIN indexes, or Block Range Indexes, are a new mechanism introduced in PostgreSQL 9.5 to allow indexing massive quantities of data with low overhead. This talk describes what they are and how they work."
       company: "2ndQuadrant"
       twitter: "alvherre"
       github: "alvherre"
