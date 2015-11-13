@@ -1,8 +1,9 @@
 ---
 docRoot: .
+language: pt
 ---
 C
-comando;identificador;local;data;hora;nomepalestra;resumopalestra;palestrante;minibio;foto;twitter;linkedin;blog;site;github
+comando;identificador;local;data;hora;nomepalestra;resumopalestra;palestrante;minibio;foto;twitter;linkedin;blog;site;github;info
 <% for speaker in @schedule: %><% if speaker.viewSchedule && speaker.name: %>
-I;<%= @getScheduleId(speaker)%>;<%= @t('presentation.slot', speaker)%>;<%= @t('presentation.date', speaker)%>;<%= @t('presentation.time', speaker)%>;<%= @t('presentation.title', speaker)%>;;<%= @t('name', speaker)%>;<%= @t('bio', speaker)%>;<%= @site.url.pt%>img/speakers/<%=speaker.photo%>;<%= @getUrl('http://twitter.com/', speaker.twitter)%>;<%= @t('linkedin', speaker)%>;<%= @t('blog', speaker)%>;<%= @t('website', speaker)%>;<%= @getUrl('http://github.com/', speaker.github)%>
+I;<%= @getScheduleId(speaker)%>;<%= @t('presentation.slot', speaker)%>;<%= @t('presentation.date', speaker)%>;<%= @t('presentation.time', speaker)%>;<%= @t('presentation.title', speaker)%>;;<%= @t('name', speaker)%>;<%= @t('bio', speaker, false)%>;<%= @site.url.pt%>img/speakers/<%=speaker.photo%>;<%= @getUrl('http://twitter.com/', speaker.twitter)%>;<%= @t('linkedin', speaker)%>;<%= @t('blog', speaker)%>;<%= @t('website', speaker)%>;<%= @getUrl('http://github.com/', speaker.github)%>;<%= @t('presentation.date', speaker)%> <%= @t('presentation.time', speaker)%> - <%= @t('presentation.slot', speaker)%>
 <% end %><% end %>
