@@ -475,7 +475,7 @@ module.exports =
       presentation:
         date: "18/11"
         time: "09:00"
-        slot: "Sala 202"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 1: Construção de banco de dados espaciais com PostGIS (Português)"
       bio: 
         pt: ""
@@ -507,7 +507,7 @@ module.exports =
       presentation:
         date: "18/11"
         time: "14:00"
-        slot: "Auditório Principal (Prédio 4)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
       bio: 
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes \n\n\n
