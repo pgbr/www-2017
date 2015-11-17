@@ -836,7 +836,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditório Principal (Prédio 4)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
       bio: 
         pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
@@ -853,7 +853,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "10:00"
-        slot: "Auditório Secundário (Prédio 6)"
+        slot: "Auditório Principal (Prédio 4)"
         title: "HA PostgreSQL cluster with repmgr and pgbouncer"
       bio: 
         pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
@@ -862,23 +862,6 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       twitter: "systemguards"
       github: ""
       linkedin: ""
-      view_speaker: "true"
-      viewSchedule: true
-    ,
-      name: "Fábio Telles Rodrigues"
-      photo: "fabio_telles.jpg"
-      presentation:
-        date: "20/11"
-        time: "10:00"
-        slot: "Sala 202(Prédio 6)"
-        title: " Oracle X PostgreSQL"
-      bio: 
-        pt: "Uma comparação franca e bem humorada sobre as diferenças e semelhanças entre o PostgreSQL e o Oracle."
-        en: "Uma comparação franca e bem humorada sobre as diferenças e semelhanças entre o PostgreSQL e o Oracle."
-      company: "Timbira"
-      twitter: "telles"
-      website: "http://savepoint.blog.br"
-      linkedin: "https://br.linkedin.com/in/telles"
       view_speaker: "true"
       viewSchedule: true
     ,
