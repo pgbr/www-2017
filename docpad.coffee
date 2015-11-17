@@ -831,23 +831,6 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: "Matheus Ricardo Espanhol"
-      photo: "matheus_espanhol.jpg"
-      presentation:
-        date: "20/11"
-        time: "10:00"
-        slot: "Auditório Secundário (Prédio 6)"
-        title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
-      bio: 
-        pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
-        en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
-      company: "Dextra"
-      twitter: "matheusespanhol"
-      github: ""
-      linkedin: "https://br.linkedin.com/in/matheusespanhol"
-      view_speaker: "true"
-      viewSchedule: true
-    ,
       name: "Jaime Casanova"
       photo: "jaime_casanova.jpg"
       presentation:
@@ -862,6 +845,23 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       twitter: "systemguards"
       github: ""
       linkedin: ""
+      view_speaker: "true"
+      viewSchedule: true
+    ,
+      name: "Matheus Ricardo Espanhol"
+      photo: "matheus_espanhol.jpg"
+      presentation:
+        date: "20/11"
+        time: "10:00"
+        slot: "Auditório Secundário (Prédio 6)"
+        title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
+      bio: 
+        pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
+        en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
+      company: "Dextra"
+      twitter: "matheusespanhol"
+      github: ""
+      linkedin: "https://br.linkedin.com/in/matheusespanhol"
       view_speaker: "true"
       viewSchedule: true
     ,
