@@ -905,8 +905,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       photo: "anderson_abreu.jpg"
       presentation:
         date: "20/11"
-        time: "11:00"
-        slot: "Sala 202(Prédio 6)"
+        time: "11:30"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "Vamos baratear o custo do banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MSSQL"
       bio: 
         pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso"
@@ -953,7 +953,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       presentation:
         date: "20/11"
         time: "13:00"
-        slot: "Sala 202(Prédio 6)"
+        slot: "Auditório Secundário (Prédio 6)"
         title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
       bio: 
         pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
@@ -971,7 +971,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         date: "20/11"
         time: "14:00"
         slot: "Auditório Principal (Prédio 4)"
-        title: "Lightning Talks"
+        title: "Fishbowl"
       bio: 
         pt: ""
         en: ""
@@ -995,7 +995,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         date: "20/11"
         time: "15:30"
         slot: "Auditório Principal (Prédio 4)"
-        title: "Fishbowl"
+        title: "Lightning Talks"
       bio: 
         pt: ""
         en: ""
