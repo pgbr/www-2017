@@ -948,23 +948,6 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: "Álvaro Herrera"
-      photo: "alvaro_herrera.png"
-      presentation:
-        date: "20/11"
-        time: "13:00"
-        slot: "Auditório Secundário (Prédio 6)"
-        title: "BRIN indexes in PostgreSQL"
-      bio: 
-        pt: "Índices do tipo BRIN ou Block Range Indexes são um novo mecanismo introduzido no PostgreSQL 9.5 para permitir indexação de quantidades massivas de dados com o mínimo de overhead. Esta palestra descreve o que eles são e como eles funcionam."
-        en: "BRIN indexes, or Block Range Indexes, are a new mechanism introduced in PostgreSQL 9.5 to allow indexing massive quantities of data with low overhead. This talk describes what they are and how they work."
-      company: "2ndQuadrant"
-      twitter: "alvherre"
-      github: "alvherre"
-      linkedin: "https://www.linkedin.com/in/alvherre"
-      view_speaker: "true"
-      viewSchedule: true
-    ,
       name: "Diogo Luis Von Grafen Rubert"
       photo: "diogo_rubert.jpg"
       presentation:
