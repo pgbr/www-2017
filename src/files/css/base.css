@@ -443,11 +443,11 @@ nav {
 }
 
 
-.contact p, .tourism p {
+.contact p, .tourism p, .app p {
   text-align: center;
 }
 
-.contact .fa, .tourism .fa {
+.contact .fa, .tourism .fa, .app .fa {
   font-size: 80px;
   margin: 0 .2em;
 }

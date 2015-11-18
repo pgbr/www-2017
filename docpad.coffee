@@ -65,6 +65,24 @@ module.exports =
 
     # Active sections on the website
     sections:
+      app:
+        active: true
+        title:
+          pt: 'baixe o app oficial do evento'
+          en: 'xx'
+        links: [
+          title:
+            pt: 'Aplicativo Android'
+            en: 'Android App'
+          link: 'https://play.google.com/store/apps/details?id=com.trevisan.pgbr2015'
+          icon: 'fa-android'
+        ,
+          title:
+            pt: 'Aplicativo iOS'
+            en: 'iOS App'
+          link: 'https://itunes.apple.com/br/app/pgbr2015/id1058016171?mt=8'
+          icon: 'fa-apple'
+        ]
       about: 
         active: true
         title:
