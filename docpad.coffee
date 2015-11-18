@@ -68,8 +68,8 @@ module.exports =
       app:
         active: true
         title:
-          pt: 'baixe o app oficial do evento'
-          en: 'xx'
+          pt: 'Baixe o app oficial do evento'
+          en: 'Download the official App'
         links: [
           title:
             pt: 'Aplicativo Android'

@@ -1,0 +1,10 @@
+<!-- ABOUT -->
+<section class="app" id="app">
+<h2 class="section-title"><%= @t('sections.app.title')%></h2>
+  <p>
+  	<% for link in @sections.app.links:%>
+		<a href="<%= @resolveUrl(@document.docRoot, link.link) %>" title="<%= @t('title', link)%>" class="fa <%=link.icon%>" target="_blank"></a>
+	<% end %>
+  </p>
+</section>
+<!-- / ABOUT -->
