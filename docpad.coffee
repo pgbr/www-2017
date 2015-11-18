@@ -796,6 +796,24 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
+      name: "Juliano Atanazio"
+      photo: "juliano_atanazio.jpg"
+      presentation:
+        date: "19/11"
+        time: "16:30"
+        slot: "Auditório Secundário (Prédio 6)"
+        title: "PostgreSQL + Python = Power!"
+      bio: 
+        pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
+        en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
+      company: "SERPRO"
+      website: "http://juliano777.worpress.com"
+      twitter: ""
+      github: ""
+      linkedin: ""
+      view_speaker: "true"
+      viewSchedule: true
+    ,
       name: "Martín Marqués"
       photo: "martin_marques.jpg"
       presentation:
@@ -883,29 +901,11 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       view_speaker: "true"
       viewSchedule: true
     ,
-      name: "Juliano Atanazio"
-      photo: "juliano_atanazio.jpg"
-      presentation:
-        date: "20/11"
-        time: "11:00"
-        slot: "Auditório Secundário (Prédio 6)"
-        title: "PostgreSQL + Python = Power!"
-      bio: 
-        pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
-        en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
-      company: "SERPRO"
-      website: "http://juliano777.worpress.com"
-      twitter: ""
-      github: ""
-      linkedin: ""
-      view_speaker: "true"
-      viewSchedule: true
-    ,
       name: "Anderson Abreu"
       photo: "anderson_abreu.jpg"
       presentation:
         date: "20/11"
-        time: "11:30"
+        time: "11:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Vamos baratear o custo do banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MSSQL"
       bio: 
