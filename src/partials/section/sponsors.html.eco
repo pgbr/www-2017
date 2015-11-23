@@ -51,7 +51,7 @@
   <% end %>
   </ul>
 
-  <a href="<%=@document.docRoot%>/docs/plano_captacao.pdf" class="sponsor-plans-link" target="_blank"><%=@t('sections.sponsors.link')%></a>
+  <!--a href="<%=@document.docRoot%>/docs/plano_captacao.pdf" class="sponsor-plans-link" target="_blank"><%=@t('sections.sponsors.link')%></a-->
 
 </section>
 <!-- / SPONSORS -->
