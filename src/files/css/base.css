@@ -261,6 +261,12 @@ nav {
   margin: 4px 0;
 }
 
+.schedule-slides {
+  float: left;
+  margin: 3px 0 0 5px;
+  font-size: 1.5em;
+}
+
 .schedule-name {
   font-size: 1.5em;
   font-weight: bold;

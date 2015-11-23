@@ -527,6 +527,7 @@ module.exports =
         time: "14:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
+        slides: "https://dl.dropboxusercontent.com/u/4342654/fts_postgres_by_authors_2.pdf"
       bio: 
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes \n\n\n
              Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
@@ -606,6 +607,7 @@ module.exports =
         time: "09:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "Como posso colaborar com o PostgreSQL?"
+        slides: "https://dl.dropboxusercontent.com/u/4342654/PGBR2015_Como_posso_colaborar_com_PostgreSQL.pdf"
       bio: 
         pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
         en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
@@ -642,6 +644,7 @@ module.exports =
         time: "10:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "Author's view on Non-structured Data in PostgreSQL"
+        slides: "https://dl.dropboxusercontent.com/u/4342654/authors_view_nosql.pdf"
       bio: 
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes \n\n\n
              Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
@@ -730,6 +733,7 @@ module.exports =
         time: "14:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
+        slides: "http://www.slideshare.net/SebastianWebber/fique-ninja-na-codificao-de-caracteres"
       bio: 
         pt: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
 
@@ -955,6 +959,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "13:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "Caiu a lista do PostgreSQL Brasil! E agora?"
+        slides: "http://www.slideshare.net/fernandoike/a-postgersql-brasil-lista-caiu"
       bio: 
         pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
         en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"

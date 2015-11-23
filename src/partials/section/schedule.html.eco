@@ -5,35 +5,7 @@
   <% for date, scheduleDate of @viewSchedules(): %>
     <h1 class="schedule-date"><%= date %></h1>
 
-    <!--
-    <div class="schedule-tbl">
-      <table>
-        <thead>
-          <tr>
-            <th class="schedule-time">Time</th>
-            <th class="schedule-slot">Author</th>
-            <th class="schedule-title">Title</th>
-          </tr>
-        </thead>
-        <tbody>
-          <% for time, scheduleSlots of scheduleDate: %>
-              <% for slotIndex, slot of scheduleSlots: %>
-                <% if slot.viewSchedule: %>
-                  <% if slot.presentation: %>
-                  <tr>
-                      <td class="schedule-time"><%= slot.presentation.time %></td>
-                      <td class="schedule-slot"><%= slot.name %></td>
-                      <td class="schedule-description"><%= slot.presentation.title %></td>
-                  </tr>
-                  <% end %>
-                <% end %>
-            <% end %>
-          <% end %>
-        </tbody>
-      </table>
-    </div>
-    -->
-  <div class="schedule-list">
+    <div class="schedule-list">
     <% for time, scheduleSlots of scheduleDate: %>
       <h3 class="schedule-time"><%= time %></h3>
       <ul>
@@ -42,6 +14,9 @@
           <% if slot.name: %>
             <span class="schedule-name"><%= slot.name %></span>
             <span class="schedule-title"><%= slot.presentation.title %></span>
+            <%if slot.presentation.slides:%>
+              <a class="schedule-slides" href="<%= slot.presentation.slides %>">[Slides]</a>
+            <% end %>
             <span class="schedule-slot"><%= slot.presentation.slot %></span>
           <% else: %>
             <span class="schedule-title large"><%= slot.presentation.title %></span>

@@ -29,6 +29,9 @@
             <% if speaker.linkedin: %>
               <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
             <% end %>
+            <%if speaker.presentation.slides:%>
+              <a href="<%= speaker.presentation.slides %>"class="fa fa-share-square" title="Slides"></a>
+            <% end %>
           </span>
   
           <% if speaker.presentation: %>
