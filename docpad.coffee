@@ -715,6 +715,7 @@ module.exports =
         time: "14:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "Big Data e PostgreSQL"
+        slides: "http://www.timbira.com.br/materiais/big-data.pdf"
       bio: 
         pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
         en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
