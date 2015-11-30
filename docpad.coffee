@@ -495,6 +495,7 @@ module.exports =
         time: "09:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 1: Construção de banco de dados espaciais com PostGIS (Português)"
+        slides: "https://drive.google.com/file/d/0B5A0KP0fdz_UektnbUhDOWlYTG01eHBUYlFOaS1veEwtSi1v/view?usp=sharing"
       bio: 
         pt: ""
         en: ""
@@ -681,6 +682,7 @@ module.exports =
         time: "13:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "PostgreSQL Rock Star"
+        slides: "http://pt.slideshare.net/telles/postgresql-rock-star"
       bio: 
         pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
         en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
@@ -698,6 +700,7 @@ module.exports =
         time: "13:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "PostGIS Raster"
+        slides: "https://drive.google.com/file/d/0B5A0KP0fdz_UbkRvSzZRS3Q1YUtLM0EwV3F3R3pzUDRuOWRr/view?usp=sharing"
       bio: 
         pt: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
         en: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
@@ -775,6 +778,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "15:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
+        slides: "http://pt.slideshare.net/mdfabiano/migrao-de-oracle-para-postgresql-indo-alm-do-sgbd"
       bio: 
         pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
         en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
@@ -913,6 +917,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "11:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
+        slides: "http://pt.slideshare.net/guediz/curiosidades-que-voc-talvez-no-sabia-e-se-sabia-vale-a-pena-lembrar"
       bio: 
         pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
         en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
@@ -979,6 +984,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "13:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
+        slides: "http://pt.slideshare.net/DiogoLVGRubert/o-uso-de-funes-de-similaridade-e-distncia-entre-strings-adaptadas-ao-portugus-brasileiro"
       bio: 
         pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
         en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
