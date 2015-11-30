@@ -865,6 +865,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "09:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Como o PostgreSQL ajuda a uMov.me a crescer"
+        slides: "http://www.slideshare.net/GuilhermeElias/como-o-postgresql-ajuda-a-umovme-a-crescer"
       bio: 
         pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
         en: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
