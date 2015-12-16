@@ -830,6 +830,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "16:30"
         slot: "Auditório Secundário (Prédio 6)"
         title: "PostgreSQL + Python = Power!"
+        slides: "http://www.slideshare.net/spjuliano/postgresql-python-power"
       bio: 
         pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
         en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
