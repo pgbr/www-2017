@@ -8,8 +8,6 @@
 
 }
 
-.img-responsive {
-    display: block; 
-    max-width: 100%;
-    height: auto;
-} 
+.bg-content {
+   background-color: rgba(200,200,200,0.70);
+}
