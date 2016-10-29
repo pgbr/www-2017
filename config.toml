@@ -1,3 +1,9 @@
 baseurl = "http://pgbr.postgresql.org.br/"
-title = "PGBR 2017"
+title = "#PGBR2017"
 languageCode = "en-us"
+publishdir = "dist"
+
+
+[params]
+  description = "Conferência Brasileira de PostgreSQL"
+  author = "Nikola Tesla"
