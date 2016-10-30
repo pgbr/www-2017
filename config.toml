@@ -1,8 +1,12 @@
 baseurl = "http://pgbr.postgresql.org.br/"
 title = "#PGBR2017"
 languageCode = "en-us"
+contentdir = "app/content"
+datadir = "app/data"
+layoutdir = "app/layouts"
 publishdir = "dist"
-
+staticdir = "app/static"
+themesdir = "app/themes"
 
 [params]
   description = "Conferência Brasileira de PostgreSQL"
