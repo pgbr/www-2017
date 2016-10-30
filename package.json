@@ -1,0 +1,19 @@
+{
+  "name": "www-2017",
+  "version": "1.0.0",
+  "description": "Conferência Brasileira de PostgreSQL",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgbr/www-2017.git"
+  },
+  "author": "PGBR Team",
+  "license": "BSD v3",
+  "bugs": {
+    "url": "https://github.com/pgbr/www-2017/issues"
+  },
+  "homepage": "https://github.com/pgbr/www-2017#readme",
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
