@@ -3,6 +3,7 @@
   
   <url>
     <loc>http://pgbr.postgresql.org.br/2017/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
