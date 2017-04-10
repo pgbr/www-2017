@@ -16,18 +16,18 @@ module.exports =
     # Conference info
     conf:
       name: 
-        pt: "PGBR 2015 - Conferência Brasileira PostgreSQL"
-        en: "PGBR 2015 - Brazilian PostgreSQL Conference"
+        pt: "PGBR 2017 - Conferência Brasileira PostgreSQL"
+        en: "PGBR 2017 - Brazilian PostgreSQL Conference"
       description:
         pt: "Conferência PostgreSQL"
         en: "PostgreSQL Conference"
       date: 
-        pt: "18, 19 e 20 de Novembro de 2015"
-        en: "November 18 19 and 20, 2015"
+        pt: "14, 15 e 16 de Setembro de 2017"
+        en: "Setember 14, 15 and 16, 2017"
       #price: "$100"
-      venue: "UniRitter"
-      address: "Av. Manoel Elias, 2001"
-      complement: "Campus FAPA"
+      venue: "Hotel Continental"
+      address: "Largo Vespasiano Julio Veppo 77, Centro"
+      complement: "Em frente a rodoviária"
       city: "Porto Alegre"
       state: "RS"
       country: 
@@ -45,8 +45,8 @@ module.exports =
     # Site info
     site:
       url: 
-        pt: "http://pgbr.postgresql.org.br/2015/"
-        en: "http://pgbr.postgresql.org.br/2015/en/"
+        pt: "http://pgbr.postgresql.org.br/2017/"
+        en: "http://pgbr.postgresql.org.br/2017/en/"
       googleanalytics: "UA-66872252-1"
       images:
         facebook: "http://pgbr.postgresql.org.br/2015/img/pgbr.png"
@@ -66,7 +66,7 @@ module.exports =
     # Active sections on the website
     sections:
       app:
-        active: true
+        active: false
         title:
           pt: 'Baixe o app oficial do evento'
           en: 'Download the official App'
@@ -102,14 +102,14 @@ module.exports =
                 (seção de apresentações curtas, de no máximo cinco minutos), e painéis
                 acadêmicos.\n\n
 
-                Já foram realizadas cinco edições do PGBR, nos anos de 2007, 2008, 2009,
-                2011 e 2013. As primeiras edições do evento foram realizadas nas cidades
+                Já foram realizadas seis edições do PGBR, nos anos de 2007, 2008, 2009,
+                2011, 2013 e 2015. As primeiras edições do evento foram realizadas nas cidades
                 de São Paulo (2007 e 2011), Campinas (2008 e 2009) e São Paulo (2011).
                 Mais de 200 profissionais da área de Tecnologia da Informação
-                participaram do último PGBR, realizado em 2013 em Porto Velho.\n\n
+                participaram em 2013 em Porto Velho. 2015 teve mais de 150 participantes em Porto Alegre.\n\n
 
-                Em 2015 temas de relevância serão abordados no PGBR, dentre eles casos
-                de sucesso em empresas públicas e privadas, as novidades da versão 9.5,
+                Em 2017 temas de relevância serão abordados no PGBR, dentre eles casos
+                de sucesso em empresas públicas e privadas, as novidades da versão 10,
                 técnicas avançadas de monitoramento, performance e tunning, alta
                 disponibilidade, e outros. A comunidade de PostgreSQL está de braços
                 abertos para recebê-los.'
@@ -142,12 +142,12 @@ module.exports =
           pt: 'Local' 
           en: 'Location'
       speakers: 
-        active: true
+        active: false
         title:
           pt: 'Palestrantes' 
           en: 'Speakers'
       schedule: 
-        active: true
+        active: false
         title:
           pt: 'Agenda' 
           en: 'Schedule'
@@ -155,7 +155,7 @@ module.exports =
           pt: ''
           en: ''
       sponsors: 
-        active: true
+        active: false
         title:
           pt: 'Patrocinadores' 
           en: 'Sponsors'
@@ -163,7 +163,7 @@ module.exports =
           pt: 'Seja um patrocinador!'
           en: 'Be a sponsor!'
       partners: 
-        active: true
+        active: false
         title:
           pt: 'Apoio' 
           en: 'Support'
@@ -204,57 +204,57 @@ module.exports =
             pt: 'Inscrever-se'
             en: 'Signup'
       scheduledDates:
-        active: false
+        active: true
         title:
           pt: 'Datas' 
           en: 'Dates'
         dates: [
-          done: true
+          done: false
           date:
-            pt: '14/05/2015'
-            en: '2015-05-14'
+            pt: '10/04/2017'
+            en: '2017-04-10'
           description:
             pt: 'Abertura da chamada para os trabalhos'
             en: 'Open call for papers'
         ,
-          done: true
+          done: false
           date:
-            pt: '31/08/2015'
-            en: '2015-08-31'
+            pt: '31/07/2017'
+            en: '2017-07-31'
           description:
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
         ,
-          done: true
+          done: false
           date:
-            pt: '10/09/2015'
-            en: '2015-09-10'
+            pt: '10/07/2017'
+            en: '2017-07-10'
           description:
             pt: 'Notificação dos autores sobre trabalhos aceitos'
             en: 'Notification of the authors of accepted papers'
         ,
-          done: true
+          done: false
           date:
-            pt: '30/09/2015'
-            en: '2015-09-30'
+            pt: '30/07/2017'
+            en: '2017-07-30'
           description:
             pt: 'Publicação das palestras aprovadas'
             en: 'Publication of the approved lectures'
         ,
-          done: true
+          done: false
           date:
-            pt: '10/10/2015'
-            en: '2015-10-10'
+            pt: '15/08/2017'
+            en: '2017-08-10'
           description:
             pt: 'Publicação da agenda oficial'
             en: 'Publication of official schedule'
         ]
       callForPapers:
-        active: false
+        active: true
         link:
           pt: 'Submeter'
           en: 'Submit'
-        href: 'https://docs.google.com/forms/d/1zBR-g3AqpX2FJIFlT4jvbMqAivBL2jV4Ei6o3RnIfgw/viewform'
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLSeCv8Qmua-AGL2IoYAasVsO8wkvRJ_DVQ5oeIbN2VFiMOkgRw/viewform'
         title:
           pt: 'Chamada para os trabalhos'
           en: 'Call for papers'
@@ -372,11 +372,11 @@ module.exports =
           en: 'Tourism'
         text:
           pt: 'Se você tem interesse em conhecer mais sobre a cidade de Porto Alegre ou sobre o 
-                estado do Rio Grande do Sul, local sede do PGBR 2015, temos uma cartilha que conta 
+                estado do Rio Grande do Sul, local sede do PGBR 2017, temos uma cartilha que conta 
                 um pouco da história destes lugares e aplicativos móveis para as plataformas iOS e Android 
                 para ajuda-lo a conhecer ótimos lugares durante sua estadia. '
           en: 'If you are interested in learning more about the city of Porto Alegre or 
-                the state of Rio Grande do Sul, local headquarters of PGBR 2015 have a booklet that tells 
+                the state of Rio Grande do Sul, local headquarters of PGBR 2017 have a booklet that tells 
                 some of the history of these places and mobile applications for the iOS and Android platforms 
                 help you get to know great places during your stay.'
         links: [
@@ -398,8 +398,10 @@ module.exports =
           link: 'https://itunes.apple.com/br/app/porto-alegre-oficial/id871936284?mt=8'
           icon: 'fa-apple'
         ]
+
+      ##### hoteis... mudar isso!!
       accommodation:
-        active: true
+        active: false
         title:
           pt: 'Hospedagem'
           en: 'Accommodation'
@@ -1132,6 +1134,9 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
     ]
 
     pastEvents: [
+      name: 'PGBR 2015'
+      url: 'http://pgbr.postgresql.org.br/2015'
+    ,
       name: 'PGBR 2013'
       url: 'http://pgbr.postgresql.org.br/2013'
     ,
