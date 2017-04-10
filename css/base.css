@@ -1,0 +1,628 @@
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+.wrapper {
+  margin: 0 auto;
+  width:960px;
+  position:relative;
+}
+.content {padding: 50px 0;}
+
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+* {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: .8em 0;
+}
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: .6em 0;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .4em 0;
+}
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: .2em 0;
+}
+/*
+h2, h3, h4 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-bottom:.4em;
+  letter-spacing: -.02em;
+}
+h3 {font-size: 4em;}
+h4 {font-size:3em;}*/
+p {
+  font-size:1.6em;
+  line-height:1.6em;
+  margin-bottom: 1.4em;
+}
+.logo {
+  height: 350px;
+}
+
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {
+  padding:15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.nav-item {
+  display: inline-block;
+  padding: .5em;
+  margin-right:15px;
+  vertical-align: middle;
+}
+.nav-link {
+  display: inline-block;
+  font-size: 1.4em;
+  margin-top: 4px
+}
+
+.language-flags {
+  float: right;
+}
+
+.language-flags img{
+  height: 24px;
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+}
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  padding: 100px 0 100px;
+  text-align:center;
+}
+.logo-name {
+  margin-bottom: 0;
+  font-size: 10em;
+  letter-spacing: -.04em;
+}
+.tagline {
+  margin-bottom:50px;
+  font-size: 2em;
+  letter-spacing: -.02em;
+}
+.call-action-area .price {
+  font-size:4em;
+  vertical-align: center;
+  margin-right:20px;
+}
+.call-action-area .call-action-link, .btn {
+  position:relative;
+  top:-5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size:2em;
+  line-height:1em;
+  vertical-align: center;
+  letter-spacing: -.02em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
+
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+.about {
+  padding:19px;
+  margin: 0 -20px 0;
+}
+
+/* =============================================================================
+   REGISTRATION
+   ========================================================================== */
+.registration a {
+  display: inline-block;
+  font-size: 3em;
+  background-color: #ddd;
+  padding: .5em;
+  border-radius: 8px;
+}
+
+.registration p {
+  text-align: center;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speakers-item {
+  position:relative;
+  margin: 40px 0;
+  min-height:140px;
+  padding: 0;
+  border-bottom:1px dashed #e7e7e7;
+}
+.speakers-card {
+  font-size: 24px;
+}
+.speakers-card > * {
+  display: inline-block;
+}  
+.speakers-card > *:after {
+  content:" ::: ";
+  color: #ccc;
+}
+.speakers-card > *:last-child:after {
+  content:"";
+}
+.speaker-photo {
+  float: left;
+  display: block;
+  margin-right: 2.5em;
+  width: 120px;
+  height: 160px;
+}
+.speaker-photo .photo {
+  max-width: 120px;
+  max-height: 120px;
+}
+.speech-title {
+  line-height: 1.2;
+  margin: .5em;
+}
+.speech-time {
+  font-size:18px;
+  padding: 10px 15px;
+  letter-spacing:-.03em;
+}
+.speakers-item p {font-size:1.4em;}
+
+/* =============================================================================
+   CALL FOR PAPERS
+   ========================================================================== */
+
+#call-for-papers ul {
+  padding: 0 2em;
+}
+#call-for-papers li {
+  line-height: normal;
+  font-size: 1.5em;
+  margin: 1em 0;
+  list-style: circle;
+}
+#call-for-papers .link-button {
+  width: 100%;
+}
+.additional-info {
+  display: none;
+  padding: 1em;
+}
+
+/* =============================================================================
+   SCHEDULED DATES
+   ========================================================================== */
+#scheduled-dates li {
+  line-height: normal;
+  font-size: 2em;
+  margin: .5em;
+}
+#scheduled-dates li.done {
+  text-decoration: line-through;
+  opacity: .5;
+}
+
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule-list {
+  font-size: 12px;
+  padding: 1.5em;
+  border-collapse: collapse;
+}
+
+.schedule-list ul {
+  margin-left: 1em;
+}
+
+.schedule-item {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: .5em;
+  margin: .5em 0;
+}
+
+.schedule-item:hover {
+  background-color: #e4e4e4;
+}
+
+.schedule-slot, .schedule-name, .schedule-title {
+  float: left;
+  clear: both;
+  text-shadow: 1px 1px #fff;
+  margin: 4px 0;
+}
+
+.schedule-slides {
+  float: left;
+  margin: 3px 0 0 5px;
+  font-size: 1.5em;
+}
+
+.schedule-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+}
+
+.schedule-title {
+  font-size: 1.5em;
+  color: #257C99;
+}
+
+.schedule-slot {
+  font-size: 1.2em;
+  color: #FFA500;
+} 
+
+.schedule-date, .schedule-time {
+  text-shadow: 1px 1px #ccc;
+}
+
+.schedule-tbl {padding:20px;}
+.schedule-tbl table {
+  border-collapse: collapse;
+  font-size:1em;
+}
+.schedule-tbl td, .schedule-tbl th {
+  position:relative;
+  padding:20px 30px;
+  font-size:1.4em;
+  line-height:1.4em;
+  text-align:left;
+}
+.schedule-tbl th {
+  padding: 5px 30px;
+  color:#2b2b2b;
+  font-size:2em;
+  font-weight: bolder;
+}
+.schedule-tbl .speaker-photo {
+  position:relative;
+  width: 40px;
+  height: 40px;
+  float:left;
+  margin-right:20px;
+}
+.schedule-tbl .schedule-time {text-align:center;}
+/*
+.speakers-company {
+  display: block;
+  font-size:12px;
+}*/
+
+/* =============================================================================
+   SPONSORS  and  PARTNERS
+   ========================================================================== */
+
+.sponsors-list, .partners-list {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sponsor-item, .partner-item {
+  display: inline-block;
+  margin: 4px;
+  vertical-align: middle;
+}
+
+.partner-item {
+  width: 15%;
+}
+
+.sponsor-item .photo, .partner-item .photo{
+  max-width: 100%;
+}
+
+.partner-item .photo{
+  height: 60px;
+}
+
+.sponsor-link, .partner-link {
+  display: block;
+  padding: 2em;
+  text-align:center;
+  vertical-align: middle;
+  width: auto;
+}
+
+.sponsors-platinum .sponsor-item {
+  width: 80%;
+}
+
+.sponsors-platinum .photo {
+  max-height: 150px;
+}
+
+.sponsors-gold .sponsor-item {
+  width: 49%;
+}
+
+.sponsors-gold .photo {
+  max-height: 115px;
+}
+
+.sponsors-silver .sponsor-item {
+  width: 27%;
+}
+
+.sponsors-silver .photo {
+  max-height: 100px;
+}
+
+.sponsors-bronze .sponsor-item {
+  width: 20%;
+}
+
+.sponsors-bronze .photo {
+  max-height: 75px;
+}
+
+.sponsor-plans-link {
+  display: block;
+  font-size: 5em;
+  text-align: center;
+  margin: 1em 0;
+  line-height: normal;
+}
+
+/* =============================================================================
+   Eventos anteriores
+   ========================================================================== */
+
+.link-button {
+  font-size: 2em;
+  background: #ddd;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+  box-sizing: border-box;
+  border: 4px solid #F6F6F6;
+}
+
+.event-item {
+  float: left;
+  width: 50%;
+}
+.event-item.even {
+  float: right;
+}
+.event-item.wide {
+  width: 100%;
+}
+
+/* =============================================================================
+   CONTATO
+   ========================================================================== */
+.control-group {
+  height:auto;
+  clear:both;
+  margin-bottom:20px;
+}
+.control-group-name, .control-group-email {
+  clear:none;
+  width:467px;
+  float:left;
+  margin-right:25px;
+}
+.control-group-email {margin-right:0;}
+.form-contato input[type=text], .form-contato input[type=email], .form-contato textarea{
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width:100%;
+  min-height:15px;
+  padding:10px;
+  font-size:14px;
+}
+
+
+.contact p, .tourism p, .app p {
+  text-align: center;
+}
+
+.contact .fa, .tourism .fa, .app .fa {
+  font-size: 80px;
+  margin: 0 .2em;
+}
+
+/* =============================================================================
+   ACCOMMODATION
+   ========================================================================== */
+.condition-item {
+  display: list-item;
+  list-style: initial;
+  margin-left: 20px;
+}
+
+.accommodation-tbl {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: -20px;
+}
+
+.accommodation-header {
+  background-color: #ccc;
+}
+
+.accommodation-subheader {
+  background-color: #f4f4f4;
+}
+
+.accommodation-tbl td, .accommodation-tbl th {
+  padding: 10px;
+}
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .about {margin: 0;}
+}
+
+@media only screen and (min-width:320px) and (max-width : 800px) {
+
+  /* schedule */
+  .schedule-tbl {padding:1px;}
+  .schedule-tbl td, .schedule-tbl th {padding:10px;}
+  .schedule-tbl th {
+    padding: 10px;
+    font-size:1.8em;
+  }
+  .schedule-tbl .speaker-photo {
+    width: 40px;
+    height: 40px;
+    margin-right:5px;
+  }
+  .schedule-tbl .schedule-slot {
+    width: 120px;
+  }
+  .schedule-tbl td.schedule-slot {
+    font-size:14px;
+    line-height:1.2em;
+  }
+  .schedule-tbl .schedule-time {
+    width:60px;
+    padding:10px 0 10px 5px;
+    text-align:left;
+  }
+  .schedule-tbl td.schedule-description {font-size:12px;}
+
+  .schedule-tbl td.schedule-title {
+    font-size:12px;
+    white-space:nowrap;
+  }
+
+  /* contact */
+  .control-group-name, .control-group-email {
+    clear:both;
+    width:100%;
+    float:none;
+    margin-right:0;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+  /* nav */
+  nav {display: none;}
+  .header {padding:20px 0;}
+  .logo-name {font-size: 4em;}
+  .tagline {
+    margin-bottom:15px;
+    font-size: 1.4em;
+  }
+  .call-action-area .price {
+    font-size:2em;
+    margin: 0 0 15px;
+    display: block;
+  }
+  .call-action-area .call-action-link, .btn {top:0;}
+  .sponsor-plans-link { font-size: 3em; }
+
+  h2, h3, h4 {font-size: 3em;}
+  h3 {font-size: 2em;}
+  h4 {font-size:1.8em;}
+  p {font-size:1.4em;}
+
+  /* content */
+  .content {padding: 0;}
+  /*.content section {padding-top: 50px;}*/
+
+  /* speakers */
+  .speakers-item {
+  }
+
+  .speakers-card > * {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .speakers-card > *:after {
+    content: "";
+  }
+
+  .speech-title {
+    padding-top:0;
+    font-size:16px;
+    margin-bottom:.3em;
+  }
+  .speech-time {
+    font-size:16px;
+    padding: 0;
+  }
+  .speakers-bio {display: none;}
+  .event-item, .event-item.even, .event-item.wide {
+    float: none;
+    width: 100%;
+  }
+
+  .contact .fa, .tourism .fa {
+    font-size: 40px;
+  }
+
+  .partner-item .photo{
+    height: 30px;
+  }
+
+} 
+
+@media only screen and (max-width : 321px) {
+  .logo-name {
+    font-size: 4em;
+    margin-bottom:.4em;
+  }
+  .schedule-tbl .schedule-description {display: none;}
+  .schedule-tbl .schedule-slot {width: auto;}
+
+  /* partners */
+  .sponsor-item, .partner-item {margin: 0 12px 15px 0;}
+  .sponsor-link, .partner-link {
+    padding: .5em;
+  }
+} 
