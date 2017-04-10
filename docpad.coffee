@@ -275,85 +275,14 @@ module.exports =
                  Authors may suggest the classification of his address in accordance with the content and approach adopted.'
         ,
           title:
-            pt: 'Painel acadêmico'
-            en: 'Academic panel'
+            pt: 'Workshop (de 2 a 8 horas)'
+            en: 'Workshop (2 to 8 hours)'
           description: 
-            pt: 'São destinados aos estudantes de graduação e pós-graduação que desenvolvam pesquisas e trabalhos com PostgreSQL. Os painéis serão exibidos no salão de exposições.'
-            en: 'They are intended for undergraduate students and graduate to develop research and work with PostgreSQL. The panels are displayed in the exhibit hall.'
-          additionalInfo:
-            pt: '1 - Dimensões\n\n
+            pt: 'Visando melhor atender ao público alvo do evento serão classificadas em: Iniciante, Intermediário e Avançado. 
+                 Os autores poderão sugerir a classificação de seu workshop de acordo com o conteúdo e abordagem adotada. Workshops são definidos em slots de 2h, sendo que os mesmos podem ser de 1 a 4 slots por proposta.'
+            en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
+                 Authors may suggest the classification of his address in accordance with the content and approach adopted. Workshops are defined in 2 hours slots.'
 
-                 Largura: 90cm;\n
-                 Altura: 90cm até o máximo de 120cm.\n\n
-
-                 2 - Clareza e apresentação\n\n
-
-                 O texto do pôster deverá ser legível a uma distância de pelo menos 2 metros;\n
-                 Utilizar os vários recursos gráficos disponíveis para despertar o interesse do público;\n
-                 Não é obrigatória a impressão em plotter, mas o pôster deve possuir características de um cartaz;\n
-                 Organizar as informações de modo que as idéias centrais do trabalho sejam facilmente compreendidas;\n
-                 Utilizar o mínimo de texto e o máximo de figuras, fotos, tabelas e gráficos possíveis.\n\n
-
-                 3 - No pôster deverá constar:\n\n
-
-                 O logotipo oficial do evento;\n
-                 Título idêntico ao da proposta submetida;\n
-                 Nomes, instituições dos autores, email para contato, cidade, estado e país;\n
-                 No corpo do pôster o autor ficará livre para organizar as informações pertinentes. Se preferir, os autores poderão optar pela seguinte estrutura: Introdução, Metodologia, Resultados e Conclusões.
-                 Data e horário das apresentações;\n
-                 Cada trabalho será programado para apresentação em um único dia. Os autores deverão consultar a programação no site.\n\n
-
-                 4 - É proibida a apresentação:\n\n
-
-                 Por não-autores (terceiros);\n
-                 Oral ou performática;\n
-                 Com retroprojetor, computador, microfone e/ou outros equipamentos elétricos;\n
-                 Com aparelhos e instrumentos sonoros que interfiram na comunicação dos autores da sessão;\n
-                 Pelo menos um dos autores do trabalho deverá permanecer junto ao pôster, para responder às perguntas dos interessados;\n
-                 No final da sessão será entregue no local de cada pôster o atestado de apresentação;\n
-                 Os painéis terão um gancho para pendurar os pôsteres com cordão. Se os autores precisarem fixar o pôster com fita adesiva deverão levar este material;\n
-                 Cada painél poderá ter até 5 (cinco) autores.'
-            en: '1 - Dimensions\n\n
-
-                 Width: 90cm;\n
-                 Height: 90cm to a maximum of 120cm.\n\n
-
-                 2 - Clarity and presentation\n\n
-
-                 The poster text must be readable on 2 meters at least.\n
-
-                 Use many graphic avaliable resources to arouse public\'s attention;\n
-
-                 No plotter printing is mandatory but it must include poster features;\n
-
-                 Organize information so that the central ideas to work are easily understood;\n
-
-                 Use a minimun of text and maximun of pictures, photos, tables and graphic charts as possible.\n\n
-
-                 3 - The poster must contain:\n\n
-
-                 The oficial event logo;\n
-                 
-                 Identical submited proposal title;\n
-                 
-                 Names, author\'s institutions, contact email, city, state and country;\n
-
-                 On poster body the author can freely organize the pertinent information. If they like, the authors can use the model: Introduction, Metodology, Results and Conclusions.\n
-
-                 Presentations schedules;\n
-
-                 Each work will be scheduled to be presented on a single day. The authors must view the schedule on the event website.\n\n
-
-                 4 - The poster cannot be:\n\n
-
-                 By non-authors (third party);\n
-                 Oral or performance relatated;\n
-                 With any kind of projector, computer, microphone or eletrical device;\n
-                 With appliances and sound instruments that interfere with the communication of session;\n
-                 At least one of the authors should remain with the poster to answer from interested;\n
-                 At the session\'s will be delivered on site of each poster the presentation certificate;\n
-                 The panels have a hook to hang the posters with drawstring. If the authors need to fix the poster with tape should bring this material;\n
-                 Each panel can have up to five (5) authors.'
         ]
       conductCode:
         active: true
