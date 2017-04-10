@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "PGBR 2015 website.",
   "homepage": "http://pgbr.postgresql.org.br",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/nbluis/pgbr-2015.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nbluis/pgbr-2015.git"
   },
-  "engines" : {
+  "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
@@ -22,5 +22,8 @@
   "license": {
     "type": "MIT",
     "url": "http://creativecommons.org/licenses/MIT/"
+  },
+  "devDependencies": {
+    "docpad": "^6.79.4"
   }
 }
