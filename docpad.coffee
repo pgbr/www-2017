@@ -57,7 +57,7 @@ module.exports =
       Link: "FFA500"
       LinkHover: "FF8C00"
       Default:
-        background: "008abd"
+        background: "005AA5"
         color: "fff"
         Hover: "ddd"
         titles: "000"
