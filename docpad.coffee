@@ -19,8 +19,8 @@ module.exports =
         pt: "PGBR 2017 - Conferência Brasileira PostgreSQL"
         en: "PGBR 2017 - Brazilian PostgreSQL Conference"
       description:
-        pt: "Conferência PostgreSQL"
-        en: "PostgreSQL Conference"
+        pt: "Conferência Brasileira de PostgreSQL"
+        en: "Brazilian PostgreSQL Conference"
       date: 
         pt: "14, 15 e 16 de Setembro de 2017"
         en: "Setember 14, 15 and 16, 2017"
@@ -104,15 +104,17 @@ module.exports =
 
                 Já foram realizadas seis edições do PGBR, nos anos de 2007, 2008, 2009,
                 2011, 2013 e 2015. As primeiras edições do evento foram realizadas nas cidades
-                de São Paulo (2007 e 2011), Campinas (2008 e 2009) e São Paulo (2011).
-                Mais de 200 profissionais da área de Tecnologia da Informação
-                participaram em 2013 em Porto Velho. 2015 teve mais de 150 participantes em Porto Alegre.\n\n
+                de São Paulo (2007 e 2011) e Campinas (2008 e 2009).
+                Em Porto Velho no ano de 2013 participaram mais de 200 profissionais da área de 
+                Tecnologia da Informação, diferente do ano de 2015 que compareceram pouco mais de 
+                150 na cidade de Porto Alegre.\n\n
 
-                Em 2017 temas de relevância serão abordados no PGBR, dentre eles casos
-                de sucesso em empresas públicas e privadas, as novidades da versão 10,
-                técnicas avançadas de monitoramento, performance e tunning, alta
-                disponibilidade, e outros. A comunidade de PostgreSQL está de braços
-                abertos para recebê-los.'
+                Em 2017 no PGBR vários temas de relevância serão abordados, tais como: casos de sucesso 
+                em empresas públicas e privadas, novidades da versão 10, técnicas avançadas de 
+                monitoramento, performance e tunning, alta disponibilidade, dentre outros.
+
+                A comunidade Brasileira de PostgreSQL tem o prazer de recebê-los de braços abertos, 
+                por isso não perca essa oportunidade e faça logo a sua inscrição.'
           en: 'The Brazilian Conference of PostgreSQL called PGBR, is the main
                 event organized by the Brazilian Community of PostgreSQL. Its about
                 an event that brings together developers, users and researchers
@@ -127,14 +129,17 @@ module.exports =
 
                 Already five editions of the PGBR were held in 2007, 2008, 2009,
                 2011 and 2013. The first editions of the event were held in the cities
-                São Paulo (2007 and 2011), Campinas (2008 and 2009) and São Paulo (2011).
+                São Paulo (2007 and 2011) and Campinas (2008 and 2009).
                 More than 200 professionals in the Information Technology area
-                participated in the last PGBR, held in 2013 in Porto Velho. \n \n
+                participated in the last PGBR, held in 2013 in Porto Velho. In 2015 we had more than 
+                150 participants in Porto Alegre.\n \n
 
-                In 2015 relevant topics will be covered in PGBR, including cases
-                of success in public and private companies, the new features of version 9.5,
-                Advanced monitoring techniques, and performance tuning, high
-                availability, and others. The PostgreSQL community is of arms
+                In 2017 relevant topics will be covered in PGBR, including cases
+                of success in public and private companies, the new features of version 10,
+                Advanced monitoring techniques, performance tuning, high
+                availability, and others. \n \n
+                
+                The PostgreSQL community is of arms
                 open to receive them.'
       location: 
         active: true
@@ -259,8 +264,8 @@ module.exports =
           pt: 'Chamada para os trabalhos'
           en: 'Call for papers'
         description:
-          pt: 'Os trabalhos que serão apresentados deverão seguir os formatos:'
-          en: 'The papers to be presented must follow the given formats:'
+          pt: 'Os trabalhos deverão apresentar os seguintes formatos:'
+          en: 'The proposals must follow the given formats:'
         additionalInfoLink:
           pt: 'Ver regras para submissão'
           en: 'See rules for submission'
@@ -269,7 +274,7 @@ module.exports =
             pt: 'Palestra (60m)'
             en: 'Talk (60m)'
           description: 
-            pt: 'Visando melhor atender ao público alvo do evento serão classificadas em: Iniciante, Intermediário e Avançado. 
+            pt: 'Visando um melhor entendimento para o público alvo, as palestras serão classificadas em: Iniciante, Intermediário e Avançado. 
                  Os autores poderão sugerir a classificação de sua palestra de acordo com o conteúdo e abordagem adotada.'
             en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
                  Authors may suggest the classification of his address in accordance with the content and approach adopted.'
@@ -278,10 +283,10 @@ module.exports =
             pt: 'Workshop (de 2 a 8 horas)'
             en: 'Workshop (2 to 8 hours)'
           description: 
-            pt: 'Visando melhor atender ao público alvo do evento serão classificadas em: Iniciante, Intermediário e Avançado. 
+            pt: 'Visando um melhor entendimento para o público alvo, os workshops serão classificadas em: Iniciante, Intermediário e Avançado. 
                  Os autores poderão sugerir a classificação de seu workshop de acordo com o conteúdo e abordagem adotada. Workshops são definidos em slots de 2h, sendo que os mesmos podem ser de 1 a 4 slots por proposta.'
             en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
-                 Authors may suggest the classification of his address in accordance with the content and approach adopted. Workshops are defined in 2 hours slots.'
+                 Authors may suggest the classification of his address in accordance with the content and approach adopted. Workshops are defined in 2 hours slots. Up to 4 slots per proposal.'
 
         ]
       conductCode:
@@ -291,9 +296,9 @@ module.exports =
           en: 'Conduct code'
         text:
           pt: 'Como participante do evento, seja você palestrante, voluntário, organizador, patrocinador deverá aceitar e respeitar nosso 
-                <a href="http://pt-br.confcodeofconduct.com/" title="Código de conduta">código de conduta</a>.'
+                <a target="_blank" href="http://pt-br.confcodeofconduct.com/" title="Código de conduta">código de conduta</a>.'
           en: 'As a conference participant, whether you are a speaker, volunteer, organizer, sponsor, etc., must accept and respect our 
-                <a href="http://confcodeofconduct.com/" title="Code of conduct">code of conduct</a>.'
+                <a target="_blank" href="http://confcodeofconduct.com/" title="Code of conduct">code of conduct</a>.'
       tourism:
         active: true
         title:

@@ -7,7 +7,7 @@
   </p>
   <p>
   	<% for link in @sections.tourism.links:%>
-		<a href="<%= @resolveUrl(@document.docRoot, link.link) %>" title="<%= @t('title', link)%>" class="fa <%=link.icon%>"></a>
+		<a target="_blank" href="<%= @resolveUrl(@document.docRoot, link.link) %>" title="<%= @t('title', link)%>" class="fa <%=link.icon%>"></a>
 	<% end %>
   </p>
 </section>

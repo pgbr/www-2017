@@ -4,6 +4,7 @@
 
   <% for event, i in @pastEvents: %>
     <a 
+        target="_blank"
     	class="link-button event-item 
         <%if @pastEvents.length % 2 == 1 && i == 0:%> 
           wide 
