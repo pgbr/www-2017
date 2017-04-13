@@ -48,6 +48,7 @@ module.exports =
         pt: "http://pgbr.postgresql.org.br/2017/"
         en: "http://pgbr.postgresql.org.br/2017/en/"
       googleanalytics: "UA-66872252-1"
+      gmaps_api_key: "AIzaSyDKHheAeLkdIwnGID_HUHIRKmQt7PaGifY"
       images:
         facebook: "http://pgbr.postgresql.org.br/2015/img/pgbr.png"
 
