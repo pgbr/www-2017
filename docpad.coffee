@@ -50,7 +50,7 @@ module.exports =
       googleanalytics: "UA-66872252-1"
       gmaps_api_key: "AIzaSyDKHheAeLkdIwnGID_HUHIRKmQt7PaGifY"
       images:
-        facebook: "http://pgbr.postgresql.org.br/2015/img/pgbr.png"
+        facebook: "http://pgbr.postgresql.org.br/2017/img/pgbr.png"
 
     # Color Theme
     ThemeColor:
@@ -192,7 +192,7 @@ module.exports =
           icon: 'fa-twitter-square'
         ,
           name: 'Facebook'
-          url: 'https://www.facebook.com/pgbr2015'
+          url: 'https://www.facebook.com/pgbrconf'
           icon: 'fa-facebook-square'
         ,
           name: 'Linkedin'
