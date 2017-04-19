@@ -225,8 +225,8 @@ module.exports =
         ,
           done: false
           date:
-            pt: '31/07/2017'
-            en: '2017-07-31'
+            pt: '31/06/2017'
+            en: '2017-06-31'
           description:
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
@@ -249,7 +249,7 @@ module.exports =
         ,
           done: false
           date:
-            pt: '15/08/2017'
+            pt: '10/08/2017'
             en: '2017-08-10'
           description:
             pt: 'Publicação da agenda oficial'
