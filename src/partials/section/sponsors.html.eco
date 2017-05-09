@@ -2,6 +2,8 @@
 <section class="sponsors" id="sponsors">
   <h2 class="section-title"><%= @t('sections.sponsors.title')%></h2>
 
+  <a href=<%=@t('sections.sponsors.link_url')%> class="sponsor-plans-link" itemprop="url" target="_blank"><%=@t('sections.sponsors.link_name')%></a>
+
   <%if @sponsors.platinum.entries.length:%>
 	<h3 class="section-subtitle"><%= @t('sponsors.platinum.title')%></h3>
     <ul class="sponsors-list sponsors-platinum">
@@ -50,8 +52,6 @@
     </ul>
   <% end %>
   </ul>
-
-  <!--a href="<%=@document.docRoot%>/docs/plano_captacao.pdf" class="sponsor-plans-link" target="_blank"><%=@t('sections.sponsors.link')%></a-->
 
 </section>
 <!-- / SPONSORS -->

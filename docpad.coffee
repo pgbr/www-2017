@@ -137,7 +137,7 @@ module.exports =
                 of success in public and private companies, the new features of version 10,
                 Advanced monitoring techniques, performance tuning, high
                 availability, and others.\n\n
-                
+
                 The PostgreSQL community is of arms
                 open to receive them.'
       location:
@@ -159,13 +159,16 @@ module.exports =
           pt: ''
           en: ''
       sponsors:
-        active: false
+        active: true
         title:
-          pt: 'Patrocinadores'
-          en: 'Sponsors'
-        link:
-          pt: 'Seja um patrocinador!'
-          en: 'Be a sponsor!'
+               pt: 'Patrocinadores'
+               en: 'Sponsors'
+        link_name:
+               pt: 'Seja um patrocinador!'
+               en: 'Be a sponsor!'
+         link_url:
+               pt: 'https://docs.google.com/presentation/d/13QHvTqedhwOcKblbUU2vRv1XPzR4kfdoJlyHI3t2x3g/pub?start=false&loop=false&delayms=3000'
+               en: 'https://docs.google.com/presentation/d/1MZonWol5M-JDIcHVfLZWabtZccC3y5HFrlPkwMvTVUU/pub?start=false&loop=false&delayms=3000'
       partners:
         active: false
         title:
@@ -982,61 +985,47 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
     ]
 
     # List of Sponsors
+    #
+    # You should write entries like:
+    #    entries: [
+    #      name: "sponsor1"
+    #      logo: "sponsor1.png"
+    #      url: "http://www.sponsor1.com.br/"
+    #    ,
+    #      name: "sponsor2"
+    #      logo: "sponsor2.png"
+    #      url: "http://www.sponsor2.com.br/"
+    #    ]
+    #
     sponsors:
       platinum:
         title:
           pt: "Platina"
           en: "Platinum"
         entries: [
-          name: "Uniritter"
-          logo: "uniritter.png"
-          url: "http://www.uniritter.edu.br/"
         ]
       gold:
         title:
           pt: "Ouro"
           en: "Gold"
         entries: [
-          name: "DBSeller"
-          logo: "dbseller.jpg"
-          url: "http://www.dbseller.com.br/"
-        ,
-          name: "Postgres Professional"
-          logo: "postgrespro.png"
-          url: "http://postgrespro.ru/"
-        ,
-          name: "EnterpriseDB"
-          logo: "enterprisedb.png"
-          url: "http://www.enterprisedb.com/"
-        ,
-          name: "Tecnisys"
-          logo: "tecnisys.jpg"
-          url: "http://www.tecnisys.com.br"
         ]
       silver:
         title:
           pt: "Prata"
           en: "Silver"
         entries: [
-          name: "Timbira"
-          logo: "timbira.png"
-          url: "http://www.timbira.com.br"]
+        ]
       bronze:
         title:
           pt: "Bronze"
           en: "Bronze"
         entries: [
-          name: "Dextra"
-          logo: "dextra.jpg"
-          url: "http://www.dextra.com.br"
-          ]
+        ]
 
     # List of Partners
+    # tip: like sponsors
     partners: [
-      name: "Wildtech"
-      logo: "wildtech.png"
-      url: "http://www.wildtech.com.br/"
-    ,
       name: "PostgreSQL Global Development Group"
       logo: "pgdg.jpg"
       url: "http://www.postgresql.org/"
@@ -1052,18 +1041,6 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       name: "Visite Porto Alegre"
       logo: "visitepoa.png"
       url: "http://visiteportoalegre.com/"
-    ,
-      name: "La Mafia Barbearia"
-      logo: "lamafia.png"
-      url: "http://www.lamafiabarbearia.com.br/"
-    ,
-      name: "uMov.me"
-      logo: "umovme.png"
-      url: "http://umov.me/"
-    ,
-      name: "2Neo Soluções Tecnológicas"
-      logo: "2neo.png"
-      url: "http://www.2neo.com.br"
     ]
 
     pastEvents: [
