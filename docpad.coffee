@@ -212,7 +212,7 @@ module.exports =
       scheduledDates:
         active: true
         title:
-          pt: 'Datas' 
+          pt: 'Datas'
           en: 'Dates'
         dates: [
           done: false
@@ -225,8 +225,8 @@ module.exports =
         ,
           done: false
           date:
-            pt: '31/06/2017'
-            en: '2017-06-31'
+            pt: '30/06/2017'
+            en: '2017-06-30'
           description:
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
