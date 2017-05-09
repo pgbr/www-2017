@@ -1,11 +1,11 @@
 {
-  "name": "pgbr-2015",
+  "name": "pgbr-2017",
   "version": "0.1.0",
-  "description": "PGBR 2015 website.",
+  "description": "PGBR 2017 website.",
   "homepage": "http://pgbr.postgresql.org.br",
   "repository": {
     "type": "git",
-    "url": "http://github.com/nbluis/pgbr-2015.git"
+    "url": "http://github.com/pgbr/www-2017.git"
   },
   "engines": {
     "node": "0.10.x",
