@@ -15,13 +15,13 @@ module.exports =
 
     # Conference info
     conf:
-      name: 
+      name:
         pt: "PGBR 2017 - Conferência Brasileira PostgreSQL"
         en: "PGBR 2017 - Brazilian PostgreSQL Conference"
       description:
         pt: "Conferência Brasileira de PostgreSQL"
         en: "Brazilian PostgreSQL Conference"
-      date: 
+      date:
         pt: "14, 15 e 16 de Setembro de 2017"
         en: "Setember 14, 15 and 16, 2017"
       #price: "$100"
@@ -30,7 +30,7 @@ module.exports =
       complement: "Em frente a rodoviária"
       city: "Porto Alegre"
       state: "RS"
-      country: 
+      country:
               pt: "Brasil"
               en: "Brazil"
 
@@ -44,7 +44,7 @@ module.exports =
 
     # Site info
     site:
-      url: 
+      url:
         pt: "http://pgbr.postgresql.org.br/2017/"
         en: "http://pgbr.postgresql.org.br/2017/en/"
       googleanalytics: "UA-66872252-1"
@@ -84,10 +84,10 @@ module.exports =
           link: 'https://itunes.apple.com/br/app/pgbr2015/id1058016171?mt=8'
           icon: 'fa-apple'
         ]
-      about: 
+      about:
         active: true
         title:
-          pt: 'Sobre' 
+          pt: 'Sobre'
           en: 'About'
         text:
           pt: 'A Conferência Brasileira de PostgreSQL, denominada PGBR, é o principal
@@ -106,15 +106,15 @@ module.exports =
                 Já foram realizadas seis edições do PGBR, nos anos de 2007, 2008, 2009,
                 2011, 2013 e 2015. As primeiras edições do evento foram realizadas nas cidades
                 de São Paulo (2007 e 2011) e Campinas (2008 e 2009).
-                Em Porto Velho no ano de 2013 participaram mais de 200 profissionais da área de 
-                Tecnologia da Informação, diferente do ano de 2015 que compareceram pouco mais de 
+                Em Porto Velho no ano de 2013 participaram mais de 200 profissionais da área de
+                Tecnologia da Informação, diferente do ano de 2015 que compareceram pouco mais de
                 150 na cidade de Porto Alegre.\n\n
 
-                Em 2017 no PGBR vários temas de relevância serão abordados, tais como: casos de sucesso 
-                em empresas públicas e privadas, novidades da versão 10, técnicas avançadas de 
+                Em 2017 no PGBR vários temas de relevância serão abordados, tais como: casos de sucesso
+                em empresas públicas e privadas, novidades da versão 10, técnicas avançadas de
                 monitoramento, performance e tunning, alta disponibilidade, dentre outros.
 
-                A comunidade Brasileira de PostgreSQL tem o prazer de recebê-los de braços abertos, 
+                A comunidade Brasileira de PostgreSQL tem o prazer de recebê-los de braços abertos,
                 por isso não perca essa oportunidade e faça logo a sua inscrição.'
           en: 'The Brazilian Conference of PostgreSQL called PGBR, is the main
                 event organized by the Brazilian Community of PostgreSQL. Its about
@@ -132,7 +132,7 @@ module.exports =
                 2011 and 2013. The first editions of the event were held in the cities
                 São Paulo (2007 and 2011) and Campinas (2008 and 2009).
                 More than 200 professionals in the Information Technology area
-                participated in the last PGBR, held in 2013 in Porto Velho. In 2015 we had more than 
+                participated in the last PGBR, held in 2013 in Porto Velho. In 2015 we had more than
                 150 participants in Porto Alegre.\n \n
 
                 In 2017 relevant topics will be covered in PGBR, including cases
@@ -142,38 +142,38 @@ module.exports =
                 
                 The PostgreSQL community is of arms
                 open to receive them.'
-      location: 
+      location:
         active: true
         title:
-          pt: 'Local' 
+          pt: 'Local'
           en: 'Location'
-      speakers: 
+      speakers:
         active: false
         title:
-          pt: 'Palestrantes' 
+          pt: 'Palestrantes'
           en: 'Speakers'
-      schedule: 
+      schedule:
         active: false
         title:
-          pt: 'Agenda' 
+          pt: 'Agenda'
           en: 'Schedule'
         description:
           pt: ''
           en: ''
-      sponsors: 
+      sponsors:
         active: false
         title:
-          pt: 'Patrocinadores' 
+          pt: 'Patrocinadores'
           en: 'Sponsors'
         link:
           pt: 'Seja um patrocinador!'
           en: 'Be a sponsor!'
-      partners: 
+      partners:
         active: false
         title:
-          pt: 'Apoio' 
+          pt: 'Apoio'
           en: 'Support'
-      pastEvents: 
+      pastEvents:
         active: true
         title:
           pt: 'Eventos anteriores'
@@ -181,7 +181,7 @@ module.exports =
       contact:
         active: true
         title:
-          pt: 'Contato' 
+          pt: 'Contato'
           en: 'Contact'
         message:
           pt: 'Espaço de Projetos\nTelefone: (51) 3028.9398 / 3907.9398\nCelular: (51) 9388-2236\nHorário: 9:30 às 12:00 e das 14:00 às 17:00\nE-mail: <a href="mailto:eventos@espacodeprojetos.com.br" title="eventos@espacodeprojetos.com.br">eventos@espacodeprojetos.com.br</a>'
@@ -204,7 +204,7 @@ module.exports =
         title:
           pt: 'Inscrições'
           en: 'Registration'
-        link: 
+        link:
           url: 'http://pgbr2015.eventize.com.br/'
           text:
             pt: 'Inscrever-se'
@@ -274,8 +274,8 @@ module.exports =
           title:
             pt: 'Palestra (60m)'
             en: 'Talk (60m)'
-          description: 
-            pt: 'Visando um melhor entendimento para o público alvo, as palestras serão classificadas em: Iniciante, Intermediário e Avançado. 
+          description:
+            pt: 'Visando um melhor entendimento para o público alvo, as palestras serão classificadas em: Iniciante, Intermediário e Avançado.
                  Os autores poderão sugerir a classificação de sua palestra de acordo com o conteúdo e abordagem adotada.'
             en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
                  Authors may suggest the classification of his address in accordance with the content and approach adopted.'
@@ -283,8 +283,8 @@ module.exports =
           title:
             pt: 'Workshop (de 2 a 8 horas)'
             en: 'Workshop (2 to 8 hours)'
-          description: 
-            pt: 'Visando um melhor entendimento para o público alvo, os workshops serão classificadas em: Iniciante, Intermediário e Avançado. 
+          description:
+            pt: 'Visando um melhor entendimento para o público alvo, os workshops serão classificadas em: Iniciante, Intermediário e Avançado.
                  Os autores poderão sugerir a classificação de seu workshop de acordo com o conteúdo e abordagem adotada. Workshops são definidos em slots de 2h, sendo que os mesmos podem ser de 1 a 4 slots por proposta.'
             en: 'To better attend the event of the target audience will be classified as: Beginner, Intermediate and Advanced.
                  Authors may suggest the classification of his address in accordance with the content and approach adopted. Workshops are defined in 2 hours slots. Up to 4 slots per proposal.'
@@ -296,9 +296,9 @@ module.exports =
           pt: 'Código de conduta'
           en: 'Conduct code'
         text:
-          pt: 'Como participante do evento, seja você palestrante, voluntário, organizador, patrocinador deverá aceitar e respeitar nosso 
+          pt: 'Como participante do evento, seja você palestrante, voluntário, organizador, patrocinador deverá aceitar e respeitar nosso
                 <a target="_blank" href="http://pt-br.confcodeofconduct.com/" title="Código de conduta">código de conduta</a>.'
-          en: 'As a conference participant, whether you are a speaker, volunteer, organizer, sponsor, etc., must accept and respect our 
+          en: 'As a conference participant, whether you are a speaker, volunteer, organizer, sponsor, etc., must accept and respect our
                 <a target="_blank" href="http://confcodeofconduct.com/" title="Code of conduct">code of conduct</a>.'
       tourism:
         active: true
@@ -306,13 +306,13 @@ module.exports =
           pt: 'Turismo'
           en: 'Tourism'
         text:
-          pt: 'Se você tem interesse em conhecer mais sobre a cidade de Porto Alegre ou sobre o 
-                estado do Rio Grande do Sul, local sede do PGBR 2017, temos uma cartilha que conta 
-                um pouco da história destes lugares e aplicativos móveis para as plataformas iOS e Android 
+          pt: 'Se você tem interesse em conhecer mais sobre a cidade de Porto Alegre ou sobre o
+                estado do Rio Grande do Sul, local sede do PGBR 2017, temos uma cartilha que conta
+                um pouco da história destes lugares e aplicativos móveis para as plataformas iOS e Android
                 para ajuda-lo a conhecer ótimos lugares durante sua estadia. '
-          en: 'If you are interested in learning more about the city of Porto Alegre or 
-                the state of Rio Grande do Sul, local headquarters of PGBR 2017 have a booklet that tells 
-                some of the history of these places and mobile applications for the iOS and Android platforms 
+          en: 'If you are interested in learning more about the city of Porto Alegre or
+                the state of Rio Grande do Sul, local headquarters of PGBR 2017 have a booklet that tells
+                some of the history of these places and mobile applications for the iOS and Android platforms
                 help you get to know great places during your stay.'
         links: [
           title:
@@ -367,21 +367,21 @@ module.exports =
             title:
               pt: 'Single'
               en: 'Single'
-            value: 
+            value:
               pt: 'R$ 165,00'
               en: 'BRL 165.00'
           double:
             title:
               pt: 'Duplo'
               en: 'Double'
-            value: 
+            value:
               pt: 'R$ 165,00'
               en: 'BRL 165.00'
           triple:
             title:
               pt: 'Triplo'
               en: 'Triple'
-            value: 
+            value:
               pt: 'R$ 230,00'
               en: 'BRL 230.00'
         condition:
@@ -416,7 +416,7 @@ module.exports =
         time: "08:00"
         slot: ""
         title: "Credenciamento"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -433,7 +433,7 @@ module.exports =
         slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 1: Construção de banco de dados espaciais com PostGIS (Português)"
         slides: "https://drive.google.com/file/d/0B5A0KP0fdz_UektnbUhDOWlYTG01eHBUYlFOaS1veEwtSi1v/view?usp=sharing"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -449,7 +449,7 @@ module.exports =
         time: "12:00"
         slot: ""
         title: "Almoço"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -466,12 +466,12 @@ module.exports =
         slot: "Auditório Secundário (Prédio 6)"
         title: "Tutorial 2: Author's introduction to Full-Text Search in PostgreSQL (Inglês)"
         slides: "https://dl.dropboxusercontent.com/u/4342654/fts_postgres_by_authors_2.pdf"
-      bio: 
+      bio:
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes \n\n\n
              Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
              Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
         en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes \n\n\n
-             Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+             Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n
              His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
       company: "Postgres Professional"
       github: ""
@@ -482,10 +482,10 @@ module.exports =
       photo: "teodor_sigaev.jpg"
       presentation:
         title: "Author's view on Non-structured Data in PostgreSQL"
-      bio: 
+      bio:
         pt: "Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
              Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
-        en: "Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+        en: "Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n
              His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
       company: "Postgres Professional"
       github: "feodor"
@@ -496,7 +496,7 @@ module.exports =
       photo: "oleg_bartunov.jpg"
       presentation:
         title: "Author's view on Non-structured Data in PostgreSQL"
-      bio: 
+      bio:
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes"
         en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes"
       company: "Postgres Professional"
@@ -513,7 +513,7 @@ module.exports =
         time: "08:00"
         slot: ""
         title: "Credenciamento"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -529,7 +529,7 @@ module.exports =
         time: "09:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "Abertura Oficial"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -546,7 +546,7 @@ module.exports =
         slot: "Auditório Principal (Prédio 4)"
         title: "Como posso colaborar com o PostgreSQL?"
         slides: "https://dl.dropboxusercontent.com/u/4342654/PGBR2015_Como_posso_colaborar_com_PostgreSQL.pdf"
-      bio: 
+      bio:
         pt: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
         en: "O PostgreSQL é um projeto de software livre mantido por uma comunidade ampla, formada por pessoas de vários lugares do mundo. A intenção dessa apresentação é exemplificar as diversas formas possíves de colaboração e como você pode iniciar hoje mesmo a fazer parte desta comunidade e fazer com que este projeto nunca acabe. Engajamento é a palavra-chave para o sucesso do PostgreSQL e de qualquer projeto. Envolva-se, engaje-se, o PostgreSQL precisa de você!"
       company: "Timbira"
@@ -564,7 +564,7 @@ module.exports =
         time: "09:30"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Troque o seu DBMS e impulsione o investimento em Inovação!"
-      bio: 
+      bio:
         pt: "A maioria das organizações de TI têm feito grandes investimentos em infraestrutura e aplicativos que suportam o negócio, nós iremos mostrar como podemos mudar os sistemas de gerenciamento de banco de dados para impulsionar o investimento em novas aplicações de engajamento do Cliente, o que é um tema importante no mercado atual."
         en: "A maioria das organizações de TI têm feito grandes investimentos em infraestrutura e aplicativos que suportam o negócio, nós iremos mostrar como podemos mudar os sistemas de gerenciamento de banco de dados para impulsionar o investimento em novas aplicações de engajamento do Cliente, o que é um tema importante no mercado atual."
       company: "Tecnisys"
@@ -583,12 +583,12 @@ module.exports =
         slot: "Auditório Principal (Prédio 4)"
         title: "Author's view on Non-structured Data in PostgreSQL"
         slides: "https://dl.dropboxusercontent.com/u/4342654/authors_view_nosql.pdf"
-      bio: 
+      bio:
         pt: "Oleg Bartunov está envolvido no desenvolvimento do PostgreSQL desde 1996 (ele introduziu o suporte a localização). É Major Developer do PostgreSQL e membro do PGDG. Junto com seu colega Teodor Sigaev desenvolveu a infraestrutura que permite a implentação de índices com método de acesso GiST, GIN, SP-GiST, facilidades full-text search embutidas no PostgreSQL (mais conhecido como tsearch2) e muitas extenções populares como intarray, ltree, hstore, pg_trgm. Sua última contribuição foi o armazenamento binário para estruturas aninhadas, que permite a implementação do hstore e tipos de dados jsonb eficientes \n\n\n
              Teodor é graduado no departamento de física da Universidade Estadual de Moscou. Tem trabalhado no desenvolvimento do PostgreSQL desde 2000. \n
              Suas principais contribuições para o PostgreSQL são os frameworks de GIN e GiST, ambos os módulos contrib populares e vários hacks. Ele é um membro ativo da comunidade PostgreSQL russo."
         en: "Oleg Bartunov has been involved in PostgreSQL development since 1996 (he introduced locale support). He is a major postgresql developer and a member of the PGDG. Together with his colleague Teodor Sigaev he developed infrastructure for implementing user-define index access methods GiST, GIN, SP-GiST, built-in full-text search facilities in PostgreSQL (formerly known as tsearch2) and a number of popular extensions like intarray, ltree, hstore, pg_trgm. Their latest contribution is a binary storage for nested structures, which allows implementation of nested hstore and efficient jsonb datatypes \n\n\n
-             Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n 
+             Teodor graduated from the physics department of Moscow State University. He has been developing PostgreSQL since 2000. \n
              His main contributions to PostgreSQL are GIN and GiST frameworks, both popular contrib modules and various hacks. He is a active member of the Russian PostgreSQL community."
       company: "Postgres Professional"
       twitter: ""
@@ -603,7 +603,7 @@ module.exports =
         time: "12:00"
         slot: ""
         title: "Almoço"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -620,7 +620,7 @@ module.exports =
         slot: "Auditório Principal (Prédio 4)"
         title: "PostgreSQL Rock Star"
         slides: "http://pt.slideshare.net/telles/postgresql-rock-star"
-      bio: 
+      bio:
         pt: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
         en: "10 dicas simples e efetivas para você se tornar um astro do PostgreSQL sem precisar gastar rios de dinheiro com certificações e ainda se divertir no caminho. Cervejas por conta da plateia"
       company: "Timbira"
@@ -638,7 +638,7 @@ module.exports =
         slot: "Auditório Secundário (Prédio 6)"
         title: "PostGIS Raster"
         slides: "https://drive.google.com/file/d/0B5A0KP0fdz_UbkRvSzZRS3Q1YUtLM0EwV3F3R3pzUDRuOWRr/view?usp=sharing"
-      bio: 
+      bio:
         pt: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
         en: "Nesta palestra os participantes conhecerão as ferramentas do PostGIS que permitem armazenar e dados espaciais matriciais (imagens) no ambiente do PostgreSQL."
       company: "CENSIPAM"
@@ -656,7 +656,7 @@ module.exports =
         slot: "Auditório Principal (Prédio 4)"
         title: "Big Data e PostgreSQL"
         slides: "http://www.timbira.com.br/materiais/big-data.pdf"
-      bio: 
+      bio:
         pt: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
         en: "O volume de dados disponível em formato digital cresce exponencialmente. O PostgreSQL está preparado para tal demanda? Apesar de não ser muito difundido, o PostgreSQL é utilizado para data warehouse a alguns anos (sem falar nos vários forks do PostgreSQL com foco em big data)"
       company: "Timbira"
@@ -675,7 +675,7 @@ module.exports =
         slot: "Auditório Secundário (Prédio 6)"
         title: "Fique ninja na codificação de caracteres"
         slides: "http://www.slideshare.net/SebastianWebber/fique-ninja-na-codificao-de-caracteres"
-      bio: 
+      bio:
         pt: "Quem nunca ficou em dúvida sobre o funcionamento da codificação de caracteres? e como ela afeta a busca pela informação ou a forma de como ela é apresentada? Com frequencia essa questão vem a tona e poucos tem coragem de perguntar a respeito.
 
 Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo questões de mapas de caractes, configurações no sistema operacional e necessariamente como que o PostgreSQL interage com tudo isso.
@@ -699,7 +699,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "15:00"
         slot: ""
         title: "Intervalo"
-      bio: 
+      bio:
         pt: ""
         en: ""
       company: ""
@@ -716,7 +716,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Principal (Prédio 4)"
         title: "Migração de Oracle para PostgreSQL - Indo além do SGBD"
         slides: "http://pt.slideshare.net/mdfabiano/migrao-de-oracle-para-postgresql-indo-alm-do-sgbd"
-      bio: 
+      bio:
         pt: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
         en: "Estudo de caso de uma migração de Oracle para PostgreSQL em ambiente de alta disponibilidade.Durante o projeto foram avaliadas diversas formas de realizar a migração, devido a complexidade e volumetria do ambiente, a ferramenta escolhida foi o Ora2Pg, esta palestra tem como objetivo demonstrar como realizar uma migração não só de um banco de dados, mas de toda uma cultura que se forma dentro de uma organização"
       company: "Wolak Tecnologia"
@@ -733,7 +733,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "15:30"
         slot: "Auditório Secundário (Prédio 6)"
         title: "BDR for DBAs"
-      bio: 
+      bio:
         pt: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic. I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system and in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements"
         en: "BDR stands for Bi-Directional Replication, but don’t get confused, it’s not magic. I’m going to go through the way bdr replicates, what you can do and what you can’t (and why they are forbidden). We’ll see how special objects like sequences are treated and how following a few rules can give you a stable geographical replication system and in the end, we’ll show how to start up a bdr cluster, and run some DDL and DML statements"
       company: "2ndQuadrant"
@@ -750,7 +750,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "16:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "A JSON representation of DDL"
-      bio: 
+      bio:
         pt: "Álvaro começou a escrever código para o PostgreSQL em 2002 e nunca mais parou, contribuiu com features e bug fixes para todos os releases desde a 7.2: shared row locking, o autovacuum daemon, background workers, índices BRIN, e muito mais. Ele é atualmente commiter do PostgreSQL e Major Developer trabalhando para 2ndQuadrant, uma organização que presta serviços de PostgreSQL no mundo todo"
         en: "Álvaro started writing code for PostgreSQL in 2002 and hasn't stopped since, having contributed features and bug fixes for every release since 7.2: shared row locking, the autovacuum daemon, background workers, BRIN indexes, and many more. He's currently a PostgreSQL Committer and Major Developer working for 2ndQuadrant, a world-wide PostgreSQL services organization"
       company: "2ndQuadrant"
@@ -768,7 +768,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Secundário (Prédio 6)"
         title: "PostgreSQL + Python = Power!"
         slides: "http://www.slideshare.net/spjuliano/postgresql-python-power"
-      bio: 
+      bio:
         pt: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
         en: "Trabalhando com Python e PostgreSQL, produtividade, como interagem e dicas"
       company: "SERPRO"
@@ -786,7 +786,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "09:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "PostgreSQL backups strategies for real environments"
-      bio: 
+      bio:
         pt: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
         en: "This talk is about postgres backup strategies in the real world, and how to choose the best fit for the environment we want to protect"
       company: "2ndQuadrant"
@@ -804,7 +804,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Secundário (Prédio 6)"
         title: "Como o PostgreSQL ajuda a uMov.me a crescer"
         slides: "http://www.slideshare.net/GuilhermeElias/como-o-postgresql-ajuda-a-umovme-a-crescer"
-      bio: 
+      bio:
         pt: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
         en: "Nesta apresentação iremos mostrar como o PostgreSQL ajuda a suportar um ambiente 24x7 com mais de 100.000 usuários e parceiros em todo Brasil e em expansão para América Latina. Serão abordadas técnicas e ferramentas utilizadas em um ambiente na Amazon, tais como replicação(nativa e lógica), tunning, vacuum, freeze, repack, reindex, monitoramento e sandbox para homologação com +700GB criado em minutos. Serão abordadas táticas para deploy em db relacional com downtime mínimo"
       company: "uMov.me"
@@ -822,7 +822,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "10:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "HA PostgreSQL cluster with repmgr and pgbouncer"
-      bio: 
+      bio:
         pt: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
         en: "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover and pgbouncer to isolate the old master. This example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures"
       company: "2ndQuadrant"
@@ -839,7 +839,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "10:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Escalabilidade, Sharding, Paralelismo e Bigdata com PostgreSQL? Yes, we can!"
-      bio: 
+      bio:
         pt: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
         en: "Entenda as diversas possibilidades para adequar o PostgreSQL a outras demandas além do OLTP tradicional"
       company: "Dextra"
@@ -857,7 +857,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Principal (Prédio 4)"
         title: "Curiosidades sobre o PostgreSQL que você (talvez) não sabia e se sabia vale a pena lembrar"
         slides: "http://pt.slideshare.net/guediz/curiosidades-que-voc-talvez-no-sabia-e-se-sabia-vale-a-pena-lembrar"
-      bio: 
+      bio:
         pt: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
         en: "Uma palestra que passeia por funcionalidades do PostgreSQL que muitos desconhecem, esqueceram que existe, ou se conhecem não blogaram muito sobre o assunto"
       company: "Timbira"
@@ -875,7 +875,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "11:00"
         slot: "Auditório Secundário (Prédio 6)"
         title: "Vamos baratear o custo do banco de dados? Migração para PostgreSQL de Oracle, MySQL, ZIM e MSSQL"
-      bio: 
+      bio:
         pt: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso"
         en: "A atual situação econômica-financeira do país é ideal para que os gestores de empresas públicas e privadas realizem uma revisão dos elevados custos com licenciamento de banco de dados. A palestra possibilitará ao convidado um momento de aprendizagem sobre as vantagens em utilizar o PostgreSQL como alternativa para os bancos de dados comerciais provando que aplicações de missão crítica podem ser executadas nessa plataforma. Serão apresentadas algumas ferramentas utilizadas para a migração de dados, completando com alguns cases de sucesso"
       company: "2NEO Soluções Tecnológicas"
@@ -892,7 +892,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "12:00"
         slot: ""
         title: "Almoço"
-      bio: 
+      bio:
         pt: ""
         en: ""
       viewSchedule: true
@@ -905,7 +905,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Principal (Prédio 4)"
         title: "Caiu a lista do PostgreSQL Brasil! E agora?"
         slides: "http://www.slideshare.net/fernandoike/a-postgersql-brasil-lista-caiu"
-      bio: 
+      bio:
         pt: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
         en: "Apresentação da infraestrutura do PostgreSQL Brasil, as principais mudanças nos últimos anos e a motivação de mudar várias coisas (Invasão dos sites...)"
       company: "Timbira"
@@ -924,7 +924,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         slot: "Auditório Secundário (Prédio 6)"
         title: "O uso de funções de similaridade e distância entre strings adaptadas ao português brasileiro"
         slides: "http://pt.slideshare.net/DiogoLVGRubert/o-uso-de-funes-de-similaridade-e-distncia-entre-strings-adaptadas-ao-portugus-brasileiro"
-      bio: 
+      bio:
         pt: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
         en: "As buscas que utilizam operadores relacionais são limitadas quando ocorrem erros de digitação ou quando a base de dados está inconsistente. Para suprir esta deficiência, alguns sistemas possuem funções que permitem fazer buscas baseadas na similaridade das strings, por exemplo, as buscas baseadas em algoritmos fonéticos como o Soundex e o Metaphone"
       company: "Logica Informática Ltda"
@@ -941,7 +941,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "14:00"
         slot: "Auditório Principal (Prédio 4)"
         title: "Fishbowl"
-      bio: 
+      bio:
         pt: ""
         en: ""
       viewSchedule: true
@@ -953,7 +953,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "15:00"
         slot: ""
         title: "Intervalo"
-      bio: 
+      bio:
         pt: ""
         en: ""
       viewSchedule: true
@@ -965,7 +965,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "15:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "Lightning Talks"
-      bio: 
+      bio:
         pt: ""
         en: ""
       viewSchedule: true
@@ -977,7 +977,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
         time: "16:30"
         slot: "Auditório Principal (Prédio 4)"
         title: "Encerramento"
-      bio: 
+      bio:
         pt: ""
         en: ""
       viewSchedule: true
@@ -994,8 +994,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           logo: "uniritter.png"
           url: "http://www.uniritter.edu.br/"
         ]
-      gold: 
-        title: 
+      gold:
+        title:
           pt: "Ouro"
           en: "Gold"
         entries: [
@@ -1015,8 +1015,8 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           logo: "tecnisys.jpg"
           url: "http://www.tecnisys.com.br"
         ]
-      silver: 
-        title: 
+      silver:
+        title:
           pt: "Prata"
           en: "Silver"
         entries: [
@@ -1024,7 +1024,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           logo: "timbira.png"
           url: "http://www.timbira.com.br"]
       bronze:
-        title: 
+        title:
           pt: "Bronze"
           en: "Bronze"
         entries: [
@@ -1115,7 +1115,7 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
       if value
         if (decode)
           value.replace(/\n/g, '<br>')
-        else 
+        else
           value.replace(/\n/g, '\\n')
 
     s:(value) ->
@@ -1158,4 +1158,3 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
     getUrl: (baseUrl, complement) ->
       if complement
         baseUrl + complement
-

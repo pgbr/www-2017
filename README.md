@@ -51,7 +51,7 @@ This is where the generated files are stored, once DocPad has been runned. Howev
 
 ## See also
 
-There are many more useful commands from docpad you might want to use. 
+There are many more useful commands from docpad you might want to use.
 
 All of them can be called using the shortcut `npm run-script docpad`
 
