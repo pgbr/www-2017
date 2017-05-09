@@ -105,40 +105,38 @@ module.exports =
 
                 Já foram realizadas seis edições do PGBR, nos anos de 2007, 2008, 2009,
                 2011, 2013 e 2015. As primeiras edições do evento foram realizadas nas cidades
-                de São Paulo (2007 e 2011) e Campinas (2008 e 2009).
-                Em Porto Velho no ano de 2013 participaram mais de 200 profissionais da área de
-                Tecnologia da Informação, diferente do ano de 2015 que compareceram pouco mais de
-                150 na cidade de Porto Alegre.\n\n
+                de São Paulo (2007 e 2011), Campinas (2008 e 2009) e Porto Velho (2013).
+                Em torno de 15 profissionais da área de Tecnologia da Informação participaram do
+                último PGBR, realizado em 2015 em Porto Alegre.\n\n
 
                 Em 2017 no PGBR vários temas de relevância serão abordados, tais como: casos de sucesso
                 em empresas públicas e privadas, novidades da versão 10, técnicas avançadas de
-                monitoramento, performance e tunning, alta disponibilidade, dentre outros.
+                monitoramento, performance e tunning, alta disponibilidade, dentre outros.\n\n
 
                 A comunidade Brasileira de PostgreSQL tem o prazer de recebê-los de braços abertos,
                 por isso não perca essa oportunidade e faça logo a sua inscrição.'
           en: 'The Brazilian Conference of PostgreSQL called PGBR, is the main
                 event organized by the Brazilian Community of PostgreSQL. Its about
                 an event that brings together developers, users and researchers
-                of free and open source database PostgreSQL. \n \n
+                of free and open source database PostgreSQL.\n\n
 
                 The PGBR conference is characterized by offering participants a
                 wide programming, including high-level technical talks,
                 taught by nationally and internationally recognized speakers.
                 Special activities such as tutorials, Hacker Talks (technical discussions
                 to encourage the development of PostgreSQL), Lightning Talks
-                (Section of short presentations, a maximum of five minutes), and academic panels. \n \n
+                (Section of short presentations, a maximum of five minutes), and academic panels.\n\n
 
-                Already five editions of the PGBR were held in 2007, 2008, 2009,
-                2011 and 2013. The first editions of the event were held in the cities
-                São Paulo (2007 and 2011) and Campinas (2008 and 2009).
-                More than 200 professionals in the Information Technology area
-                participated in the last PGBR, held in 2013 in Porto Velho. In 2015 we had more than
-                150 participants in Porto Alegre.\n \n
+                Already six editions of the PGBR were held in 2007, 2008, 2009,
+                2011, 2013 and 2015. The first editions of the event were held in the cities
+                São Paulo (2007 and 2011), Campinas (2008 and 2009) and Porto Velho (2013).
+                Just over 150 professionals in the Information Technology area participated in the
+                last PGBR, held in 2015 in Porto Alegre.\n\n
 
                 In 2017 relevant topics will be covered in PGBR, including cases
                 of success in public and private companies, the new features of version 10,
                 Advanced monitoring techniques, performance tuning, high
-                availability, and others. \n \n
+                availability, and others.\n\n
                 
                 The PostgreSQL community is of arms
                 open to receive them.'
