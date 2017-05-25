@@ -201,12 +201,12 @@ module.exports =
           icon: 'fa-linkedin-square'
         ]
       registration:
-        active: false
+        active: true
         title:
           pt: 'Inscrições'
           en: 'Registration'
         link:
-          url: 'http://pgbr2015.eventize.com.br/'
+          url: 'https://pgbr2017.eventize.com.br/'
           text:
             pt: 'Inscrever-se'
             en: 'Signup'
