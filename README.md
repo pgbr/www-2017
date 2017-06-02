@@ -1,4 +1,4 @@
-# PGBR 2015 WebSite
+# PGBR 2017 WebSite
 
 ![Just a joke! :)](http://random-octodex.herokuapp.com/random)
 
@@ -14,7 +14,7 @@ Learn more about [conf-boilerplate](http://github.com/braziljs/conf-boilerplate)
 
 2. Clone it:
 
-  `git clone git@github.com:pgbr/www-2015.git`
+  `git clone git@github.com:pgbr/www-2017.git`
 
 3. Install project dependencies
 
