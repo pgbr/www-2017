@@ -35,7 +35,7 @@ module.exports =
               en: "Brazil"
 
     socialLinks:
-      active: false
+      active: true
       tweetButton:
         text: ""
         via: "postgresqlbr"
@@ -1021,6 +1021,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           pt: "Bronze"
           en: "Bronze"
         entries: [
+         name: "Timbira"
+         logo: "timbira.png"
+         url: "http://www.timbira.com.br/"
+         ,
         ]
 
     # List of Partners
