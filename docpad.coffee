@@ -1018,6 +1018,9 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           pt: "Prata"
           en: "Silver"
         entries: [
+          name: "DBSeller"
+          logo: "dbseller.jpg"
+          url: "http://www.dbseller.com.br"
         ]
       bronze:
         title:
