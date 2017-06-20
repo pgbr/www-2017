@@ -1009,6 +1009,9 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           pt: "Ouro"
           en: "Gold"
         entries: [
+          name: "2ndQuadrant"
+          logo: "2ndQuadrant.png"
+          url: "http://www.2ndquadrant.com"
         ]
       silver:
         title:
