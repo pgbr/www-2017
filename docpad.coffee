@@ -1018,9 +1018,6 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           pt: "Prata"
           en: "Silver"
         entries: [
-          name: "DBSeller"
-          logo: "dbseller.jpg"
-          url: "http://www.dbseller.com.br"
         ]
       bronze:
         title:
@@ -1031,6 +1028,9 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
          logo: "timbira.png"
          url: "http://www.timbira.com.br/"
          ,
+          name: "DBSeller"
+          logo: "dbseller.jpg"
+          url: "http://www.dbseller.com.br"
         ]
 
     # List of Partners
