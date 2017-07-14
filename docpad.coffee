@@ -1031,6 +1031,10 @@ Esta palestra tenta levar os curiosos ao mais alto nível de sabedoria, cobrindo
           name: "DBSeller"
           logo: "dbseller.jpg"
           url: "http://www.dbseller.com.br"
+         ,
+          name: "Zenvia"
+          logo: "zenvia.jpg"
+          url: "http://www.zenvia.com.br"
         ]
 
     # List of Partners
