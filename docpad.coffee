@@ -216,7 +216,7 @@ module.exports =
           pt: 'Datas'
           en: 'Dates'
         dates: [
-          done: false
+          done: true
           date:
             pt: '10/04/2017'
             en: '2017-04-10'
@@ -224,18 +224,18 @@ module.exports =
             pt: 'Abertura da chamada para os trabalhos'
             en: 'Open call for papers'
         ,
-          done: false
+          done: true
           date:
-            pt: '30/06/2017'
-            en: '2017-06-30'
+            pt: '09/07/2017'
+            en: '2017-07-09'
           description:
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
         ,
           done: false
           date:
-            pt: '10/07/2017'
-            en: '2017-07-10'
+            pt: '19/07/2017'
+            en: '2017-07-190'
           description:
             pt: 'Notificação dos autores sobre trabalhos aceitos'
             en: 'Notification of the authors of accepted papers'
@@ -257,7 +257,7 @@ module.exports =
             en: 'Publication of official schedule'
         ]
       callForPapers:
-        active: true
+        active: false
         link:
           pt: 'Submeter'
           en: 'Submit'
