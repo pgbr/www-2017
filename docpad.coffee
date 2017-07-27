@@ -106,7 +106,7 @@ module.exports =
                 Já foram realizadas seis edições do PGBR, nos anos de 2007, 2008, 2009,
                 2011, 2013 e 2015. As primeiras edições do evento foram realizadas nas cidades
                 de São Paulo (2007 e 2011), Campinas (2008 e 2009) e Porto Velho (2013).
-                Em torno de 15 profissionais da área de Tecnologia da Informação participaram do
+                Em torno de 150 profissionais da área de Tecnologia da Informação participaram do
                 último PGBR, realizado em 2015 em Porto Alegre.\n\n
 
                 Em 2017 no PGBR vários temas de relevância serão abordados, tais como: casos de sucesso
