@@ -410,30 +410,6 @@ module.exports =
           pt: 'Conheça a Estrutura de Serviços do Eko Residence Hotel no site:'
           en: 'You can learn more about the Service Structure of Eko Residence Hotel on:'
     schedule: [
-      authors: [
-          name: "Eduardo"
-          photo: ""
-          bio: "Picareta Mor"
-          company: "ThoughtWorks"
-          twitter: "nbluis"
-          github: "nbluis"
-          linkedin: "https://linkedin.com/in/eduardobohrer"
-        ,
-          name: "Eduardo"
-          photo: ""
-          bio: "Picareta Mor"
-          company: "ThoughtWorks"
-          twitter: "nbluis"
-          github: "nbluis"
-          linkedin: "https://linkedin.com/in/eduardobohrer"
-      ]
-      presentation:
-        date: "14/09"
-        time: "08:00"
-        slot: "Sala Algarves A (9º andar)"
-        title: "Credenciamento"
-      viewSchedule: true
-    ,
       name: "Alvaro Mello"
       photo: ""
       presentation:
@@ -557,8 +533,24 @@ Esse workshop é mais voltado a SQL, não espere ver detalhes sobre performance 
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Fabrizio Mello"
-      photo: ""
+      
+      authors: [
+          name: "Fabrízio de Royes Mello"
+          photo: ""
+          # bio: "Picareta Mor"
+          company: "Timbira"
+          twitter: "fabriziomello"
+          github: "fabriziomello"
+          linkedin: "https://www.linkedin.com/in/fabriziomello"
+        ,
+          name: "Dickson Guedes"
+          photo: ""
+          # bio: "Picareta Mor"
+          company: "Confesol"
+          twitter: "guediz"
+          github: "guedes"
+          linkedin: "https://www.linkedin.com/in/dicksonguedes/"
+      ]
       presentation:
         date: "15/09"
         time: "10:00"

@@ -21,6 +21,8 @@
             <% end %>
             <span class="schedule-slot"><%= slot.presentation.slot %></span>
           <% else: %>
+
+            <span class="schedule-name"><%= slot.name %></span>
             <span class="schedule-title large"><%= slot.presentation.title %></span>
             <%if slot.presentation.slot:%>
               <span class="schedule-slot"><%= slot.presentation.slot %></span>
