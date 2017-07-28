@@ -232,7 +232,7 @@ module.exports =
             pt: 'Encerramento da chamada para os trabalhos'
             en: 'Close call for papers'
         ,
-          done: false
+          done: true
           date:
             pt: '19/07/2017'
             en: '2017-07-190'
@@ -410,6 +410,9 @@ module.exports =
           pt: 'Conheça a Estrutura de Serviços do Eko Residence Hotel no site:'
           en: 'You can learn more about the Service Structure of Eko Residence Hotel on:'
     schedule: [
+
+      ## dia 14: workshops
+
       name: ""
       photo: ""
       presentation:
@@ -426,19 +429,20 @@ module.exports =
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Workshop 1"
+      name: "Alvaro Mello"
       photo: ""
       presentation:
         date: "14/09"
         time: "09:00"
         slot: "Sala Algarves A (9º andar)"
-        title: "Do WAL a Replicação"
+        title: "Workshop: Do WAL a Replicação"
       bio:
         pt: "A oficina situa a utilização do WAL, como ele foi a primeira forma de replicação disponível no PostgreSQL e base para a Recuperação em Ponto de Tempo (PITR), passando pela utilização de streaming replication, replication slots e concluindo com o pg_rewind."
         en: ""
       viewSchedule: true
+      view_speaker: true
     ,
-      name: "Workshop 2"
+      name: "Fabio Telles Rodrigues"
       photo: ""
       presentation:
         date: "14/09"
@@ -450,7 +454,25 @@ module.exports =
         en: ""
       viewSchedule: true
     ,
-      name: "Workshop 3"
+      name: ""
+      photo: ""
+      presentation:
+        date: "14/09"
+        time: "12:00"
+        slot: ""
+        title: "Almoço"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      
+    ,
+      name: "Matheus de Oliveira"
       presentation:
         date: "14/09"
         time: "13:30"
@@ -465,17 +487,597 @@ Esse workshop é mais voltado a SQL, não espere ver detalhes sobre performance 
         en: ""
       viewSchedule: true
     ,
-      name: "Workshop 4"
+      name: ""
+      photo: ""
       presentation:
         date: "14/09"
         time: "15:30"
+        title: "Coffee Break"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+
+      name: "Rubens Souza"
+      presentation:
+        date: "14/09"
+        time: "16:00"
         slot: "Sala Algarves B (9º andar)"
         title: "Tomando conta do PostgreSQL com Ansible"
       bio:
         pt: "Apresentação de Ansible como ferramenta de automação, uso de seus módulos para administração de sistemas em geral e aqueles específicos para PostgreSQL, e estruturação de um playbook Ansible pra instalação de um master/standby PostgreSQL em streaming replication. Todos os testes serão realizados em ambientes virtuais criados com Vagrant."
         en: ""
       viewSchedule: true
-      ,
+    ,
+
+      ## dia 15: palestras
+
+      name: ""
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "08:00"
+        slot: "Lounge Pôr do Sul"
+        title: "Credenciamento"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "09:00"
+        slot: "Salão Piratini"
+        title: "Abertura oficial (keynote)"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Fabrizio Mello"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "10:00"
+        slot: "Salão Piratini"
+        title: "Hacking PostgreSQL"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "William Ivanski"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "10:00"
+        slot: "Salão Farroupilha"
+        title: "Gerenciando Backups com o Barman"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Ivo Augusto"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "11:00"
+        slot: "Salão Piratini"
+        title: "PostgreSQL e a arquitetura liquida das startups"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Luis Fernando Bueno"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "11:00"
+        slot: "Salão Farroupilha"
+        title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "12:00"
+        slot: ""
+        title: "Almoço"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Alvaro Melo"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "13:30"
+        slot: "Salão Piratini"
+        title: "pg_rewind - Diminua seu downtime com ferramentas nativas"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Rodrigo Crespi"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "13:30"
+        slot: "Salão Farroupilha"
+        title: "Azure Database for PostgreSQL"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Juliano Atanazio"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "14:30"
+        slot: "Salão Piratini"
+        title: "PL/Python: A Linguagem Procedural para Levar o Elefante Mais Longe"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Dickson Guedes"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "14:30"
+        slot: "Salão Farroupilha"
+        title: "Primeiros passos em Machine Learning no PostgreSQL"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "15:30"
+        slot: "Lounge Pôr do Sol"
+        title: "Coffee Break"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Rubens Souza"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "16:00"
+        slot: "Salão Piratini"
+        title: "PostgreSQL e Raspberry Pi, ou o elefante e a framboesa"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Fabio Telles Rodrigues"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "16:00"
+        slot: "Salão Farroupilha"
+        title: "Particionamento de tabelas no PostgreSQL 10"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Sebastian Webber"
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "17:00"
+        slot: "Salão Piratini"
+        title: "Hackeando a AWS: Como fazer o elefante voar sem gastar muito"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: "Timbira"
+      twitter: "sebastian_swc"
+      github: "sebastianwebber"
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "15/09"
+        time: "17:00"
+        slot: "Salão Farroupilha"
+        title: "Coach Clinic"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      
+
+      ## dia 16: palestras
+
+    ,
+      name: "Felipe Pereira"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "09:00"
+        slot: "Salão Piratini"
+        title: "PgBouncer - Pool, Segurança e Disaster Recovery"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: "Artur Zanini"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "09:00"
+        slot: "Salão Farroupilha"
+        title: "Sistemas georreferenciados na pratica"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+
+      name: "Matheus de Oliveira"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "10:00"
+        slot: "Salão Piratini"
+        title: "PostgreSQL no mundo de micro-serviços, a experiência do iFood"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Emerson Engroff"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "10:00"
+        slot: "Salão Farroupilha"
+        title: "PG em Memoria"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Lucio Chiessi"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "11:00"
+        slot: "Salão Piratini"
+        title: "Entendendo e gerenciando Locks no PostgreSQL"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: "Lucas Viecelli"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "11:00"
+        slot: "Salão Farroupilha"
+        title: "Utilizando o PostgreSQL para interagir entre micro serviços e gerir a concorrência num processamento multi-trhead"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "12:00"
+        slot: ""
+        title: "Almoço"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: "Luís Ravazollo"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "13:30"
+        slot: "Salão Piratini"
+        title: "Alta Disponibilidade com PostgreSQL, REPMGR e Pgpool"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+      
+    ,
+      name: "Maísa Silva"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "13:30"
+        slot: "Salão Farroupilha"
+        title: "O caminho das pedras entre DB2 e PostgreSQL"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: "Martín Marqués"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "14:30"
+        slot: "Salão Piratini"
+        title: "How to fail over, and live to tell the tale"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: "Raul Diego de Queiroz Oliveira"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "14:30"
+        slot: "Salão Farroupilha"
+        title: "Análise de performance usando o sistema operacional"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "15:30"
+        slot: "Lounge Pôr do Sul"
+        title: "Coffee Break"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: "Euler Taveira"
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "16:00"
+        slot: "Salão Piratini"
+        title: "Replicação Lógica no PostgreSQL 10"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+      view_speaker: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "16:00"
+        slot: "Salão Farroupilha"
+        title: "FishBowl"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
+    ,
+      name: ""
+      photo: ""
+      presentation:
+        date: "16/09"
+        time: "17:00"
+        slot: "Salão Farroupilha"
+        title: "Encerramento oficial"
+        slides: ""
+      bio:
+        pt: ""
+        en: ""
+      company: ""
+      twitter: ""
+      github: ""
+      linkedin: ""
+      viewSchedule: true
     ]
 
     # List of Sponsors
