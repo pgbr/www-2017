@@ -11,8 +11,10 @@
       <ul>
       <% for slotIndex, slot of scheduleSlots: %>
         <li class="schedule-item">
-          <% if slot.name: %>
-            <span class="schedule-name"><%= slot.name %></span>
+          <% if slot.authors: %>
+            <% for author in slot.authors: %>
+              <span class="schedule-name"><%= author.name %></span>
+            <% end %>
             <span class="schedule-title"><%= slot.presentation.title %></span>
             <%if slot.presentation.slides:%>
               <a class="schedule-slides" href="<%= slot.presentation.slides %>">[Slides]</a>

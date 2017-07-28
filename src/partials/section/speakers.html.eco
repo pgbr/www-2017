@@ -4,43 +4,45 @@
   <h2 class="section-title"><%= @t('sections.speakers.title')%></h2>
 
   <ul class="speakers-list">
-  <% for speaker in @schedule: %>
-    <% if speaker.view_speaker: %>
-      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-        <% if speaker.photo: %>
-          <span class="speaker-photo">
-            <img class="photo" src="<%=@document.docRoot%>/img/speakers/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" />
-          </span>
-        <% end %>
-
-        <h3 class="speakers-card">
-          <span class="speakers-name"><%= speaker.name %></span>
-          <span class="speakers-company"><%= @t('company', speaker) %></span>
-          <span class="speakers-link">
-            <% if speaker.website: %>
-              <a href="<%= speaker.website %>" title="Website" class="fa fa-globe"></a>
-            <% end %>
-            <% if speaker.twitter: %>
-              <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="fa fa-twitter-square"></a>
-            <% end %>
-            <% if speaker.github: %>
-              <a href="http://www.github.com/<%= speaker.github %>" title="Github @<%= speaker.github %>" class="fa fa-github-square"></a>
-            <% end %>
-            <% if speaker.linkedin: %>
-              <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
-            <% end %>
-          </span>
-  
-          <% if speaker.presentation: %>
-          <h3 class="speech-title">
-            <span> <%= speaker.presentation.title %></span>
-          </h3>
+  <% for schedule in @schedule: %>
+    <% if schedule.authors: %>
+      <% for speaker in schedule.authors: %>
+        <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+          <% if speaker.photo: %>
+            <span class="speaker-photo">
+              <img class="photo" src="<%=@document.docRoot%>/img/speakers/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" />
+            </span>
           <% end %>
-        </h3>
 
-        <p class="speakers-bio"><%- @t('bio', speaker) %></p>
-      </li>
+          <h3 class="speakers-card">
+            <span class="speakers-name"><%= speaker.name %></span>
+            <span class="speakers-company"><%= @t('company', speaker) %></span>
+            <span class="speakers-link">
+              <% if speaker.website: %>
+                <a href="<%= speaker.website %>" title="Website" class="fa fa-globe"></a>
+              <% end %>
+              <% if speaker.twitter: %>
+                <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="fa fa-twitter-square"></a>
+              <% end %>
+              <% if speaker.github: %>
+                <a href="http://www.github.com/<%= speaker.github %>" title="Github @<%= speaker.github %>" class="fa fa-github-square"></a>
+              <% end %>
+              <% if speaker.linkedin: %>
+                <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
+              <% end %>
+            </span>
+    
+            <% if speaker.presentation: %>
+              <h3 class="speech-title">
+                <span> <%= speaker.presentation.title %></span>
+              </h3>
+            <% end %>
+          </h3>
+
+          <p class="speakers-bio"><%- @t('bio', speaker) %></p>
+        </li>
       <% end %>
+    <% end %>
   <% end %>
   </ul>
 

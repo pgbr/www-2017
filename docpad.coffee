@@ -146,7 +146,7 @@ module.exports =
           pt: 'Local'
           en: 'Location'
       speakers:
-        active: false
+        active: true
         title:
           pt: 'Palestrantes'
           en: 'Speakers'
@@ -410,20 +410,28 @@ module.exports =
           pt: 'Conheça a Estrutura de Serviços do Eko Residence Hotel no site:'
           en: 'You can learn more about the Service Structure of Eko Residence Hotel on:'
     schedule: [
-      name: ""
-      photo: ""
+      authors: [
+          name: "Eduardo"
+          photo: ""
+          bio: "Picareta Mor"
+          company: "ThoughtWorks"
+          twitter: "nbluis"
+          github: "nbluis"
+          linkedin: "https://linkedin.com/in/eduardobohrer"
+        ,
+          name: "Eduardo"
+          photo: ""
+          bio: "Picareta Mor"
+          company: "ThoughtWorks"
+          twitter: "nbluis"
+          github: "nbluis"
+          linkedin: "https://linkedin.com/in/eduardobohrer"
+      ]
       presentation:
         date: "14/09"
         time: "08:00"
         slot: "Sala Algarves A (9º andar)"
         title: "Credenciamento"
-      bio:
-        pt: ""
-        en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
       viewSchedule: true
     ,
       name: "Workshop 1"
