@@ -28,6 +28,13 @@
               <span class="schedule-slot"><%= slot.presentation.slot %></span>
             <% end %>
           <% end %>
+
+
+          <% if slot.presentation.description: %>
+            <% if slot.presentation.description.pt: %>
+              <%= slot.presentation.description.pt %>
+            <% end %>
+          <% end %>
         </li>
       <% end %>
       </ul>

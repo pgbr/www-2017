@@ -410,30 +410,49 @@ module.exports =
           pt: 'Conheça a Estrutura de Serviços do Eko Residence Hotel no site:'
           en: 'You can learn more about the Service Structure of Eko Residence Hotel on:'
     schedule: [
-      name: "Alvaro Mello"
-      photo: ""
+
+      authors: [
+        name: "Álvaro Melo"
+        photo: "alvaro_melo.jpg"
+        # bio: ""
+        company: "Atua Sistemas de Informação"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/alvaro-melo-151a4269"
+      ]
       presentation:
         date: "14/09"
         time: "09:00"
         slot: "Sala Algarves A (9º andar)"
         title: "Workshop: Do WAL a Replicação"
+        description:
+          pt: "A oficina situa a utilização do WAL, como ele foi a primeira forma de replicação disponível no PostgreSQL e base para a Recuperação em Ponto de Tempo (PITR), passando pela utilização de streaming replication, replication slots e concluindo com o pg_rewind."
+          en: ""
       bio:
-        pt: "A oficina situa a utilização do WAL, como ele foi a primeira forma de replicação disponível no PostgreSQL e base para a Recuperação em Ponto de Tempo (PITR), passando pela utilização de streaming replication, replication slots e concluindo com o pg_rewind."
+        pt: ""
         en: ""
       viewSchedule: true
       view_speaker: true
     ,
-      name: "Fabio Telles Rodrigues"
-      photo: ""
+      authors: [
+        name: "Fabio Telles Rodrigues"
+        photo: "fabio_telles.jpg"
+        # bio: ""
+        company: "Timbira"
+        twitter: "telles"
+        github: ""
+        linkedin: "https://www.linkedin.com/in/telles"
+      ]
       presentation:
         date: "14/09"
         time: "09:00"
         slot: "Sala Algarves B (9º andar)"
-        title: "Backup e Restore no PostgreSQL"
-      bio:
-        pt: "Backup e Restore é uma das tarefas mais importantes de administrador de banco de dados, e uma das mais mal compreendidas. Aprenda os conceitos e técnicas atrás da arte do backup seja ele físico ou lógico e aprenda como funcionam técnicas avançadas como o Point In Time Recovery"
-        en: ""
+        title: "Workshop: Backup e Restore no PostgreSQL"
+        description:
+          pt: "Backup e Restore é uma das tarefas mais importantes de administrador de banco de dados, e uma das mais mal compreendidas. Aprenda os conceitos e técnicas atrás da arte do backup seja ele físico ou lógico e aprenda como funcionam técnicas avançadas como o Point In Time Recovery"
+          en: ""
       viewSchedule: true
+      view_speaker: true
     ,
       name: ""
       photo: ""
@@ -453,19 +472,25 @@ module.exports =
       viewSchedule: true
       
     ,
-      name: "Matheus de Oliveira"
+
+      authors: [
+        name: "Matheus de Oliveira"
+        photo: "matheus_oliveira.jpg"
+        # bio: ""
+        company: "iFood"
+        twitter: "matioli_matheus"
+        github: "matheusoliveira"
+        linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
+      ]
+      view_speaker: true
       presentation:
         date: "14/09"
         time: "13:30"
         slot: "Sala Algarves A (9º andar)"
-        title: "Dicas de como escrever SQL performático"
-      bio:
-        pt: "Esse workshop será feito de exemplos, vamos resolver vários problemas comuns e encontrar ao resolver esses problemas como escrever SQL de forma elegante, direta e performática.
-
-Vamos ver as construções e problemas de performance mais comuns em SQL, como debugar e como resolvê-los. Vamos acabar com alguns mitos (ah, e como existem mitos em SQL). Vamos entender também sobre planos de execução e indexação.
-
-Esse workshop é mais voltado a SQL, não espere ver detalhes sobre performance tuning de administração (parâmetros, CPU, memória, etc.). A ideia é focarmos no que comumente ajuda mais as aplicações e que muitas vezes é deixado de lado, que é análise de consultas (mais lentas e mais executadas), e boa indexação."
-        en: ""
+        title: "Workshop: Dicas de como escrever SQL performático"
+        description:
+          pt: "Se você já passou horas tentando otimizar aquele SELECT confuso. Se já ficou pensando o quê é melhor 'EXISTS ou IN', 'DISTINCT ou GROUP BY', 'count(*) ou count(1)', 'isso ou aquilo'... Esse workshop é pra você."
+          en: ""
       viewSchedule: true
     ,
       name: ""
@@ -485,15 +510,24 @@ Esse workshop é mais voltado a SQL, não espere ver detalhes sobre performance 
       viewSchedule: true
     ,
 
-      name: "Rubens Souza"
+      authors: [
+        name: "Rubens Souza"
+        photo: "rubens_souza.jpg"
+        # bio: ""
+        company: "2nd Quadrant"
+        twitter: "rubens_ts"
+        github: "rubensts"
+        linkedin: "https://www.linkedin.com/in/rubensts"
+      ]
+      view_speaker: true
       presentation:
         date: "14/09"
         time: "16:00"
         slot: "Sala Algarves B (9º andar)"
         title: "Tomando conta do PostgreSQL com Ansible"
-      bio:
-        pt: "Apresentação de Ansible como ferramenta de automação, uso de seus módulos para administração de sistemas em geral e aqueles específicos para PostgreSQL, e estruturação de um playbook Ansible pra instalação de um master/standby PostgreSQL em streaming replication. Todos os testes serão realizados em ambientes virtuais criados com Vagrant."
-        en: ""
+        description:
+          pt: "Apresentação de Ansible como ferramenta de automação, uso de seus módulos para administração de sistemas em geral e aqueles específicos para PostgreSQL, e estruturação de um playbook Ansible pra instalação de um master/standby PostgreSQL em streaming replication. Todos os testes serão realizados em ambientes virtuais criados com Vagrant."
+          en: ""
       viewSchedule: true
     ,
 

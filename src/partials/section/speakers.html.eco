@@ -32,10 +32,15 @@
               <% end %>
             </span>
     
-            <% if speaker.presentation: %>
+            <% if schedule.presentation: %>
               <h3 class="speech-title">
-                <span> <%= speaker.presentation.title %></span>
+                <span> <%= schedule.presentation.title %></span>
               </h3>
+            <% if schedule.presentation.description: %>
+              <% if schedule.presentation.description.pt: %>
+                <%= schedule.presentation.description.pt %>
+              <% end %>
+            <% end %>
             <% end %>
           </h3>
 
