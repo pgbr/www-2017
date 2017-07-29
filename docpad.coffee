@@ -524,7 +524,7 @@ module.exports =
         date: "14/09"
         time: "16:00"
         slot: "Sala Algarves B (9º andar)"
-        title: "Tomando conta do PostgreSQL com Ansible"
+        title: "Workshop: Tomando conta do PostgreSQL com Ansible"
         description:
           pt: "Apresentação de Ansible como ferramenta de automação, uso de seus módulos para administração de sistemas em geral e aqueles específicos para PostgreSQL, e estruturação de um playbook Ansible pra instalação de um master/standby PostgreSQL em streaming replication. Todos os testes serão realizados em ambientes virtuais criados com Vagrant."
           en: ""
@@ -570,7 +570,7 @@ module.exports =
       
       authors: [
           name: "Fabrízio de Royes Mello"
-          photo: ""
+          photo: "fabrizio_mello.jpg"
           # bio: "Picareta Mor"
           company: "Timbira"
           twitter: "fabriziomello"
@@ -578,7 +578,7 @@ module.exports =
           linkedin: "https://www.linkedin.com/in/fabriziomello"
         ,
           name: "Dickson Guedes"
-          photo: ""
+          photo: "dickson_guedes.jpg"
           # bio: "Picareta Mor"
           company: "Confesol"
           twitter: "guediz"
@@ -591,60 +591,84 @@ module.exports =
         slot: "Salão Piratini"
         title: "Hacking PostgreSQL"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Nesta apresentação iremos demonstrar de como iniciar no desenvolvimento de uma funcionalidade para o PostgreSQL. Passando por preparação do ambiente de desenvolvimento, compilação, testes de regressão, principais componentes e pontos de extensão."
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
     ,
-      name: "William Ivanski"
-      photo: ""
+      authors: [
+        name: "William Ivanski"
+        photo: "william_ivanski.jpg"
+        # bio: ""
+        company: "2nd Quadrant"
+        twitter: "wind39"
+        github: "wind39"
+        linkedin: "https://www.linkedin.com/in/william-ivanski-538b10104"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "10:00"
         slot: "Salão Farroupilha"
         title: "Gerenciando Backups com o Barman"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Barman (ou pgbarman) é uma ferramenta open source para gerenciar backups e auxilia na recuperação de desastres. Oferece diversas funcionalidades, entre elas: políticas de retenção, recuperação local e remota, arquivamento e compressão de arquivos WAL, backup e recuperação em paralelo, PITR."
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Ivo Augusto"
-      photo: ""
+      authors: [
+        name: "Ivo Augusto"
+        photo: "ivo_augusto.jpg"
+        # bio: ""
+        company: ""
+        twitter: "ivonascimento"
+        github: "iannsp"
+        linkedin: "https://www.linkedin.com/in/ivonascimento"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "11:00"
         slot: "Salão Piratini"
         title: "PostgreSQL e a arquitetura liquida das startups"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Como o postgreSQL é um acelerador de startups que pensam em como executar estratégias de sucesso e construir soluções guiadas pelo \"Four Steps to  the Epiphany\", de Steven Blank."
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Luis Fernando Bueno"
-      photo: ""
+      authors: [
+        name: "Luis Fernando Bueno"
+        photo: "luis_bueno.jpg"
+        # bio: ""
+        company: "CENSIPAM"
+        twitter: ""
+        github: ""
+        linkedin: ""
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "11:00"
         slot: "Salão Farroupilha"
         title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Nesta palestra o participante conhecerá como usar o PostGIS para criar e gerenciar um banco de dados espaciais usando os dados do projeto OpenStreetMap. Estes dados estão sendo adotado por diversos sites como o Foursquare, o TripAdvisor, a Wikipédia e até mesmo a Apple no seu aplicativo iPhoto, como alternativa para os dados do Google Maps."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -669,17 +693,24 @@ module.exports =
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Alvaro Melo"
-      photo: ""
+      authors: [
+        name: "Álvaro Melo"
+        photo: "alvaro_melo.jpg"
+        # bio: ""
+        company: "Atua Sistemas de Informação"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/alvaro-melo-151a4269"
+      ]
       presentation:
         date: "15/09"
         time: "13:30"
         slot: "Salão Piratini"
         title: "pg_rewind - Diminua seu downtime com ferramentas nativas"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "A replicação nativa em bancos de dados PostgreSQL já é realidade a alguns anos. Porém aplicar um remaster em grandes bases de dados, a partir de um slave sincronizado, pode demorar muito tempo e estourar seu SLA. Para resolver este problema, foi implementado o pg_rewind. Em que situações ele se aplica, quais são os requisitos para seu uso e um exemplo prático são os temas desta sessão."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -696,9 +727,9 @@ module.exports =
         slot: "Salão Farroupilha"
         title: "Azure Database for PostgreSQL"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Azure Database for PostgreSQL is a managed database service that makes it easier to build apps without the management and administration burden. The service uses community edition of PostgreSQL and seamlessly works with native tools, drivers and libraries. At the start of preview, we are offering support for PostgreSQL versions 9.5 and 9.6"
+          en: ""
       company: ""
       twitter: ""
       github: ""
