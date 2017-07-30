@@ -719,8 +719,16 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Rodrigo Crespi"
-      photo: ""
+      authors: [
+        name: "Rodrigo Crespi"
+        photo: "rodrigo_crespi.jpg"
+        # bio: ""
+        company: "CrespiDB"
+        twitter: "sqlcrespi"
+        github: "sqlcrespi"
+        linkedin: "https://www.linkedin.com/in/rodrigocrespi"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "13:30"
@@ -738,17 +746,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Juliano Atanazio"
-      photo: ""
+      authors: [
+        name: "Juliano Atanazio"
+        photo: "juliano_atanazio.jpg"
+        # bio: ""
+        company: "SERPRO"
+        twitter: "julianoatanazio"
+        github: "juliano777"
+        linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "14:30"
         slot: "Salão Piratini"
         title: "PL/Python: A Linguagem Procedural para Levar o Elefante Mais Longe"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Apresentação Sobre  a Linguagem PL/Python"
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -757,17 +773,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Dickson Guedes"
-      photo: ""
+      authors: [
+          name: "Dickson Guedes"
+          photo: "dickson_guedes.jpg"
+          # bio: "Picareta Mor"
+          company: "Confesol"
+          twitter: "guediz"
+          github: "guedes"
+          linkedin: "https://www.linkedin.com/in/dicksonguedes/"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "14:30"
         slot: "Salão Farroupilha"
         title: "Primeiros passos em Machine Learning no PostgreSQL"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Nesta palestra apresento como dar os primeiros passos em aprendizado de máquina no PostgreSQL"
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -795,17 +819,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Rubens Souza"
-      photo: ""
+      authors: [
+        name: "Rubens Souza"
+        photo: "rubens_souza.jpg"
+        # bio: ""
+        company: "2nd Quadrant"
+        twitter: "rubens_ts"
+        github: "rubensts"
+        linkedin: "https://www.linkedin.com/in/rubensts"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "16:00"
         slot: "Salão Piratini"
         title: "PostgreSQL e Raspberry Pi, ou o elefante e a framboesa"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Instalação do PostgreSQL no Raspberry Pi, comparação de benchmarks, uso do Raspberry Pi como ferramenta educacional e apresentação do projeto `pgbramble` (PostgreSQL Educational Bramble)."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -814,17 +846,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Fabio Telles Rodrigues"
-      photo: ""
+      authors: [
+        name: "Fabio Telles Rodrigues"
+        photo: "fabio_telles.jpg"
+        # bio: ""
+        company: "Timbira"
+        twitter: "telles"
+        github: ""
+        linkedin: "https://www.linkedin.com/in/telles"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "16:00"
         slot: "Salão Farroupilha"
         title: "Particionamento de tabelas no PostgreSQL 10"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Aprenda o que mudou e como utilizar o Particionamento de tabelas declarativo no PostgreSQL 10"
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -833,17 +873,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Sebastian Webber"
-      photo: ""
+      authors: [
+        name: "Sebastian Webber"
+        photo: "sebastian_webber.jpg"
+        # bio: ""
+        company: "Timbira"
+        twitter: "sebastian_swc"
+        github: "sebastianwebber"
+        linkedin: "https://www.linkedin.com/in/sebastianswc"
+      ]
+      view_speaker: true
       presentation:
         date: "15/09"
         time: "17:00"
         slot: "Salão Piratini"
         title: "Hackeando a AWS: Como fazer o elefante voar sem gastar muito"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Nessa palestra eu pretendo descrever os desafios e algumas técnicas para otimizar os discos e o desempenho em bases relativamente grandes de PostgreSQL usando instancias EC2 e multiplos volumes EBS na cloud da AWS."
+          en: ""
       company: "Timbira"
       twitter: "sebastian_swc"
       github: "sebastianwebber"
@@ -872,54 +920,84 @@ module.exports =
       ## dia 16: palestras
 
     ,
-      name: "Felipe Pereira"
-      photo: ""
+      authors: [
+        name: "Felipe Pereira"
+        photo: "felipe_pereira.jpg"
+        # bio: ""
+        company: "Dextra"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/felipe-pereira-dba"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "09:00"
         slot: "Salão Piratini"
         title: "PgBouncer - Pool, Segurança e Disaster Recovery"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Como utilizar o middleware PgBouncer para aumentar a segurança do seu ambiente, fazer o pool de conexões, aumentar a performance da aplicação e facilitar sua estratégia de Disaster Recovery sem ter que alterar a aplicação ou o banco de dados."
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
-      view_speaker: true
     ,
-      name: "Artur Zanini"
-      photo: ""
+      authors: [
+        name: "Arthur Zanini"
+        photo: "arthur_zanini.jpg"
+        # bio: ""
+        company: "Gauss Geotecnologia"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/artur-zanini-bb797ab3/"
+      ,
+        name: "Carlos Almeida"
+        photo: "carlos_almeida.jpg"
+        # bio: ""
+        company: "Gauss Geotecnologia"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/carlosgauss/"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "09:00"
         slot: "Salão Farroupilha"
         title: "Sistemas georreferenciados na pratica"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "A palestra vai demonstrar  soluções aplicadas dentro do mercado publico e privado usando o postgres e o postgis. "
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
-      view_speaker: true
     ,
 
-      name: "Matheus de Oliveira"
-      photo: ""
+      authors: [
+        name: "Matheus de Oliveira"
+        photo: "matheus_oliveira.jpg"
+        # bio: ""
+        company: "iFood"
+        twitter: "matioli_matheus"
+        github: "matheusoliveira"
+        linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "10:00"
         slot: "Salão Piratini"
         title: "PostgreSQL no mundo de micro-serviços, a experiência do iFood"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Muitos DBAs têm dúvida de como é a vida e forma de trabalho de equipes de bancos de dados em startups extremamente dinâmicas, com crescimento acelerado e ainda com arquitetura de sistemas utilizando micro-serviços. Nesta palestra vou apresentar a experiência do iFood, e como a divisão em micro-serviços tem nos ajudado a escalar o ambiente desse negócio que já está fazendo mais de 4 milhões de pedidos por mês, e vem crescendo quase exponencialmente. Apresentarei como estamos usando diversas instâncias de PostgreSQL para suportar essa demanda, e como a equipe de banco de dados trabalha para auxiliar tanto time de desenvolvimento quanto infra-estrutura."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -928,33 +1006,52 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Emerson Engroff"
-      photo: ""
+      authors: [
+        name: "Emerson Engroff"
+        photo: "emerson_engroff.jpg"
+        # bio: ""
+        company: ""
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/emerson-engroff-88a4023b"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "10:00"
         slot: "Salão Farroupilha"
         title: "PG em Memoria"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Uso do PostgreSQL em memória;
+Soluções de mercado e paralelos com outros DBMS, foco em benchmarking com Hana;
+Case de uso do setup padrão do PG e configurações passo-a-passo;
+Demonstração de poderil;"
+          en: ""
       company: ""
       twitter: ""
       github: ""
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Lucio Chiessi"
-      photo: ""
+      authors: [
+        name: "Lucio Chiessi"
+        photo: "lucio_chiessi.jpg"
+        # bio: ""
+        company: "VORio Tecnologia da Informação"
+        twitter: "lucio_chiessi"
+        github: ""
+        linkedin: "https://www.linkedin.com/in/lucio-chiessi-2449636"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "11:00"
         slot: "Salão Piratini"
         title: "Entendendo e gerenciando Locks no PostgreSQL"
         slides: ""
-      bio:
-        pt: ""
+      description:
+        pt: "Demonstração dos tipos de Locks existentes no PostgreSQL."
         en: ""
       company: ""
       twitter: ""
@@ -963,17 +1060,25 @@ module.exports =
       viewSchedule: true
       view_speaker: true
     ,
-      name: "Lucas Viecelli"
-      photo: ""
+      authors: [
+        name: "Lucas Viecelli"
+        photo: "lucas_viecelli.jpg"
+        # bio: ""
+        company: "Desbravador Software Ltda"
+        twitter: "lucasviecelli"
+        github: "lucasviecelli"
+        linkedin: "https://www.linkedin.com/in/lucas-viecelli-76044ab0"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "11:00"
         slot: "Salão Farroupilha"
         title: "Utilizando o PostgreSQL para interagir entre micro serviços e gerir a concorrência num processamento multi-trhead"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Todo mundo só fala de micro serviços. Não é mais uma tendencia, é realidade. Os softwares precisam ser escaláveis, resolvem problemas mais complexos e precisamos extrair o máximo deles. O PostgreSQL pode ser um aliado na sua arquitetura de micro serviços. Entenda alguns casos aonde ele vai te ajudar."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -998,17 +1103,25 @@ module.exports =
       linkedin: ""
       viewSchedule: true
     ,
-      name: "Luís Ravazollo"
-      photo: ""
+      authors: [
+        name: "Ricardo Luís Ravazollo"
+        photo: "ricardo_ravazollo.jpg"
+        # bio: ""
+        company: "PROCEMPA"
+        twitter: ""
+        github: ""
+        linkedin: ""
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "13:30"
         slot: "Salão Piratini"
         title: "Alta Disponibilidade com PostgreSQL, REPMGR e Pgpool"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Configuração de um ambiente PostgreSQL de alta disponibilidade, do tipo Master/Slave, com o auxílio dos softwares REPMGR e Pgpool. No monitoramento da solução é utilizado o Zabbix com os templates PG_MONZ."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -1017,17 +1130,25 @@ module.exports =
       view_speaker: true
       
     ,
-      name: "Maísa Silva"
-      photo: ""
+      authors: [
+        name: "Maísa Silva"
+        photo: "maisa_silva.jpg"
+        # bio: ""
+        company: "Universidade Estadual de Campinas"
+        twitter: ""
+        github: ""
+        linkedin: "https://www.linkedin.com/in/maisa-silva"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "13:30"
         slot: "Salão Farroupilha"
         title: "O caminho das pedras entre DB2 e PostgreSQL"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "A equipe de TI do Arquivo Central do Sistema de Arquivos (SIARQ) da Universidade Estadual de Campinas (Unicamp) realizou um estudo de migração das bases de dados DB2 para PostgreSQL. O que representa a mudança de uma solução proprietária para outra livre. Nessa apresentação a equipe visa compartilhar essa experiência, mostrando como a migração pode ser feita com baixo impacto para o desenvolvimento e operacionalização do sistema. E quais foram as medidas para contornar as diferenças entre os dois SGBDs."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -1035,17 +1156,25 @@ module.exports =
       viewSchedule: true
       view_speaker: true
     ,
-      name: "Martín Marqués"
-      photo: ""
+      authors: [
+        name: "Martín Marqués"
+        photo: "martin_marques.jpg"
+        # bio: ""
+        company: "2nd Quadrant"
+        twitter: "martinarmarques"
+        github: ""
+        linkedin: "https://www.linkedin.com/in/martín-marqués-b6b72131"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "14:30"
         slot: "Salão Piratini"
         title: "How to fail over, and live to tell the tale"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "In this talk we will discuss about how to set up high availability and not end up with a large load of data lost, or a split brain."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -1053,17 +1182,25 @@ module.exports =
       viewSchedule: true
       view_speaker: true
     ,
-      name: "Raul Diego de Queiroz Oliveira"
-      photo: ""
+      authors: [
+        name: "Raul Diego de Queiroz Oliveira"
+        photo: "raul_oliveira.jpg"
+        # bio: ""
+        company: "Datainfo Soluções em TI"
+        twitter: "rauldoliveira"
+        github: "rauldoliveira"
+        linkedin: "https://www.linkedin.com/in/rauldoliveira"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "14:30"
         slot: "Salão Farroupilha"
         title: "Análise de performance usando o sistema operacional"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Será mostrado nessa palestra o funcionamento do sistema operacional e como isso refletirá em contadores que serão usados na análise de performance e na escolha de  configurações para extrair o máximo do ambiente. A palestra terá como base o Linux, mas também veremos como fazer a análise no Windows e as ferramentas que poderão ser usadas para investigações no ambiente."
+          en: ""
       company: ""
       twitter: ""
       github: ""
@@ -1089,17 +1226,25 @@ module.exports =
       viewSchedule: true
       view_speaker: true
     ,
-      name: "Euler Taveira"
-      photo: ""
+      authors: [
+        name: "Euler Taveira"
+        photo: "euler_taveira.jpg"
+        # bio: ""
+        company: "Timbira"
+        twitter: "eulerto"
+        github: "eulerto"
+        linkedin: "https://www.linkedin.com/in/eulerto"
+      ]
+      view_speaker: true
       presentation:
         date: "16/09"
         time: "16:00"
         slot: "Salão Piratini"
         title: "Replicação Lógica no PostgreSQL 10"
         slides: ""
-      bio:
-        pt: ""
-        en: ""
+        description:
+          pt: "Uma das principais novidades do PostgreSQL 10 será replicação lógica. É um método de replicação de dados que usa o modelo publicar-inscrever. Nesta palestra iremos falar do conceitos básicos, configuração, administração, monitoramento e planos futuros."
+          en: ""
       company: ""
       twitter: ""
       github: ""
