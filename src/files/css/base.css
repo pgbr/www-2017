@@ -182,8 +182,8 @@ nav {
   height: 160px;
 }
 .speaker-photo .photo {
-  max-width: 120px;
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
 }
 .speech-title {
   line-height: 1.2;
