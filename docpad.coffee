@@ -428,7 +428,6 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/alvaro-melo-151a4269"
       ]
       viewSchedule: true
-      view_speaker: true
     ,
       presentation:
         date: "14/09"
@@ -448,7 +447,6 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/telles"
       ]
       viewSchedule: true
-      view_speaker: true
     ,
       presentation:
         date: "14/09"
@@ -473,7 +471,6 @@ module.exports =
         github: "matheusoliveira"
         linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
       ]
-      view_speaker: true
       viewSchedule: true
     ,
 
@@ -501,7 +498,6 @@ module.exports =
         github: "rubensts"
         linkedin: "https://www.linkedin.com/in/rubensts"
       ]
-      view_speaker: true
       viewSchedule: true
     ,
 
@@ -567,7 +563,6 @@ module.exports =
         github: "wind39"
         linkedin: "https://www.linkedin.com/in/william-ivanski-538b10104"
       ]
-      view_speaker: true
       viewSchedule: true
     ,
 
@@ -589,7 +584,6 @@ module.exports =
         github: "iannsp"
         linkedin: "https://www.linkedin.com/in/ivonascimento"
       ]
-      view_speaker: true
       viewSchedule: true
     ,
       presentation:
@@ -610,7 +604,6 @@ module.exports =
         github: ""
         linkedin: ""
       ]
-      view_speaker: true
       viewSchedule: true
     ,
       presentation:
@@ -639,7 +632,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/alvaro-melo-151a4269"
       ]
       viewSchedule: true
-      view_speaker: true
+
     ,
 
       presentation:
@@ -661,7 +654,6 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/rodrigocrespi"
       ]
       viewSchedule: true
-      view_speaker: true
       
     ,
 
@@ -683,7 +675,6 @@ module.exports =
         github: "juliano777"
         linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
       ]
-      view_speaker: true
       viewSchedule: true
       
     ,
@@ -706,7 +697,6 @@ module.exports =
           github: "guedes"
           linkedin: "https://www.linkedin.com/in/dicksonguedes/"
       ]
-      view_speaker: true
       viewSchedule: true
       
     ,
@@ -718,16 +708,6 @@ module.exports =
         slides: ""
       viewSchedule: true
     ,
-      authors: [
-        name: "Rubens Souza"
-        photo: "rubens_souza.jpg"
-        # bio: ""
-        company: "2nd Quadrant"
-        twitter: "rubens_ts"
-        github: "rubensts"
-        linkedin: "https://www.linkedin.com/in/rubensts"
-      ]
-      view_speaker: true
       presentation:
         date: "15/09"
         time: "16:00"
@@ -737,12 +717,16 @@ module.exports =
         description:
           pt: "Instalação do PostgreSQL no Raspberry Pi, comparação de benchmarks, uso do Raspberry Pi como ferramenta educacional e apresentação do projeto `pgbramble` (PostgreSQL Educational Bramble)."
           en: ""
-      company: ""
-      twitter: ""
-      github: ""
-      linkedin: ""
+      authors: [
+        name: "Rubens Souza"
+        photo: "rubens_souza.jpg"
+        # bio: ""
+        company: "2nd Quadrant"
+        twitter: "rubens_ts"
+        github: "rubensts"
+        linkedin: "https://www.linkedin.com/in/rubensts"
+      ]
       viewSchedule: true
-      view_speaker: true
       
     ,
 
@@ -765,7 +749,6 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/telles"
       ]
       viewSchedule: true
-      view_speaker: true
       
     ,
 
@@ -788,7 +771,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/sebastianswc"
       ]
       viewSchedule: true
-      view_speaker: true
+
     ,
 
       presentation:
@@ -820,7 +803,6 @@ module.exports =
         github: ""
         linkedin: "https://www.linkedin.com/in/felipe-pereira-dba"
       ]
-      view_speaker: true
       viewSchedule: true
 
     ,
@@ -851,7 +833,6 @@ module.exports =
         github: ""
         linkedin: "https://www.linkedin.com/in/carlosgauss/"
       ]
-      view_speaker: true
       viewSchedule: true
 
     ,
@@ -875,7 +856,6 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
       ]
       viewSchedule: true
-      view_speaker: true
       
     ,
 
@@ -900,7 +880,6 @@ Demonstração de poderil;"
         github: ""
         linkedin: "https://www.linkedin.com/in/emerson-engroff-88a4023b"
       ]
-      view_speaker: true
       viewSchedule: true
 
     ,
@@ -924,7 +903,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/lucio-chiessi-2449636"
       ]
       viewSchedule: true
-      view_speaker: true
     ,
 
       presentation:
@@ -946,7 +924,7 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/lucas-viecelli-76044ab0"
       ]
       viewSchedule: true
-      view_speaker: true
+
     ,
       presentation:
         date: "16/09"
@@ -974,7 +952,6 @@ Demonstração de poderil;"
         linkedin: ""
       ]
       viewSchedule: true
-      view_speaker: true
       
     ,
 
@@ -997,7 +974,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/maisa-silva"
       ]
       viewSchedule: true
-      view_speaker: true
 
     ,
 
@@ -1020,7 +996,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/martín-marqués-b6b72131"
       ]
       viewSchedule: true
-      view_speaker: true
 
     ,
 
@@ -1043,7 +1018,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/rauldoliveira"
       ]
       viewSchedule: true
-      view_speaker: true
 
     ,
 
@@ -1053,7 +1027,6 @@ Demonstração de poderil;"
         slot: "Lounge Pôr do Sul"
         title: "Coffee Break"
       viewSchedule: true
-      view_speaker: true
 
     ,
 
@@ -1076,7 +1049,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/eulerto"
       ]
       viewSchedule: true
-      view_speaker: true
 
     ,
 
