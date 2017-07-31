@@ -254,7 +254,7 @@ nav {
   background-color: #e4e4e4;
 }
 
-.schedule-slot, .schedule-name, .schedule-title {
+.schedule-slot, .schedule-name, .schedule-title, .schedule-description {
   float: left;
   clear: both;
   text-shadow: 1px 1px #fff;

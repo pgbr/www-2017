@@ -6,39 +6,40 @@
     <h1 class="schedule-date"><%= date %></h1>
 
     <div class="schedule-list">
-    <% for time, scheduleSlots of scheduleDate: %>
-      <h3 class="schedule-time"><%= time %></h3>
-      <ul>
-      <% for slotIndex, slot of scheduleSlots: %>
-        <li class="schedule-item">
-          <% if slot.authors: %>
-            <% for author in slot.authors: %>
-              <span class="schedule-name"><%= author.name %></span>
-            <% end %>
-            <span class="schedule-title"><%= slot.presentation.title %></span>
-            <%if slot.presentation.slides:%>
-              <a class="schedule-slides" href="<%= slot.presentation.slides %>">[Slides]</a>
-            <% end %>
-            <span class="schedule-slot"><%= slot.presentation.slot %></span>
-          <% else: %>
+      <% for time, scheduleSlots of scheduleDate: %>
+        <h3 class="schedule-time"><%= time %></h3>
 
-            <span class="schedule-name"><%= slot.name %></span>
-            <span class="schedule-title large"><%= slot.presentation.title %></span>
-            <%if slot.presentation.slot:%>
-              <span class="schedule-slot"><%= slot.presentation.slot %></span>
-            <% end %>
+        <ul>
+
+          <% for slotIndex, slot of scheduleSlots: %>
+            <li class="schedule-item">
+
+              <h1 class="schedule-title"><%= slot.presentation.title %></h1>
+
+              <% if slot.presentation.slides: %>
+                <a class="schedule-slides" href="<%= slot.presentation.slides %>">[Slides]</a>
+              <% end %>
+
+              <% if slot.authors: %>
+                <% for author in slot.authors: %>
+                  <span class="schedule-name"><%= author.name %></span>
+                <% end %>
+              <% end %>
+
+              <% if slot.presentation.slot: %>
+                <span class="schedule-slot"><%= slot.presentation.slot %></span>
+              <% end %>
+
+              <% if slot.presentation.description: %>
+                <div class="schedule-description"><%= @t('description', slot.presentation) %></div>
+              <% end %>
+
+            </li>
           <% end %>
 
+        </ul>
 
-          <% if slot.presentation.description: %>
-            <% if slot.presentation.description.pt: %>
-              <%= slot.presentation.description.pt %>
-            <% end %>
-          <% end %>
-        </li>
       <% end %>
-      </ul>
-    <% end %>
     </div>
   <% end %>
 
