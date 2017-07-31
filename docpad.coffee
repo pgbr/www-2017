@@ -1230,15 +1230,20 @@ Demonstração de poderil;"
       for schedule in schedules
 
         for author in schedule.authors
-          if speakers[author.name]
-            speakers[author.name].presentations.push(schedule.presentation)
+          speakersFound = (speaker for speaker in speakers when speaker.info.name == author.name)
+
+          if speakersFound.length > 0
+            speakersFound[0].presentations.push(schedule.presentation)
           else
-            speakers[author.name] = {
+            speakers.push ({
               info: author,
               presentations: [schedule.presentation]
-            }
+            })
 
-      speakers
+      speakers.sort(@sorter)
+
+    sorter: (a, b) -> 
+      a.info.name.localeCompare(b.info.name)
 
     normalize:(value) ->
       value.replace(/[^a-zA-Z0-9_]/g, '').toLowerCase()
