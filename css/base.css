@@ -62,7 +62,7 @@ p {
    ========================================================================== */
 nav {
   padding:15px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 10;
 }
@@ -182,8 +182,8 @@ nav {
   height: 160px;
 }
 .speaker-photo .photo {
-  max-width: 120px;
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
 }
 .speech-title {
   line-height: 1.2;
@@ -254,7 +254,7 @@ nav {
   background-color: #e4e4e4;
 }
 
-.schedule-slot, .schedule-name, .schedule-title {
+.schedule-slot, .schedule-name, .schedule-title, .schedule-description {
   float: left;
   clear: both;
   text-shadow: 1px 1px #fff;
