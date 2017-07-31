@@ -12,7 +12,7 @@
         <ul>
 
           <% for slotIndex, slot of scheduleSlots: %>
-            <li class="schedule-item">
+            <li class="schedule-item" id="<%= @getPresentationId(slot.presentation) %>">
 
               <h1 class="schedule-title"><%= slot.presentation.title %></h1>
 

@@ -1251,11 +1251,31 @@ Demonstração de poderil;"
     schedulesByTime:(schedulesList, time) ->
       schedulesByTime = (schedule for schedule in schedulesList when schedule.presentation.time == time)
 
+    viewSpeakers: () ->
+      speakers = []
+      schedules = (schedule for schedule in this.schedule when schedule.authors)
+
+      for schedule in schedules
+
+        for author in schedule.authors
+          if speakers[author.name]
+            speakers[author.name].presentations.push(schedule.presentation)
+          else
+            speakers[author.name] = {
+              info: author,
+              presentations: [schedule.presentation]
+            }
+
+      speakers
+
     normalize:(value) ->
       value.replace(/[^a-zA-Z0-9_]/g, '').toLowerCase()
 
     getScheduleId: (schedule) ->
-      this.normalize(schedule.presentation.title).substr(0, 50);
+      this.getPresentationId(schedule);
+
+    getPresentationId: (presentation) ->
+      this.normalize(presentation.title).substr(0, 50);
 
     getUrl: (baseUrl, complement) ->
       if complement

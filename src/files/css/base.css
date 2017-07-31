@@ -62,7 +62,7 @@ p {
    ========================================================================== */
 nav {
   padding:15px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 10;
 }

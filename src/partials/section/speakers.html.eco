@@ -4,51 +4,45 @@
   <h2 class="section-title"><%= @t('sections.speakers.title')%></h2>
 
   <ul class="speakers-list">
-  <% for schedule in @schedule: %>
-    <% if schedule.authors: %>
-      <% for speaker in schedule.authors: %>
-        <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-          <% if speaker.photo: %>
-            <span class="speaker-photo">
-              <img class="photo" src="<%=@document.docRoot%>/img/speakers/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" />
-            </span>
-          <% end %>
+  <%for key, speaker of @viewSpeakers(): %>
 
-          <h3 class="speakers-card">
-            <span class="speakers-name"><%= speaker.name %></span>
-            <span class="speakers-company"><%= @t('company', speaker) %></span>
-            <span class="speakers-link">
-              <% if speaker.website: %>
-                <a href="<%= speaker.website %>" title="Website" class="fa fa-globe"></a>
-              <% end %>
-              <% if speaker.twitter: %>
-                <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="fa fa-twitter-square"></a>
-              <% end %>
-              <% if speaker.github: %>
-                <a href="http://www.github.com/<%= speaker.github %>" title="Github @<%= speaker.github %>" class="fa fa-github-square"></a>
-              <% end %>
-              <% if speaker.linkedin: %>
-                <a href="<%= speaker.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
-              <% end %>
-            </span>
-    
-            <% if schedule.presentation: %>
-              <h3 class="speech-title">
-                <span> <%= schedule.presentation.title %></span>
-              </h3>
-            <% if schedule.presentation.description: %>
-              <% if schedule.presentation.description.pt: %>
-                <%= schedule.presentation.description.pt %>
-              <% end %>
-            <% end %>
-            <% end %>
-          </h3>
-
-          <p class="speakers-bio"><%- @t('bio', speaker) %></p>
-        </li>
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <% if speaker.info.photo: %>
+        <span class="speaker-photo">
+          <img class="photo" src="<%=@document.docRoot%>/img/speakers/<%= speaker.info.photo %>" alt="<%= speaker.info.name %>" itemprop="image" />
+        </span>
       <% end %>
+
+      <h3 class="speakers-card">
+        <span class="speakers-name"><%= speaker.info.name %></span>
+        <span class="speakers-company"><%= @t('company', speaker.info) %></span>
+        <span class="speakers-link">
+          <% if speaker.info.website: %>
+            <a href="<%= speaker.info.website %>" title="Website" class="fa fa-globe"></a>
+          <% end %>
+          <% if speaker.info.twitter: %>
+            <a href="http://www.twitter.com/<%= speaker.info.twitter %>" title="Twitter @<%= speaker.info.twitter %>" class="fa fa-twitter-square"></a>
+          <% end %>
+          <% if speaker.info.github: %>
+            <a href="http://www.github.com/<%= speaker.info.github %>" title="Github @<%= speaker.info.github %>" class="fa fa-github-square"></a>
+          <% end %>
+          <% if speaker.info.linkedin: %>
+            <a href="<%= speaker.info.linkedin %>" title="Linkedin" class="fa fa-linkedin-square"></a>
+          <% end %>
+        </span>
+
+        <% for presentation in speaker.presentations: %>
+          <h4 class="speech-title">
+            <a href="#<%=@getPresentationId(presentation)%>"> 
+              <%= @t('title', presentation) %> - <%= presentation.date%> <%= presentation.time %>
+            </a>
+          </h4>
+        <% end %>
+      </h3>
+
+      <p class="speakers-bio"><%- @t('bio', speaker.info) %></p>
+    </li>
     <% end %>
-  <% end %>
   </ul>
 
 </section>
