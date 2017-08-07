@@ -909,7 +909,7 @@ Demonstração de poderil;"
         date: "16/09"
         time: "11:00"
         slot: "Salão Farroupilha"
-        title: "Utilizando o PostgreSQL para interagir entre micro serviços e gerir a concorrência num processamento multi-trhead"
+        title: "Utilizando o PostgreSQL com micro-serviços e transações concorrentes"
         slides: ""
         description:
           pt: "Todo mundo só fala de micro serviços. Não é mais uma tendencia, é realidade. Os softwares precisam ser escaláveis, resolvem problemas mais complexos e precisamos extrair o máximo deles. O PostgreSQL pode ser um aliado na sua arquitetura de micro serviços. Entenda alguns casos aonde ele vai te ajudar."
