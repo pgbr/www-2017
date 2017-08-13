@@ -670,7 +670,7 @@ module.exports =
         name: "Juliano Atanazio"
         photo: "juliano_atanazio.jpg"
         # bio: ""
-        company: "SERPRO"
+        company: ""
         twitter: "julianoatanazio"
         github: "juliano777"
         linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
