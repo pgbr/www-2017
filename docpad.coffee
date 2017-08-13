@@ -588,7 +588,7 @@ module.exports =
     ,
       presentation:
         date: "15/09"
-        time: "11:00"
+        time: "14:30"
         slot: "Salão Farroupilha"
         title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
         slides: ""
@@ -659,7 +659,7 @@ module.exports =
 
       presentation:
         date: "15/09"
-        time: "14:30"
+        time: "11:00"
         slot: "Salão Piratini"
         title: "PL/Python: A Linguagem Procedural para Levar o Elefante Mais Longe"
         slides: ""
