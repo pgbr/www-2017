@@ -588,7 +588,7 @@ module.exports =
     ,
       presentation:
         date: "15/09"
-        time: "11:00"
+        time: "14:30"
         slot: "Salão Farroupilha"
         title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
         slides: ""
@@ -659,7 +659,7 @@ module.exports =
 
       presentation:
         date: "15/09"
-        time: "14:30"
+        time: "11:00"
         slot: "Salão Piratini"
         title: "PL/Python: A Linguagem Procedural para Levar o Elefante Mais Longe"
         slides: ""
@@ -670,7 +670,7 @@ module.exports =
         name: "Juliano Atanazio"
         photo: "juliano_atanazio.jpg"
         # bio: ""
-        company: "SERPRO"
+        company: ""
         twitter: "julianoatanazio"
         github: "juliano777"
         linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
@@ -943,8 +943,8 @@ Demonstração de poderil;"
           pt: "Configuração de um ambiente PostgreSQL de alta disponibilidade, do tipo Master/Slave, com o auxílio dos softwares REPMGR e Pgpool. No monitoramento da solução é utilizado o Zabbix com os templates PG_MONZ."
           en: ""
       authors: [
-        name: "Ricardo Luís Ravazollo"
-        photo: "ricardo_ravazollo.jpg"
+        name: "Ricardo Luís Ravazzolo"
+        photo: "ricardo_ravazzolo.jpg"
         # bio: ""
         company: "PROCEMPA"
         twitter: ""
