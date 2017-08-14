@@ -493,7 +493,7 @@ module.exports =
       authors: [
         name: "Rubens Souza"
         photo: "rubens_souza.jpg"
-        company: "2nd Quadrant"
+        company: "2ndQuadrant"
         twitter: "rubens_ts"
         github: "rubensts"
         linkedin: "https://www.linkedin.com/in/rubensts"
@@ -558,8 +558,8 @@ module.exports =
         name: "William Ivanski"
         photo: "william_ivanski.jpg"
         # bio: ""
-        company: "2nd Quadrant"
-        twitter: "wind39"
+        company: "2ndQuadrant"
+        twitter: "WilliamIvanski"
         github: "wind39"
         linkedin: "https://www.linkedin.com/in/william-ivanski-538b10104"
       ]
@@ -721,7 +721,7 @@ module.exports =
         name: "Rubens Souza"
         photo: "rubens_souza.jpg"
         # bio: ""
-        company: "2nd Quadrant"
+        company: "2ndQuadrant"
         twitter: "rubens_ts"
         github: "rubensts"
         linkedin: "https://www.linkedin.com/in/rubensts"
@@ -773,11 +773,33 @@ module.exports =
       viewSchedule: true
 
     ,
+    
+    presentation:
+        date: "15/09"
+        time: "17:00"
+        slot: "Salão Farroupilha"
+        title: "Gerenciando PostgreSQL 10 com OmniDB"
+        slides: ""
+        description:
+          pt: "OmniDB é uma ferramenta web para gerenciamento de bancos de dados. Novas funcionalidades incluem monitoramento de replicação para publish/subscribe e suporte a Postgres-BDR e Postgres-XL."
+          en: ""
+      authors: [
+        name: "Rafael Thofehrn Castro"
+        photo: "rafael_castro.jpg"
+        # bio: ""
+        company: "2ndQuadrant"
+        twitter: ""
+        github: "rafaelthca"
+        linkedin: "https://www.linkedin.com/in/rafaelthca"
+      ]
+      viewSchedule: true
+    
+    ,
 
       presentation:
         date: "15/09"
         time: "17:00"
-        slot: "Salão Farroupilha"
+        slot: "Sala Charrua"
         title: "Coach Clinic"
       viewSchedule: true
 
