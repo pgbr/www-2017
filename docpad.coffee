@@ -774,7 +774,7 @@ module.exports =
 
     ,
     
-    presentation:
+      presentation:
         date: "15/09"
         time: "17:00"
         slot: "Salão Farroupilha"
