@@ -1144,7 +1144,7 @@ Demonstração de poderil;"
           url: "http://www.zenvia.com.br"
          ,
           name: "Atua"
-          logo: "atua.jpg"
+          logo: "atua.png"
           url: "http://www.atua.com.br"
         ]
 
