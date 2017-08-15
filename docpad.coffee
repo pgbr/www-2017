@@ -518,7 +518,7 @@ module.exports =
         title: "Abertura oficial (keynote)"
       viewSchedule: true
     ,
-      
+
       presentation:
         date: "15/09"
         time: "10:00"
@@ -654,7 +654,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/rodrigocrespi"
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -676,7 +676,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -698,7 +698,7 @@ module.exports =
           linkedin: "https://www.linkedin.com/in/dicksonguedes/"
       ]
       viewSchedule: true
-      
+
     ,
       presentation:
         date: "15/09"
@@ -727,7 +727,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/rubensts"
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -749,7 +749,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/telles"
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -773,7 +773,7 @@ module.exports =
       viewSchedule: true
 
     ,
-    
+
       presentation:
         date: "15/09"
         time: "17:00"
@@ -793,7 +793,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/rafaelthca"
       ]
       viewSchedule: true
-    
+
     ,
 
       presentation:
@@ -878,7 +878,7 @@ module.exports =
         linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -974,7 +974,7 @@ Demonstração de poderil;"
         linkedin: ""
       ]
       viewSchedule: true
-      
+
     ,
 
       presentation:
@@ -1142,6 +1142,10 @@ Demonstração de poderil;"
           name: "Zenvia"
           logo: "zenvia.jpg"
           url: "http://www.zenvia.com.br"
+         ,
+          name: "Atua"
+          logo: "atua.png"
+          url: "http://www.atua.com.br"
         ]
 
     # List of Partners
@@ -1216,13 +1220,13 @@ Demonstração de poderil;"
 
     s:(value) ->
       String(this.t(value)).split(';')
-      
+
     viewSchedules: () ->
       schedules = {}
       dateList = (schedule.presentation.date for schedule in this.schedule when schedule.presentation && schedule.viewSchedule)
-      
+
       for key, date of dateList
-        
+
         if date == undefined
           continue
 
@@ -1230,7 +1234,7 @@ Demonstração de poderil;"
           schedules[date] = this.schedulesByDate(date)
 
       schedules
-    
+
     schedulesByDate:(date) ->
       schedulesList = (schedule for schedule in this.schedule when schedule.presentation.date == date)
       timeList = (schedule.presentation.time for schedule in schedulesList when schedule.presentation && schedule.viewSchedule)
@@ -1264,7 +1268,7 @@ Demonstração de poderil;"
 
       speakers.sort(@sorter)
 
-    sorter: (a, b) -> 
+    sorter: (a, b) ->
       a.info.name.localeCompare(b.info.name)
 
     normalize:(value) ->
