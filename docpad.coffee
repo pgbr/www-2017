@@ -210,6 +210,9 @@ module.exports =
           text:
             pt: 'Inscrever-se'
             en: 'Signup'
+          tip:
+            pt: 'As inscrições são realizadas no site da Eventize. Clique no link a abaixo pra prosseguir:'
+            en: 'Registrations are held through the Eventize website. Click the link below to proceed:'
       scheduledDates:
         active: true
         title:
