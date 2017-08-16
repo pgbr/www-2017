@@ -141,7 +141,7 @@ nav {
    ========================================================================== */
 .registration a {
   display: inline-block;
-  font-size: 3em;
+  font-size: 4em;
   background-color: #ddd;
   padding: .5em;
   border-radius: 8px;
@@ -149,6 +149,10 @@ nav {
 
 .registration p {
   text-align: center;
+}
+
+.registration-tip {
+  font-size: 2em;
 }
 
 /* =============================================================================

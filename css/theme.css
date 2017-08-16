@@ -222,3 +222,14 @@ font-size: 5em;
   text-align: center;
   text-decoration: underline;
 }
+
+.content .registration a,
+.content .registration a:hover,
+.content .registration a:focus {
+  background: #FF8C00;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px #888;
+  box-shadow: 4px 4px #888;
+}
+
