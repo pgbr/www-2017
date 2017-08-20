@@ -139,7 +139,7 @@ nav {
 /* =============================================================================
    REGISTRATION
    ========================================================================== */
-.registration a {
+.registration a, .registration-link {
   display: inline-block;
   font-size: 4em;
   background-color: #ddd;
@@ -237,6 +237,15 @@ nav {
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
+
+.schedule-warning {
+  color: #db1332;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px #bbb;
+}
+
 .schedule-list {
   font-size: 12px;
   padding: 1.5em;
@@ -379,7 +388,7 @@ nav {
 }
 
 .sponsors-silver .photo {
-  max-height: 100px;
+  max-height: 75px;
 }
 
 .sponsors-bronze .sponsor-item {
@@ -387,7 +396,7 @@ nav {
 }
 
 .sponsors-bronze .photo {
-  max-height: 75px;
+  max-height: 50px;
 }
 
 .sponsor-plans-link {
