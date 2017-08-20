@@ -2,6 +2,8 @@
 <section class="schedule" id="schedule">
   <h2 class="section-title"><%= @t('sections.schedule.title')%></h2>
 
+  <h3 class="schedule-warning"><%= @t('sections.schedule.description')%></h3>
+
   <% for date, scheduleDate of @viewSchedules(): %>
     <h1 class="schedule-date"><%= date %></h1>
 

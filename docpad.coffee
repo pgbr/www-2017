@@ -156,8 +156,8 @@ module.exports =
           pt: 'Agenda'
           en: 'Schedule'
         description:
-          pt: ''
-          en: ''
+          pt: 'IMPORTANTE: A grade de programação poderá sofrer alterações a qualquer tempo, sem prévio aviso'
+          en: 'IMPORTANT: The programming grid may change at any time, without previous notice'
       sponsors:
         active: true
         title:
