@@ -225,7 +225,10 @@ font-size: 5em;
 
 .content .registration a,
 .content .registration a:hover,
-.content .registration a:focus {
+.content .registration a:focus,
+.registration-link,
+.registration-link:hover,
+.registration-link:focus {
   background: #FF8C00;
   color: #fff;
   font-weight: bold;
@@ -233,3 +236,6 @@ font-size: 5em;
   box-shadow: 4px 4px #888;
 }
 
+.registration-link {
+  box-shadow: 2px 2px #888;
+}

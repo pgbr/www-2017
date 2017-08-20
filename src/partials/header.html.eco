@@ -8,6 +8,9 @@
     <h2 class="tagline">
     	<%= @t('conf.date') %>, <%= @t('conf.venue') %>, <%= @t('conf.city') %>, <%= @t('conf.state')%>, <%= @t('conf.country')%>
     </h2>
+	<a target="_blank" class="registration-link" href="<%= @t('sections.registration.link.url') %>">
+		<%= @t('sections.registration.link.text') %>
+	</a>
 	</div>
 </header>
 <!--  / HEADER -->

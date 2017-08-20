@@ -139,7 +139,7 @@ nav {
 /* =============================================================================
    REGISTRATION
    ========================================================================== */
-.registration a {
+.registration a, .registration-link {
   display: inline-block;
   font-size: 4em;
   background-color: #ddd;
