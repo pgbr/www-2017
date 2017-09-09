@@ -243,7 +243,7 @@ module.exports =
             pt: 'Notificação dos autores sobre trabalhos aceitos'
             en: 'Notification of the authors of accepted papers'
         ,
-          done: false
+          done: true
           date:
             pt: '30/07/2017'
             en: '2017-07-30'
@@ -251,7 +251,7 @@ module.exports =
             pt: 'Publicação das palestras aprovadas'
             en: 'Publication of the approved lectures'
         ,
-          done: false
+          done: true
           date:
             pt: '10/08/2017'
             en: '2017-08-10'
