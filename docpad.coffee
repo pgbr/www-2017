@@ -1148,6 +1148,10 @@ Demonstração de poderil;"
           name: "Atua"
           logo: "atua.png"
           url: "http://www.atua.com.br"
+         ,
+          name: "Tecnisys"
+          logo: "tecnisys.jpg"
+          url: "http://www.tecnisys.com.br"
         ]
 
     # List of Partners
