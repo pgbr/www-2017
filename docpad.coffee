@@ -170,7 +170,7 @@ module.exports =
                pt: 'https://docs.google.com/presentation/d/13QHvTqedhwOcKblbUU2vRv1XPzR4kfdoJlyHI3t2x3g/pub?start=false&loop=false&delayms=3000'
                en: 'https://docs.google.com/presentation/d/1MZonWol5M-JDIcHVfLZWabtZccC3y5HFrlPkwMvTVUU/pub?start=false&loop=false&delayms=3000'
       partners:
-        active: false
+        active: true
         title:
           pt: 'Apoio'
           en: 'Support'
@@ -1157,6 +1157,10 @@ Demonstração de poderil;"
     # List of Partners
     # tip: like sponsors
     partners: [
+      name: "Associação Software Livre"
+      logo: "asl.png"
+      url: "http://softwarelivre.org/"
+    ,
       name: "PostgreSQL Global Development Group"
       logo: "pgdg.jpg"
       url: "http://www.postgresql.org/"
@@ -1165,9 +1169,13 @@ Demonstração de poderil;"
       logo: "pgbr.png"
       url: "http://www.postgresql.org.br/"
     ,
-      name: "Associação Software Livre"
-      logo: "asl.png"
-      url: "http://softwarelivre.org/"
+      name: "UniRitter"
+      logo: "uniritter.png"
+      url: "https://www.uniritter.edu.br/"
+    ,
+      name: "PUC RS"
+      logo: "pucrs.png"
+      url: "http://www.pucrs.br/"
     ,
       name: "Visite Porto Alegre"
       logo: "visitepoa.png"
