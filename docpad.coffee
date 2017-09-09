@@ -436,18 +436,18 @@ module.exports =
         date: "14/09"
         time: "09:00"
         slot: "Sala Algarves B (9º andar)"
-        title: "Workshop: Backup e Restore no PostgreSQL"
+        title: "Workshop: Dicas de como escrever SQL performático"
         description:
-          pt: "Backup e Restore é uma das tarefas mais importantes de administrador de banco de dados, e uma das mais mal compreendidas. Aprenda os conceitos e técnicas atrás da arte do backup seja ele físico ou lógico e aprenda como funcionam técnicas avançadas como o Point In Time Recovery"
+          pt: "Se você já passou horas tentando otimizar aquele SELECT confuso. Se já ficou pensando o quê é melhor 'EXISTS ou IN', 'DISTINCT ou GROUP BY', 'count(*) ou count(1)', 'isso ou aquilo'... Esse workshop é pra você."
           en: ""
       authors: [
-        name: "Fabio Telles Rodrigues"
-        photo: "fabio_telles.jpg"
+        name: "Matheus de Oliveira"
+        photo: "matheus_oliveira.jpg"
         # bio: ""
-        company: "Timbira"
-        twitter: "telles"
-        github: ""
-        linkedin: "https://www.linkedin.com/in/telles"
+        company: "iFood"
+        twitter: "matioli_matheus"
+        github: "matheusoliveira"
+        linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
       ]
       viewSchedule: true
     ,
@@ -461,18 +461,18 @@ module.exports =
         date: "14/09"
         time: "13:30"
         slot: "Sala Algarves A (9º andar)"
-        title: "Workshop: Dicas de como escrever SQL performático"
+        title: "Workshop: Backup e Restore no PostgreSQL"
         description:
-          pt: "Se você já passou horas tentando otimizar aquele SELECT confuso. Se já ficou pensando o quê é melhor 'EXISTS ou IN', 'DISTINCT ou GROUP BY', 'count(*) ou count(1)', 'isso ou aquilo'... Esse workshop é pra você."
+          pt: "Backup e Restore é uma das tarefas mais importantes de administrador de banco de dados, e uma das mais mal compreendidas. Aprenda os conceitos e técnicas atrás da arte do backup seja ele físico ou lógico e aprenda como funcionam técnicas avançadas como o Point In Time Recovery"
           en: ""
       authors: [
-        name: "Matheus de Oliveira"
-        photo: "matheus_oliveira.jpg"
+        name: "Fabio Telles Rodrigues"
+        photo: "fabio_telles.jpg"
         # bio: ""
-        company: "iFood"
-        twitter: "matioli_matheus"
-        github: "matheusoliveira"
-        linkedin: "https://www.linkedin.com/in/matheusdeoliveira"
+        company: "Timbira"
+        twitter: "telles"
+        github: ""
+        linkedin: "https://www.linkedin.com/in/telles"
       ]
       viewSchedule: true
     ,
@@ -906,7 +906,6 @@ Demonstração de poderil;"
         linkedin: "https://www.linkedin.com/in/emerson-engroff-88a4023b"
       ]
       viewSchedule: true
-
     ,
 
       presentation:
@@ -915,16 +914,16 @@ Demonstração de poderil;"
         slot: "Salão Piratini"
         title: "Entendendo e gerenciando Locks no PostgreSQL"
         slides: ""
-      description:
-        pt: "Demonstração dos tipos de Locks existentes no PostgreSQL."
-        en: ""
+        description:
+          pt: "Palestra que irá mostrar os tipos de Locks existentes no PostgreSQL e as suas melhores práticas, evitando inconsistência nos dados e deadlocks.   Mostraremos também exemplos, que podem ser utilizados pelos desenvolvedores, para ter o melhor nas regras de negócios dos seus aplicativos."
+          en: ""
       authors: [
         name: "Lucio Chiessi"
         photo: "lucio_chiessi.jpg"
         # bio: ""
         company: "VORio Tecnologia da Informação"
         twitter: "lucio_chiessi"
-        github: ""
+        github: "chiessilmb"
         linkedin: "https://www.linkedin.com/in/lucio-chiessi-2449636"
       ]
       viewSchedule: true
