@@ -1158,28 +1158,24 @@ Demonstração de poderil;"
     # tip: like sponsors
     partners: [
       name: "Associação Software Livre"
-      logo: "asl.png"
+      logo: "apoiadores/asl.svg"
       url: "http://softwarelivre.org/"
     ,
       name: "PostgreSQL Global Development Group"
-      logo: "pgdg.jpg"
+      logo: "apoiadores/pgdg.svg"
       url: "http://www.postgresql.org/"
     ,
       name: "Comunidade Brasileira de PostgreSQL"
-      logo: "pgbr.png"
+      logo: "apoiadores/postgresql_br.svg"
       url: "http://www.postgresql.org.br/"
     ,
-      name: "UniRitter"
-      logo: "uniritter.png"
-      url: "https://www.uniritter.edu.br/"
+      name: "Faculdades Senac RS"
+      logo: "apoiadores/senacrs.svg"
+      url: "https://www.senacrs.com.br/"
     ,
-      name: "PUC RS"
-      logo: "pucrs.png"
-      url: "http://www.pucrs.br/"
-    ,
-      name: "Visite Porto Alegre"
-      logo: "visitepoa.png"
-      url: "http://visiteportoalegre.com/"
+      name: "uMov.me"
+      logo: "apoiadores/umovme.svg"
+      url: "https://www.umov.me/"
     ]
 
     pastEvents: [
