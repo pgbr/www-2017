@@ -459,7 +459,7 @@ module.exports =
     ,
       presentation:
         date: "14/09"
-        time: "13:30"
+        time: "14:30"
         slot: "Sala Algarves A (9º andar)"
         title: "Workshop: Backup e Restore no PostgreSQL"
         description:
