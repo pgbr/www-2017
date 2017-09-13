@@ -671,7 +671,7 @@ module.exports =
           en: ""
       authors: [
         name: "Thiago Avelino"
-        photo: "Thiago_Avelino.jpg"
+        photo: "thiago_avelino.jpg"
         # bio: ""
         company: "Nuveo"
         twitter: "avelino0"
