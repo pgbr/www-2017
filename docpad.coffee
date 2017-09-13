@@ -664,19 +664,19 @@ module.exports =
         date: "15/09"
         time: "11:00"
         slot: "Salão Piratini"
-        title: "PL/Python: A Linguagem Procedural para Levar o Elefante Mais Longe"
+        title: "Elefante como API Rest"
         slides: ""
         description:
-          pt: "Apresentação Sobre  a Linguagem PL/Python"
+          pt: "Como abrir uma API Rest do seu PostgreSQL sem magias"
           en: ""
       authors: [
-        name: "Juliano Atanazio"
-        photo: "juliano_atanazio.jpg"
+        name: "Thiago Avelino"
+        photo: "Thiago_Avelino.jpg"
         # bio: ""
-        company: ""
-        twitter: "julianoatanazio"
-        github: "juliano777"
-        linkedin: "https://www.linkedin.com/in/juliano-atanazio-ab99512b"
+        company: "Nuveo"
+        twitter: "avelino0"
+        github: "avelino"
+        linkedin: "https://www.linkedin.com/in/avelino0"
       ]
       viewSchedule: true
 
@@ -1176,6 +1176,10 @@ Demonstração de poderil;"
       name: "uMov.me"
       logo: "apoiadores/umovme.svg"
       url: "https://www.umov.me/"
+    ,
+      name: "Nuveo"
+      logo: "apoiadores/nuveo.png"
+      url: "https://nuveo.ai/"
     ]
 
     pastEvents: [
