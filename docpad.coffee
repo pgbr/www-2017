@@ -664,19 +664,19 @@ module.exports =
         date: "15/09"
         time: "11:00"
         slot: "Salão Piratini"
-        title: "Elefante como API Rest"
+        title: "Gerenciando PostgreSQL 10 com OmniDB"
         slides: ""
         description:
-          pt: "Como abrir uma API Rest do seu PostgreSQL sem magias"
+          pt: "OmniDB é uma ferramenta web para gerenciamento de bancos de dados. Novas funcionalidades incluem monitoramento de replicação para publish/subscribe e suporte a Postgres-BDR e Postgres-XL."
           en: ""
       authors: [
-        name: "Thiago Avelino"
-        photo: "thiago_avelino.jpg"
+        name: "Rafael Thofehrn Castro"
+        photo: "rafael_castro.jpg"
         # bio: ""
-        company: "Nuveo"
-        twitter: "avelino0"
-        github: "avelino"
-        linkedin: "https://www.linkedin.com/in/avelino0"
+        company: "2ndQuadrant"
+        twitter: ""
+        github: "rafaelthca"
+        linkedin: "https://www.linkedin.com/in/rafaelthca"
       ]
       viewSchedule: true
 
@@ -781,19 +781,19 @@ module.exports =
         date: "15/09"
         time: "17:00"
         slot: "Salão Farroupilha"
-        title: "Gerenciando PostgreSQL 10 com OmniDB"
+        title: "Elefante como API Rest"
         slides: ""
         description:
-          pt: "OmniDB é uma ferramenta web para gerenciamento de bancos de dados. Novas funcionalidades incluem monitoramento de replicação para publish/subscribe e suporte a Postgres-BDR e Postgres-XL."
+          pt: "Como abrir uma API Rest do seu PostgreSQL sem magias"
           en: ""
       authors: [
-        name: "Rafael Thofehrn Castro"
-        photo: "rafael_castro.jpg"
+        name: "Thiago Avelino"
+        photo: "thiago_avelino.jpg"
         # bio: ""
-        company: "2ndQuadrant"
-        twitter: ""
-        github: "rafaelthca"
-        linkedin: "https://www.linkedin.com/in/rafaelthca"
+        company: "Nuveo"
+        twitter: "avelino0"
+        github: "avelino"
+        linkedin: "https://www.linkedin.com/in/avelino0"
       ]
       viewSchedule: true
 
