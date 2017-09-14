@@ -572,7 +572,7 @@ module.exports =
       presentation:
         date: "15/09"
         time: "11:00"
-        slot: "Salão Piratini"
+        slot: "Salão Farroupilha"
         title: "PostgreSQL e a arquitetura liquida das startups"
         slides: ""
         description:
@@ -586,26 +586,6 @@ module.exports =
         twitter: "ivonascimento"
         github: "iannsp"
         linkedin: "https://www.linkedin.com/in/ivonascimento"
-      ]
-      viewSchedule: true
-    ,
-      presentation:
-        date: "15/09"
-        time: "14:30"
-        slot: "Salão Farroupilha"
-        title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
-        slides: ""
-        description:
-          pt: "Nesta palestra o participante conhecerá como usar o PostGIS para criar e gerenciar um banco de dados espaciais usando os dados do projeto OpenStreetMap. Estes dados estão sendo adotado por diversos sites como o Foursquare, o TripAdvisor, a Wikipédia e até mesmo a Apple no seu aplicativo iPhoto, como alternativa para os dados do Google Maps."
-          en: ""
-      authors: [
-        name: "Luis Fernando Bueno"
-        photo: "luis_bueno.jpg"
-        # bio: ""
-        company: "CENSIPAM"
-        twitter: ""
-        github: ""
-        linkedin: ""
       ]
       viewSchedule: true
     ,
@@ -636,6 +616,26 @@ module.exports =
       ]
       viewSchedule: true
 
+    ,
+      presentation:
+        date: "15/09"
+        time: "14:30"
+        slot: "Salão Piratini"
+        title: "PostGIS, OpenStreetMap e mapas na Web: O que fazer? Por que fazer? Como fazer?"
+        slides: ""
+        description:
+          pt: "Nesta palestra o participante conhecerá como usar o PostGIS para criar e gerenciar um banco de dados espaciais usando os dados do projeto OpenStreetMap. Estes dados estão sendo adotado por diversos sites como o Foursquare, o TripAdvisor, a Wikipédia e até mesmo a Apple no seu aplicativo iPhoto, como alternativa para os dados do Google Maps."
+          en: ""
+      authors: [
+        name: "Luis Fernando Bueno"
+        photo: "luis_bueno.jpg"
+        # bio: ""
+        company: "CENSIPAM"
+        twitter: ""
+        github: ""
+        linkedin: ""
+      ]
+      viewSchedule: true
     ,
 
       presentation:
