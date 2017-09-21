@@ -760,7 +760,7 @@ module.exports =
         time: "17:00"
         slot: "Salão Piratini"
         title: "Hackeando a AWS: Como fazer o elefante voar sem gastar muito"
-        slides: ""
+        slides: "https://speakerdeck.com/sebastianwebber/hackeando-a-aws-como-fazer-o-elefante-voar-sem-gastar-muito"
         description:
           pt: "Nessa palestra eu pretendo descrever os desafios e algumas técnicas para otimizar os discos e o desempenho em bases relativamente grandes de PostgreSQL usando instancias EC2 e multiplos volumes EBS na cloud da AWS."
           en: ""
@@ -962,7 +962,7 @@ Demonstração de poderil;"
         time: "13:30"
         slot: "Salão Piratini"
         title: "Alta Disponibilidade com PostgreSQL, REPMGR e Pgpool"
-        slides: ""
+        slides: "https://drive.google.com/file/d/0B0NFxDVHGRf0aFNGRDhHajNaSFU/view?usp=sharing"
         description:
           pt: "Configuração de um ambiente PostgreSQL de alta disponibilidade, do tipo Master/Slave, com o auxílio dos softwares REPMGR e Pgpool. No monitoramento da solução é utilizado o Zabbix com os templates PG_MONZ."
           en: ""
