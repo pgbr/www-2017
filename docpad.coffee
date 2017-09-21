@@ -574,7 +574,7 @@ module.exports =
         time: "11:00"
         slot: "Salão Farroupilha"
         title: "PostgreSQL e a arquitetura liquida das startups"
-        slides: ""
+        slides: "https://www.slideshare.net/ivonascimento/postgresql-e-a-arquitetura-liquida-das-startups-digo-das-empresas-79816928"
         description:
           pt: "Como o postgreSQL é um acelerador de startups que pensam em como executar estratégias de sucesso e construir soluções guiadas pelo \"Four Steps to  the Epiphany\", de Steven Blank."
           en: ""
@@ -782,7 +782,7 @@ module.exports =
         time: "17:00"
         slot: "Salão Farroupilha"
         title: "Elefante como API Rest"
-        slides: ""
+        slides: "https://speakerdeck.com/avelino/elefante-como-api-rest"
         description:
           pt: "Como abrir uma API Rest do seu PostgreSQL sem magias"
           en: ""
