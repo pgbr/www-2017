@@ -1059,7 +1059,7 @@ Demonstração de poderil;"
         time: "16:00"
         slot: "Salão Piratini"
         title: "Replicação Lógica no PostgreSQL 10"
-        slides: ""
+        slides: "https://drive.google.com/file/d/0B0NFxDVHGRf0NWRDU05GaEtYd00/view?usp=sharing"
         description:
           pt: "Uma das principais novidades do PostgreSQL 10 será replicação lógica. É um método de replicação de dados que usa o modelo publicar-inscrever. Nesta palestra iremos falar do conceitos básicos, configuração, administração, monitoramento e planos futuros."
           en: ""
