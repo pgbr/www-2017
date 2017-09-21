@@ -1152,6 +1152,10 @@ Demonstração de poderil;"
           name: "Tecnisys"
           logo: "tecnisys.jpg"
           url: "http://www.tecnisys.com.br"
+        ,
+          name: "Nuveo"
+          logo: "apoiadores/nuveo.png"
+          url: "https://nuveo.ai/"
         ]
 
     # List of Partners
@@ -1176,10 +1180,6 @@ Demonstração de poderil;"
       name: "uMov.me"
       logo: "apoiadores/umovme.svg"
       url: "https://www.umov.me/"
-    ,
-      name: "Nuveo"
-      logo: "apoiadores/nuveo.png"
-      url: "https://nuveo.ai/"
     ]
 
     pastEvents: [
