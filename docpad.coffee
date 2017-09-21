@@ -553,7 +553,7 @@ module.exports =
         time: "10:00"
         slot: "Salão Farroupilha"
         title: "Gerenciando Backups com o Barman"
-        slides: ""
+        slides: "https://www.slideshare.net/wind39/barman-pgbr2017"
         description:
           pt: "Barman (ou pgbarman) é uma ferramenta open source para gerenciar backups e auxilia na recuperação de desastres. Oferece diversas funcionalidades, entre elas: políticas de retenção, recuperação local e remota, arquivamento e compressão de arquivos WAL, backup e recuperação em paralelo, PITR."
           en: ""
@@ -984,7 +984,7 @@ Demonstração de poderil;"
         time: "13:30"
         slot: "Salão Farroupilha"
         title: "O caminho das pedras entre DB2 e PostgreSQL"
-        slides: ""
+        slides: "https://drive.google.com/file/d/0B0NFxDVHGRf0U0g5aEowczRoaVE/view?usp=sharing"
         description:
           pt: "A equipe de TI do Arquivo Central do Sistema de Arquivos (SIARQ) da Universidade Estadual de Campinas (Unicamp) realizou um estudo de migração das bases de dados DB2 para PostgreSQL. O que representa a mudança de uma solução proprietária para outra livre. Nessa apresentação a equipe visa compartilhar essa experiência, mostrando como a migração pode ser feita com baixo impacto para o desenvolvimento e operacionalização do sistema. E quais foram as medidas para contornar as diferenças entre os dois SGBDs."
           en: ""
