@@ -643,7 +643,7 @@ module.exports =
         time: "13:30"
         slot: "Salão Farroupilha"
         title: "Azure Database for PostgreSQL"
-        slides: ""
+        slides: "https://drive.google.com/file/d/0B0NFxDVHGRf0V0ZYTm5jbElHVU5Vd3FnUlVrZVVzWmNnalNv/view?usp=sharing"
         description:
           pt: "Azure Database for PostgreSQL is a managed database service that makes it easier to build apps without the management and administration burden. The service uses community edition of PostgreSQL and seamlessly works with native tools, drivers and libraries. At the start of preview, we are offering support for PostgreSQL versions 9.5 and 9.6"
           en: ""
@@ -1028,7 +1028,7 @@ Demonstração de poderil;"
         time: "14:30"
         slot: "Salão Farroupilha"
         title: "Análise de performance usando o sistema operacional"
-        slides: ""
+        slides: "https://www.slideshare.net/rauldoliveira/pgbr2017-analise-de-performance-usando-o-so"
         description:
           pt: "Será mostrado nessa palestra o funcionamento do sistema operacional e como isso refletirá em contadores que serão usados na análise de performance e na escolha de  configurações para extrair o máximo do ambiente. A palestra terá como base o Linux, mas também veremos como fazer a análise no Windows e as ferramentas que poderão ser usadas para investigações no ambiente."
           en: ""
